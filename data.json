@@ -1,0 +1,6843 @@
+[
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-06-05",
+		"suma": 34.94,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cocacolazero",
+				"jednostka": "litr",
+				"cena": 8.69,
+				"ilość": 1.75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht",
+				"jednostka": "litr",
+				"cena": 3.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brokuł",
+				"jednostka": "gram",
+				"cena": 5.76,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 2.4,
+				"rabat": 0.25,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 2.4,
+				"rabat": 0.25,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "gram",
+				"cena": 0.82,
+				"ilość": 165,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mozzarella light",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"ilość": 125,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "kaufland",
+		"data-zakupów": "2024-07-24",
+		"suma": 30.6,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "uchwyt rowerowy",
+				"jednostka": "sztuka",
+				"cena": 24.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "arbuz",
+				"jednostka": "kilogram",
+				"cena": 4.11,
+				"rabat": 0.99,
+				"ilość": 1.65,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "familijne wafle",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.5,
+				"ilość": 180.0,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "szubryt",
+		"data-zakupów": "2024-07-27",
+		"suma": 8.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "szynka wieprzowa",
+				"jednostka": "kilogram",
+				"cena": 8.0,
+				"ilość": 0.2,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-06-03",
+		"suma": 31.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "silikonowy uchwyt",
+				"jednostka": "sztuka",
+				"cena": 6.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "patelnia 24cm",
+				"jednostka": "sztuka",
+				"cena": 25.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "apteka hygieia",
+		"data-zakupów": "2024-07-27",
+		"suma": 6.3,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "paracetamol 500mg",
+				"jednostka": "tabletki",
+				"cena": 6.3,
+				"ilość": 20,
+				"kategoria": "zdrowie"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-31",
+		"suma": 39.86,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 5.49,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lasagne bolognese",
+				"jednostka": "gram",
+				"cena": 10.49,
+				"ilość": 450,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ryż biały długoziarnisty",
+				"jednostka": "kilogram",
+				"cena": 3.8,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "majonez go vege",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"ilość": 280,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 6.02,
+				"ilość": 0.252,
+				"rabat": 1.01,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z indyka paprykowy kraina wędlin",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żel pod prysznic skino",
+				"jednostka": "mililitr",
+				"cena": 4.89,
+				"ilość": 400,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-20",
+		"suma": 29.81,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cocacola w puszce",
+				"jednostka": "mililitr",
+				"cena": 1.99,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żel pod prysznic",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 400,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "totrtilla arabska",
+				"jednostka": "gram",
+				"cena": 7.25,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "totrtilla arabska",
+				"jednostka": "gram",
+				"cena": 7.25,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy fromage karbowane",
+				"jednostka": "gram",
+				"cena": 5.19,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-23",
+		"suma": 19.66,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pomidory malinowe",
+				"jednostka": "kilogram",
+				"cena": 3.96,
+				"rabat": 2.11,
+				"ilość": 0.264,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki gruntowe",
+				"jednostka": "kilogram",
+				"cena": 2.66,
+				"rabat": 0.8,
+				"ilość": 0.266,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt high protein",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kefir 2%",
+				"jednostka": "gram",
+				"cena": 2.39,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 3.29,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-06-03",
+		"suma": 21.98,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ziaja yego balsam",
+				"jednostka": "sztuka",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "lovely korektor",
+				"jednostka": "sztuka",
+				"cena": 23.99,
+				"rabat": 11.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-29",
+		"suma": 22.69,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "star maczugi",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tortilla",
+				"jednostka": "gram",
+				"cena": 5.07,
+				"ilość": 370,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek wysokobiałkowy",
+				"jednostka": "gram",
+				"cena": 3.35,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "kebab byczek",
+		"data-zakupów": "2024-06-10",
+		"suma": 47.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kebab duży",
+				"jednostka": "sztuka",
+				"cena": 26.0,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kebab mały",
+				"jednostka": "sztuka",
+				"cena": 21.0,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "circle k",
+		"data-zakupów": "2024-06-28",
+		"suma": 150.72,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "benzyna 95pb",
+				"jednostka": "litr",
+				"cena": 150.72,
+				"ilość": 23.81,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-16",
+		"suma": 1.14,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ciabatta",
+				"jednostka": "sztuka",
+				"cena": 1.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "apteka orchis",
+		"data-zakupów": "2024-07-27",
+		"suma": 9.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "elektrolity",
+				"jednostka": "tabletki",
+				"cena": 9.99,
+				"ilość": 20,
+				"kategoria": "zdrowie"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-07-25",
+		"suma": 14.15,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pepsi",
+				"jednostka": "litr",
+				"cena": 7.79,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "paprykarz szczeciński",
+				"jednostka": "gram",
+				"cena": 4.29,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kajzerka z makiem",
+				"jednostka": "sztuka",
+				"cena": 0.69,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kajzerka z makiem",
+				"jednostka": "sztuka",
+				"cena": 0.69,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kajzerka z makiem",
+				"jednostka": "sztuka",
+				"cena": 0.69,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "apteka słoneczna",
+		"data-zakupów": "2024-07-19",
+		"suma": 99.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "vibin",
+				"jednostka": "tabletki",
+				"cena": 99.99,
+				"ilość": 84,
+				"kategoria": "zdrowie"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-06-12",
+		"suma": 12.69,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "snickers",
+				"jednostka": "gram",
+				"cena": 5.7,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 6.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-07-04",
+		"suma": 21.72,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pieczarki",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "nektarynki",
+				"jednostka": "kilogram",
+				"cena": 5.47,
+				"rabat": 3.65,
+				"ilość": 0.304,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "koncentrat pomidorowy",
+				"jednostka": "gram",
+				"cena": 2.59,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tortilla",
+				"jednostka": "gram",
+				"cena": 5.07,
+				"ilość": 370,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 1.26,
+				"ilość": 0.14,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-07-19",
+		"suma": 44.56,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "dzwonek rowerowy",
+				"jednostka": "sztuka",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "lampka rowerowa",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "lampka rowerowa",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "zapięcie rowerowe",
+				"jednostka": "sztuka",
+				"cena": 8.89,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "zestaw kluczy rowerowych",
+				"jednostka": "sztuka",
+				"cena": 16.95,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "napój energetyczy",
+				"jednostka": "mililitr",
+				"cena": 1.75,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-07-06",
+		"suma": 31.85,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "słoik do kiszenia",
+				"jednostka": "sztuka",
+				"cena": 19.95,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "żel pod prysznic",
+				"jednostka": "mililitr",
+				"cena": 5.95,
+				"ilość": 450,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "żel pod prysznic umbro",
+				"jednostka": "mililitr",
+				"cena": 5.95,
+				"ilość": 300,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-22",
+		"suma": 7.17,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy",
+				"jednostka": "mililitr",
+				"cena": 1.69,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 2.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-07-27",
+		"suma": 34.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ścierka",
+				"jednostka": "sztuka",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "biustonosz",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "blacha do pieczenia",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-07-27",
+		"suma": 81.07,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda",
+				"jednostka": "zgrzewka (6x1.5l)",
+				"cena": 10.14,
+				"rabat": 3.06,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 4.35,
+				"rabat": 2.4,
+				"ilość": 0.29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 3.63,
+				"rabat": 2.0,
+				"ilość": 0.242,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śliwki niebieskie",
+				"jednostka": "kilogram",
+				"cena": 3.22,
+				"rabat": 1.61,
+				"ilość": 0.358,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mąka tortowa",
+				"jednostka": "kilogram",
+				"cena": 2.29,
+				"rabat": 0.23,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew młoda",
+				"jednostka": "kilogram",
+				"cena": 0.44,
+				"rabat": 0.04,
+				"ilość": 0.088,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papier toaletowy",
+				"jednostka": "sztuka",
+				"cena": 3.59,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "papier toaletowy",
+				"jednostka": "sztuka",
+				"cena": 3.59,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "papier toaletowy",
+				"jednostka": "sztuka",
+				"cena": 3.59,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "mięso mielone z piersi kurczaka",
+				"jednostka": "gram",
+				"cena": 9.99,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ananas w puszce",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 567,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bella podpaski",
+				"jednostka": "sztuka",
+				"cena": 7.49,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "papryka jalapenos",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 350,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "seler wiórki",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "serek twarogowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "masło",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 170,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "kilogram",
+				"cena": 2.99,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron spaghetti",
+				"jednostka": "gram",
+				"cena": 3.42,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-01",
+		"suma": 41.95,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 0.65,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 0.65,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 0.65,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 0.65,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda",
+				"jednostka": "zgrzewka (6x1.5l)",
+				"cena": 10.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chrupki cheetos",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ketchup roleski",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 425,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 8.49,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-06-28",
+		"suma": 51.77,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "gram",
+				"cena": 0.99,
+				"ilość": 65,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płyn do spryskiwaczy",
+				"jednostka": "litr",
+				"cena": 8.99,
+				"ilość": 5,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "gram",
+				"cena": 0.99,
+				"ilość": 65,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "gram",
+				"cena": 0.99,
+				"ilość": 65,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki do demakijażu",
+				"jednostka": "sztuka (x50)",
+				"cena": 3.25,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "worki na śmieci",
+				"jednostka": "sztuka (x20)",
+				"cena": 4.96,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "żel do golenia gillette",
+				"jednostka": "mililitr",
+				"cena": 13.95,
+				"ilość": 240,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "linka na pranie",
+				"jednostka": "metr",
+				"cena": 2.99,
+				"ilość": 20,
+				"kategoria": "inne"
+			},
+			{
+				"nazwa": "zupka chińska pikantna",
+				"jednostka": "gram",
+				"cena": 2.19,
+				"ilość": 65,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "worki na śmieci",
+				"jednostka": "sztuka (x30)",
+				"cena": 1.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "worki na śmieci",
+				"jednostka": "sztuka (x30)",
+				"cena": 1.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "antyperperant nivea",
+				"jednostka": "mililitr",
+				"cena": 8.49,
+				"ilość": 150,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "merida polska",
+		"data-zakupów": "2024-07-24",
+		"suma": 42.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "łańcuch shimano",
+				"jednostka": "sztuka",
+				"cena": 42.0,
+				"ilość": 1,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-07-27",
+		"suma": 6.01,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "bułka kajzerka",
+				"jednostka": "sztuka",
+				"cena": 0.35,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka kajzerka",
+				"jednostka": "sztuka",
+				"cena": 0.35,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka kajzerka",
+				"jednostka": "sztuka",
+				"cena": 0.35,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka kajzerka",
+				"jednostka": "sztuka",
+				"cena": 0.35,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 4.61,
+				"ilość": 0.244,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-23",
+		"suma": 27.95,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "warzywa na patelnie mroźna kraina",
+				"jednostka": "gram",
+				"cena": 4.95,
+				"rabat": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "warzywa na patelnie mroźna kraina",
+				"jednostka": "gram",
+				"cena": 4.95,
+				"rabat": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "paluszki beskidzkie",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 180,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 0.95,
+				"ilość": 190,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 2.41,
+				"ilość": 0.345,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "spray do czyszczenia kurzu mr magic",
+				"jednostka": "mililitr",
+				"cena": 5.49,
+				"ilość": 300,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "ketchup roleski",
+				"jednostka": "gram",
+				"cena": 6.49,
+				"ilość": 465,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-06-26",
+		"suma": 21.58,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 6.32,
+				"rabat": 1.1,
+				"ilość": 0.276,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zapiekanka",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 236,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zapiekanka",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 236,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-01",
+		"suma": 6.38,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "oshee napój vitamin",
+				"jednostka": "litr",
+				"cena": 5.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ziemniaki wczesne",
+				"jednostka": "kilogram",
+				"cena": 0.89,
+				"ilość": 0.446,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-25",
+		"suma": 41.6,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 7.65,
+				"ilość": 0.306,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"rabat": 2.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"rabat": 2.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mięso mielone wołowe",
+				"jednostka": "gram",
+				"cena": 12.79,
+				"rabat": 2.3,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka poranna",
+				"jednostka": "sztuka",
+				"cena": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka poranna",
+				"jednostka": "sztuka",
+				"cena": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "gram",
+				"cena": 0.74,
+				"ilość": 0.19,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "arbuz",
+				"jednostka": "kilogram",
+				"cena": 8.25,
+				"rabat": 4.13,
+				"ilość": 1.18,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-06-01",
+		"suma": 62.13,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "frytki karbowane",
+				"jednostka": "kilogram",
+				"cena": 19.95,
+				"ilość": 2.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "metr",
+				"cena": 11.99,
+				"ilość": 100,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "piwo tyskie",
+				"jednostka": "mililitr",
+				"cena": 5.79,
+				"ilość": 650,
+				"kategoria": "używki"
+			},
+			{
+				"nazwa": "szpinak myty",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 6.9,
+				"rabat": 1.84,
+				"ilość": 0.46,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 1.17,
+				"ilość": 0.225,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "sztuka",
+				"cena": 1.98,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bakłażan",
+				"jednostka": "kilogram",
+				"cena": 3.12,
+				"rabat": 1.56,
+				"ilość": 0.26,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "arbuz",
+				"jednostka": "kilogram",
+				"cena": 10.03,
+				"rabat": 5.74,
+				"ilość": 1.435,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pudding proteinowy",
+				"jednostka": "gram",
+				"cena": 4.35,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "auchan",
+		"data-zakupów": "2024-07-13",
+		"suma": 16.4,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "mąka tortowa",
+				"jednostka": "kilogram",
+				"cena": 2.59,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt naturalny (bez laktozy)",
+				"jednostka": "gram",
+				"cena": 1.07,
+				"ilość": 180,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 40,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy",
+				"jednostka": "gram",
+				"cena": 4.79,
+				"rabat": 1.02,
+				"ilość": 140,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "masło",
+				"jednostka": "gram",
+				"cena": 5.98,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-17",
+		"suma": 12.86,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pomidory malinowe",
+				"jednostka": "kilogram",
+				"cena": 2.0,
+				"rabat": 1.1,
+				"ilość": 0.2,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka wrocławska",
+				"jednostka": "sztuka",
+				"cena": 1.09,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka wrocławska",
+				"jednostka": "sztuka",
+				"cena": 1.09,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kabanosy tarczyński",
+				"jednostka": "gram",
+				"cena": 6.45,
+				"rabat": 1.56,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kabanosy tarczyński",
+				"jednostka": "gram",
+				"cena": 6.45,
+				"rabat": 1.56,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-11",
+		"suma": 43.2,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z piersi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 11.04,
+				"ilość": 0.581,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 4.29,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sos sojowy",
+				"jednostka": "mililitr",
+				"cena": 10.99,
+				"ilość": 625,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron ryżowy",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew młoda",
+				"jednostka": "kilogram",
+				"cena": 0.78,
+				"ilość": 0.112,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 0.63,
+				"ilość": 0.122,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb włoski",
+				"jednostka": "sztuka",
+				"cena": 4.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "apteka orchis",
+		"data-zakupów": "2024-06-25",
+		"suma": 25.98,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ortanol max",
+				"jednostka": "tabletki",
+				"cena": 12.99,
+				"ilość": 14,
+				"kategoria": "zdrowie"
+			},
+			{
+				"nazwa": "prezerwatywy durex",
+				"jednostka": "sztuka (x3)",
+				"cena": 12.99,
+				"ilość": 1,
+				"kategoria": "zdrowie"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "sinsay",
+		"data-zakupów": "2024-06-26",
+		"suma": 30.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "szorty damskie",
+				"jednostka": "sztuka",
+				"cena": 39.99,
+				"rabat": 10.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "torba papierowa",
+				"jednostka": "sztuka",
+				"cena": 1.0,
+				"rabat": 0.99,
+				"ilość": 1,
+				"kategoria": "inne"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-06-26",
+		"suma": 30.38,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "szampon do włosów isana",
+				"jednostka": "mililitr",
+				"cena": 6.39,
+				"ilość": 300,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "podkład eveline satin mat",
+				"jednostka": "mililitr",
+				"cena": 23.99,
+				"ilość": 30,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-05-02",
+		"suma": 5.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spray do czyszczenia łazienki odkamieniający",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 750,
+				"kategoria": "środki czystości"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-02",
+		"suma": 19.46,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "wino musujące michel",
+				"jednostka": "mililitr",
+				"cena": 9.49,
+				"ilość": 750,
+				"kategoria": "używki"
+			},
+			{
+				"nazwa": "boczek krojony morliny",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieprz kamis",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 16,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieprz kamis",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 16,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-15",
+		"suma": 26.19,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pieczarki",
+				"jednostka": "gram",
+				"cena": 6.95,
+				"rabat": 1.96,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ketchup roleski",
+				"jednostka": "gram",
+				"cena": 6.49,
+				"ilość": 465,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bagietka",
+				"jednostka": "sztuka",
+				"cena": 2.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-05-04",
+		"suma": 6.21,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 3.42,
+				"ilość": 0.172,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 2.79,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-25",
+		"suma": 13.9,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "por",
+				"jednostka": "kilogram",
+				"cena": 2.0,
+				"ilość": 0.2,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żelki kółka",
+				"jednostka": "gram",
+				"cena": 4.39,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory papryczkowe",
+				"jednostka": "kilogram",
+				"cena": 5.4,
+				"rabat": 2.58,
+				"ilość": 0.235,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "orlen",
+		"data-zakupów": "2024-08-02",
+		"suma": 260.93,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "benzyna 95pb",
+				"jednostka": "litr",
+				"cena": 281.04,
+				"rabat": 20.11,
+				"ilość": 44.68,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-03",
+		"suma": 30.14,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "zapiekanka",
+				"jednostka": "gram",
+				"cena": 4.89,
+				"ilość": 236,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zapiekanka",
+				"jednostka": "gram",
+				"cena": 4.89,
+				"ilość": 236,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "herbata zielona lipton",
+				"jednostka": "torebki",
+				"cena": 8.99,
+				"ilość": 20,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój kawowy",
+				"jednostka": "mililitr",
+				"cena": 3.19,
+				"ilość": 230,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój kawowy",
+				"jednostka": "mililitr",
+				"cena": 3.19,
+				"ilość": 230,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser edamski",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-07-25",
+		"suma": 33.86,
+		"adres": "Witosa 4 30-612 Kraków",
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pieczarki",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"rabat": 3.5,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "winmgrono jasne",
+				"jednostka": "kilogram",
+				"cena": 7.41,
+				"rabat": 3.46,
+				"ilość": 0.494,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śliwki niebieskie",
+				"jednostka": "kilogram",
+				"cena": 2.63,
+				"rabat": 1.17,
+				"ilość": 0.292,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kukurydza konserwowa",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 340,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ananas w puszce",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 567,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "oshee napój vitamin",
+				"jednostka": "litr",
+				"cena": 5.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "szynka wieprzowa",
+				"jednostka": "gram",
+				"cena": 5.83,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wafle kukurydziane smakowe",
+				"jednostka": "gram",
+				"cena": 3.66,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-07-26",
+		"suma": 28.09,
+		"adres": "Meiselsa Beera 20/01 31-058 Kraków",
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kubek z lodem",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"rabat": 0.69,
+				"ilość": 130,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kubek z lodem",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"rabat": 0.69,
+				"ilość": 130,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cocacola",
+				"jednostka": "litr",
+				"cena": 5.5,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wódka lubelska wiśniowa",
+				"jednostka": "litr",
+				"cena": 15.99,
+				"ilość": 0.2,
+				"kategoria": "używki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-05",
+		"suma": 56.87,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spray do czyszczenia łazienki odkamieniający",
+				"jednostka": "mililitr",
+				"cena": 6.99,
+				"ilość": 750,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "mięso mielone z indyka",
+				"jednostka": "gram",
+				"cena": 11.99,
+				"rabat": 3.0,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sos sriracha",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 180,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron spaghetti",
+				"jednostka": "gram",
+				"cena": 3.42,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron spaghetti",
+				"jednostka": "gram",
+				"cena": 3.42,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht",
+				"jednostka": "litr",
+				"cena": 3.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser edamski",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew",
+				"jednostka": "kilogram",
+				"cena": 0.66,
+				"rabat": 0.33,
+				"ilość": 0.165,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ciastka",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 210,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-06-04",
+		"suma": 31.25,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser podlaski",
+				"jednostka": "kilogram",
+				"cena": 9.52,
+				"rabat": 4.08,
+				"ilość": 0.304,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 3.58,
+				"ilość": 0.515,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki szklarniowe",
+				"jednostka": "kilogram",
+				"cena": 2.45,
+				"rabat": 1.23,
+				"ilość": 0.245,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kaszka proteinowa",
+				"jednostka": "gram",
+				"cena": 4.45,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papier toaletowy (8 rolek)",
+				"jednostka": "sztuka",
+				"cena": 8.99,
+				"rabat": 1.5,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "papier toaletowy (8 rolek)",
+				"jednostka": "sztuka",
+				"cena": 8.99,
+				"rabat": 1.5,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-05-07",
+		"suma": 12.45,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "bułka kajzerka siemię lniane",
+				"jednostka": "sztuka",
+				"cena": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka kajzerka siemię lniane",
+				"jednostka": "sztuka",
+				"cena": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka kajzerka siemię lniane",
+				"jednostka": "sztuka",
+				"cena": 0.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "sztuka",
+				"cena": 2.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "sztuka",
+				"cena": 2.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "kilogram",
+				"cena": 3.9,
+				"ilość": 0.196,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-30",
+		"suma": 35.73,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój fuze tea",
+				"jednostka": "litr",
+				"cena": 4.99,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 30%",
+				"jednostka": "gram",
+				"cena": 4.13,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "boczek krojony morliny",
+				"jednostka": "gram",
+				"cena": 6.78,
+				"ilość": 130,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy grana padano",
+				"jednostka": "gram",
+				"cena": 8.25,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 4.45,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-06",
+		"suma": 20.92,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chusteczki do sprzątania mr magic",
+				"jednostka": "sztuka",
+				"cena": 6.49,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "chipsy topchips w tubie",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 4.45,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żel pod prysznic skino",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 400,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-27",
+		"suma": 31.77,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "oshee napój vitamin",
+				"jednostka": "litr",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy tortilla topchips",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cukier puder",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój kawowy",
+				"jednostka": "mililitr",
+				"cena": 3.19,
+				"ilość": 230,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "majonez dekoracyjny winiary",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brzoskwinie paraguayo",
+				"jednostka": "kilogram",
+				"cena": 6.63,
+				"rabat": 3.9,
+				"ilość": 0.39,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-22",
+		"suma": 33.89,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cola oryginal zero",
+				"jednostka": "litr",
+				"cena": 3.99,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płyn do mycia szyb mr magic",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 750,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 2.25,
+				"ilość": 180,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula czerwona",
+				"jednostka": "kilogram",
+				"cena": 0.94,
+				"ilość": 0.135,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieprz kamis",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 13,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "sztuka",
+				"cena": 1.75,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"rabat": 3.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"rabat": 3.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-02",
+		"suma": 85.81,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "oliwa z oliwek",
+				"jednostka": "mililitr",
+				"cena": 29.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula dymka",
+				"jednostka": "sztuka",
+				"cena": 2.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18% mleczna dolina",
+				"jednostka": "gram",
+				"cena": 3.19,
+				"ilość": 330,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mięso mielone z indyka",
+				"jednostka": "gram",
+				"cena": 11.99,
+				"rabat": 3.0,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser sałatkowy",
+				"jednostka": "gram",
+				"cena": 5.09,
+				"rabat": 1.1,
+				"ilość": 270,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser sałatkowy",
+				"jednostka": "gram",
+				"cena": 5.09,
+				"rabat": 1.1,
+				"ilość": 270,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "gram",
+				"cena": 1.25,
+				"ilość": 60,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska",
+				"jednostka": "gram",
+				"cena": 1.25,
+				"ilość": 60,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 6.2,
+				"rabat": 2.47,
+				"ilość": 0.415,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański kokosowy",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kabanosy tarczyński (pikantne)",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki gruntowe",
+				"jednostka": "kilogram",
+				"cena": 2.6,
+				"rabat": 1.56,
+				"ilość": 0.26,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "oliwki zielone",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 170,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy pieczony kurczak topchips",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-02",
+		"suma": 167.7,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda",
+				"jednostka": "litr",
+				"cena": 0.75,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papier toaletowy (8 rolek)",
+				"jednostka": "sztuka",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "kapsułki finish do zmywarki",
+				"jednostka": "tabletki",
+				"cena": 69.99,
+				"ilość": 70,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "kapsułki ariel do prania",
+				"jednostka": "tabletki",
+				"cena": 69.99,
+				"ilość": 63,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "auchan",
+		"data-zakupów": "2024-05-18",
+		"suma": 57.41,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pizza mrożona",
+				"jednostka": "gram",
+				"cena": 9.29,
+				"ilość": 390,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pizza mrożona",
+				"jednostka": "gram",
+				"cena": 9.29,
+				"ilość": 390,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 40,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 40,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "uchywt na telefon do samochodu",
+				"jednostka": "sztuka",
+				"cena": 15.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			},
+			{
+				"nazwa": "serek kanapkowy z pomidorami suszonymi",
+				"jednostka": "gram",
+				"cena": 3.09,
+				"ilość": 135,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy",
+				"jednostka": "mililitr",
+				"cena": 2.98,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chrupki maczugi",
+				"jednostka": "gram",
+				"cena": 3.98,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 2.12,
+				"ilość": 180,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb kukurydziany",
+				"jednostka": "sztuka",
+				"cena": 4.69,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-07-03",
+		"suma": 5.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spryskiwacz 0.5l",
+				"jednostka": "sztuka",
+				"cena": 5.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-05-08",
+		"suma": 26.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ścierka kuchenna",
+				"jednostka": "sztuka",
+				"cena": 6.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz deserowy",
+				"jednostka": "sztuka",
+				"cena": 3.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz deserowy",
+				"jednostka": "sztuka",
+				"cena": 3.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz deserowy",
+				"jednostka": "sztuka",
+				"cena": 3.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz deserowy",
+				"jednostka": "sztuka",
+				"cena": 3.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz płytki",
+				"jednostka": "sztuka",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "talerz płytki",
+				"jednostka": "sztuka",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "primark",
+		"data-zakupów": "2024-06-06",
+		"suma": 22.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "skarpety sportowe",
+				"jednostka": "sztuka (x3)",
+				"cena": 22.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "dealz",
+		"data-zakupów": "2024-05-04",
+		"suma": 6.5,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spritezero",
+				"jednostka": "litr",
+				"cena": 6.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "dealz",
+		"data-zakupów": "2024-05-04",
+		"suma": 8.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kieliszki do wina",
+				"jednostka": "sztuka (x2)",
+				"cena": 8.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-07-06",
+		"suma": 38.85,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kalafior",
+				"jednostka": "sztuka",
+				"cena": 9.99,
+				"rabat": 5.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kalafior",
+				"jednostka": "sztuka",
+				"cena": 9.99,
+				"rabat": 5.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 3.72,
+				"rabat": 0.37,
+				"ilość": 0.248,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula czerwona",
+				"jednostka": "kilogram",
+				"cena": 1.04,
+				"rabat": 0.1,
+				"ilość": 0.13,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pudding proteinowy",
+				"jednostka": "gram",
+				"cena": 4.35,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański owocowy",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pączek z nadzieniem pistacjowym",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "fanta puszka",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 330,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "batoniki z czekoladą mleczną",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wafelek mleczny roger",
+				"jednostka": "gram",
+				"cena": 0.79,
+				"ilość": 40,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wafelek mleczny roger",
+				"jednostka": "gram",
+				"cena": 0.79,
+				"ilość": 40,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "adidas",
+		"data-zakupów": "2024-06-30",
+		"suma": 48.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spodnie legging",
+				"jednostka": "sztuka",
+				"cena": 68.0,
+				"rabat": 20.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "nike",
+		"data-zakupów": "2024-06-30",
+		"suma": 66.49,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "spodnie chino",
+				"jednostka": "sztuka",
+				"cena": 94.99,
+				"rabat": 28.5,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "orlen",
+		"data-zakupów": "2024-05-09",
+		"suma": 227.78,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "benzyna 95pb",
+				"jednostka": "litr",
+				"cena": 230.54,
+				"rabat": 2.76,
+				"ilość": 34.46,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-05-04",
+		"suma": 14.42,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "widelce",
+				"jednostka": "sztuka (x4)",
+				"cena": 5.95,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "łyżeczki do herbaty",
+				"jednostka": "sztuka (x6)",
+				"cena": 3.89,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "spinacze do prania",
+				"jednostka": "sztuka (x24)",
+				"cena": 2.79,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "teczka na dokumenty",
+				"jednostka": "sztuka",
+				"cena": 1.79,
+				"ilość": 1,
+				"kategoria": "artykuły biurowe"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-07-06",
+		"suma": 7.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "zestaw 3 nożyczek",
+				"jednostka": "sztuka",
+				"cena": 7.0,
+				"ilość": 1,
+				"kategoria": "artykuły biurowe"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "decathlon",
+		"data-zakupów": "2024-05-08",
+		"suma": 19.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pompka rowerowa",
+				"jednostka": "sztuka",
+				"cena": 19.99,
+				"ilość": 1,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-29",
+		"suma": 29.15,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cola freeway zero",
+				"jednostka": "litr",
+				"cena": 5.29,
+				"ilość": 2,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brzoskwinie",
+				"jednostka": "kilogram",
+				"cena": 3.64,
+				"rabat": 1.82,
+				"ilość": 0.304,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy fromage karbowane",
+				"jednostka": "gram",
+				"cena": 5.19,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb żytni bez drożdży",
+				"jednostka": "sztuka",
+				"cena": 3.85,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 2.89,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 2.89,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 1.55,
+				"ilość": 0.172,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek młody",
+				"jednostka": "kilogram",
+				"cena": 1.68,
+				"ilość": 0.042,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek twarogowy proteinowy",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-08-07",
+		"suma": 3.79,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "lód solo",
+				"jednostka": "mililitr",
+				"cena": 3.79,
+				"ilość": 105,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "dealz",
+		"data-zakupów": "2024-05-04",
+		"suma": 37.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "przedłużacz",
+				"jednostka": "sztuka",
+				"cena": 17.0,
+				"ilość": 1,
+				"kategoria": "elektronika"
+			},
+			{
+				"nazwa": "deska do krojenia",
+				"jednostka": "sztuka",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "chipsy pringles",
+				"jednostka": "gram",
+				"cena": 9.0,
+				"rabat": 1.0,
+				"ilość": 165,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy pringles",
+				"jednostka": "gram",
+				"cena": 9.0,
+				"rabat": 1.0,
+				"ilość": 165,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-09",
+		"suma": 26.95,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pepsi zero",
+				"jednostka": "litr",
+				"cena": 23.96,
+				"ilość": 8,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-06-03",
+		"suma": 19.5,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "wieszaki",
+				"jednostka": "sztuka (x6)",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "szorty damskie",
+				"jednostka": "sztuka (x2)",
+				"cena": 12.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "spinacze do prania",
+				"jednostka": "sztuka (x30)",
+				"cena": 3.5,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "dealz",
+		"data-zakupów": "2024-06-28",
+		"suma": 82.5,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "oshee napój vitamin",
+				"jednostka": "litr",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "foremki papierowe do piczenia",
+				"jednostka": "sztuka (x100)",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 6.0,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "rozgałęźnik gniazdka",
+				"jednostka": "sztuka",
+				"cena": 12.0,
+				"ilość": 1,
+				"kategoria": "elektronika"
+			},
+			{
+				"nazwa": "mydło w płynie",
+				"jednostka": "mililitr",
+				"cena": 7.0,
+				"ilość": 900,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 5.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki higieniczne nawilżone",
+				"jednostka": "sztuka",
+				"cena": 8.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "podpaski naturella",
+				"jednostka": "sztuka (x10)",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "podpaski naturella",
+				"jednostka": "sztuka (x10)",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "płyn do mycia szyb ludwik",
+				"jednostka": "mililitr",
+				"cena": 6.0,
+				"ilość": 600,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "szczoteczka do mycia zębów colgate",
+				"jednostka": "sztuka",
+				"cena": 4.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "mydło w płynie apart",
+				"jednostka": "mililitr",
+				"cena": 7.0,
+				"ilość": 900,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pasta do zębów colgate whitening",
+				"jednostka": "mililitr",
+				"cena": 8.0,
+				"rabat": 3.0,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pasta do zębów colgate whitening",
+				"jednostka": "mililitr",
+				"cena": 8.0,
+				"rabat": 3.0,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-04",
+		"suma": 65.84,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "filet z piersi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 16.28,
+				"rabat": 6.51,
+				"ilość": 0.654,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z piersi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 14.19,
+				"rabat": 5.68,
+				"ilość": 0.57,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki gruntowe",
+				"jednostka": "kilogram",
+				"cena": 1.35,
+				"rabat": 0.52,
+				"ilość": 0.104,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka jalapenos",
+				"jednostka": "gram",
+				"cena": 6.59,
+				"ilość": 340,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 2.89,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "boczek krojony",
+				"jednostka": "gram",
+				"cena": 9.88,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kwasek cytrynowy",
+				"jednostka": "sztuka",
+				"cena": 4.59,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki owsiane błyskawiczne",
+				"jednostka": "gram",
+				"cena": 2.84,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wafle kukurydziane smakowe",
+				"jednostka": "gram",
+				"cena": 3.66,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy tortilla",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "primark",
+		"data-zakupów": "2024-05-18",
+		"suma": 30.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "odświeżacz powietrza",
+				"jednostka": "sztuka",
+				"cena": 5.5,
+				"ilość": 1,
+				"kategoria": "meble i dekoracje"
+			},
+			{
+				"nazwa": "stanik",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "t-shirt rozciągliwy",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"rabat": 5.5,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-05-02",
+		"suma": 80.29,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda",
+				"jednostka": "litr",
+				"cena": 9.54,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 8.49,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cukier kryształ",
+				"jednostka": "kilogram",
+				"cena": 4.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kawa rozpuszczalna gold",
+				"jednostka": "gram",
+				"cena": 19.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mydło w płynie",
+				"jednostka": "litr",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "makaron spaghetti",
+				"jednostka": "gram",
+				"cena": 2.33,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bio napój owsiany",
+				"jednostka": "litr",
+				"cena": 4.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 2.89,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "herbata czarna rainfor",
+				"jednostka": "sztuka",
+				"cena": 7.39,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietanka 30%",
+				"jednostka": "gram",
+				"cena": 2.95,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "worki na śmieci",
+				"jednostka": "sztuka",
+				"cena": 3.69,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 0.91,
+				"ilość": 0.152,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "kilogram",
+				"cena": 0.89,
+				"ilość": 0.024,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-07-20",
+		"suma": 81.34,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ziemniaki wczesne",
+				"jednostka": "kilogram",
+				"cena": 2.73,
+				"rabat": 1.81,
+				"ilość": 0.684,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tortilla 6x25cm",
+				"jednostka": "gram",
+				"cena": 4.82,
+				"rabat": 1.21,
+				"ilość": 370,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb żytni bez drożdży",
+				"jednostka": "sztuka",
+				"cena": 3.85,
+				"rabat": 0.39,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula dymka",
+				"jednostka": "sztuka",
+				"cena": 2.99,
+				"rabat": 0.3,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 1.66,
+				"rabat": 0.17,
+				"ilość": 0.208,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wino gewurztr",
+				"jednostka": "litr",
+				"cena": 19.99,
+				"ilość": 0.75,
+				"kategoria": "używki"
+			},
+			{
+				"nazwa": "reklamówka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"ilość": 1,
+				"kategoria": "inne"
+			},
+			{
+				"nazwa": "żel pod prysznic",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 400,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "lipton",
+				"jednostka": "litr",
+				"cena": 4.99,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "frankfurterki z szynki",
+				"jednostka": "gram",
+				"cena": 9.99,
+				"ilość": 350,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "polędwica z kurczaka",
+				"jednostka": "gram",
+				"cena": 11.59,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 3.86,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chrupki cheetos",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-22",
+		"suma": 170.44,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "bób",
+				"jednostka": "gram",
+				"cena": 17.99,
+				"rabat": 9.0,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieczarki brązowe",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"rabat": 2.75,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"rabat": 0.38,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brzoskwinie",
+				"jednostka": "kilogram",
+				"cena": 3.21,
+				"rabat": 1.86,
+				"ilość": 0.214,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula czerwona",
+				"jednostka": "kilogram",
+				"cena": 1.41,
+				"rabat": 0.14,
+				"ilość": 0.176,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew młoda",
+				"jednostka": "kilogram",
+				"cena": 0.96,
+				"rabat": 0.1,
+				"ilość": 0.138,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 0.82,
+				"rabat": 0.08,
+				"ilość": 0.158,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron tagliatelle",
+				"jednostka": "gram",
+				"cena": 4.59,
+				"rabat": 1.38,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 10.14,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cola freeway zero",
+				"jednostka": "litr",
+				"cena": 5.29,
+				"ilość": 2,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cola freeway zero",
+				"jednostka": "litr",
+				"cena": 5.29,
+				"ilość": 2,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "roleski sos bbq",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 365,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 3.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 3.14,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 0.99,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 0.99,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki higieniczne miętowe",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mięso mielone wołowe",
+				"jednostka": "gram",
+				"cena": 14.15,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "paluchy beskidzkie",
+				"jednostka": "gram",
+				"cena": 2.49,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tofu xxl",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 360,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory suszone",
+				"jednostka": "gram",
+				"cena": 13.99,
+				"ilość": 480,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "worki na śmieci",
+				"jednostka": "sztuka",
+				"cena": 3.69,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 4.45,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 6.29,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "worki na śmieci 60l",
+				"jednostka": "sztuka",
+				"cena": 3.69,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "wafle kukurydziane smakowe",
+				"jednostka": "gram",
+				"cena": 3.66,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 8.49,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "boczek krojony",
+				"jednostka": "gram",
+				"cena": 11.3,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lody rożki",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lody rożki",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietanka 30%",
+				"jednostka": "gram",
+				"cena": 3.29,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański (vegangurt ekonomiczny)",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 3.86,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-10",
+		"suma": 42.62,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "brzoskwinie paraguayo",
+				"jednostka": "kilogram",
+				"cena": 9.56,
+				"rabat": 6.12,
+				"ilość": 0.638,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 6.44,
+				"rabat": 4.14,
+				"ilość": 2.3,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka pszenna",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"rabat": 0.08,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka pszenna",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"rabat": 0.08,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka pszenna",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"rabat": 0.08,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka pszenna",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"rabat": 0.08,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki szklarniowe",
+				"jednostka": "kilogram",
+				"cena": 1.97,
+				"rabat": 0.2,
+				"ilość": 0.246,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "fasola czerwona",
+				"jednostka": "gram",
+				"cena": 2.89,
+				"ilość": 255,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory w puszce",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory w puszce",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tortilla 6x25cm",
+				"jednostka": "gram",
+				"cena": 4.82,
+				"ilość": 370,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "boczek w plastrach",
+				"jednostka": "gram",
+				"cena": 5.85,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-10",
+		"suma": 4.5,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 2.25,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 2.25,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-05",
+		"suma": 20.07,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pomidory malinowe",
+				"jednostka": "kilogram",
+				"cena": 3.21,
+				"rabat": 1.71,
+				"ilość": 0.214,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.14,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chrupki cheetos",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-06-08",
+		"suma": 57.94,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "szpinak myty",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 0.6,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb włoski",
+				"jednostka": "sztuka",
+				"cena": 4.19,
+				"rabat": 0.42,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.79,
+				"rabat": 0.38,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory malinowe",
+				"jednostka": "kilogram",
+				"cena": 0.99,
+				"rabat": 0.1,
+				"ilość": 0.198,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula czerwona",
+				"jednostka": "kilogram",
+				"cena": 0.86,
+				"rabat": 0.09,
+				"ilość": 0.108,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "kilogram",
+				"cena": 0.81,
+				"rabat": 0.08,
+				"ilość": 0.022,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 10.14,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron tagliatelle",
+				"jednostka": "gram",
+				"cena": 4.59,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kostka do wc w5",
+				"jednostka": "sztuka (x3)",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "chusteczki do sprzątania",
+				"jednostka": "sztuka",
+				"cena": 4.85,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "serek wysokobiałkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 1.69,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chrupki cheetos",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-07-31",
+		"suma": 6.29,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "lody sammontana",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lody sammontana",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"rabat": 6.29,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-07-31",
+		"suma": 6.29,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "lody sammontana",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lody sammontana",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"rabat": 6.29,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-10",
+		"suma": 34.7,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.89,
+				"rabat": 2.9,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "kukurydza kolba",
+				"jednostka": "sztuka",
+				"cena": 3.97,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kukurydza kolba",
+				"jednostka": "sztuka",
+				"cena": 3.97,
+				"rabat": 3.97,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser podlaski",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 3.6,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser podlaski",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 3.6,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 2.76,
+				"rabat": 0.79,
+				"ilość": 0.395,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-10",
+		"suma": 34.7,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.89,
+				"rabat": 2.9,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "kukurydza kolba",
+				"jednostka": "sztuka",
+				"cena": 3.97,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kukurydza kolba",
+				"jednostka": "sztuka",
+				"cena": 3.97,
+				"rabat": 3.97,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser podlaski",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 3.6,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser podlaski",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 3.6,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 2.76,
+				"rabat": 0.79,
+				"ilość": 0.395,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-10",
+		"suma": 9.98,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cocacola zero limonka",
+				"jednostka": "litr",
+				"cena": 7.5,
+				"rabat": 2.51,
+				"ilość": 0.85,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cocacola zero limonka",
+				"jednostka": "litr",
+				"cena": 7.5,
+				"rabat": 2.51,
+				"ilość": 0.85,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-08-10",
+		"suma": 12.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "prezerwatywy durex",
+				"jednostka": "sztuka (x3)",
+				"cena": 12.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-06",
+		"suma": 69.53,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "gąbka do kąpieli",
+				"jednostka": "sztuka (x4)",
+				"cena": 3.85,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki do sprzątania mr magic",
+				"jednostka": "sztuka (x60)",
+				"cena": 6.49,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "papier toaletowy (8 rolek)",
+				"jednostka": "sztuka (x8)",
+				"cena": 6.99,
+				"rabat": 2.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "szynka wieprzowa",
+				"jednostka": "gram",
+				"cena": 7.95,
+				"rabat": 1.96,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "szynka wieprzowa",
+				"jednostka": "gram",
+				"cena": 7.95,
+				"rabat": 1.96,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "makaron ryżowy",
+				"jednostka": "gram",
+				"cena": 6.29,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser edamski",
+				"jednostka": "kilogram",
+				"cena": 6.1,
+				"rabat": 1.3,
+				"ilość": 0.254,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 0.78,
+				"ilość": 0.15,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew",
+				"jednostka": "gram",
+				"cena": 0.63,
+				"rabat": 0.27,
+				"ilość": 0.09,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula dymka",
+				"jednostka": "sztuka",
+				"cena": 2.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 10.14,
+				"rabat": 1.8,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-07-18",
+		"suma": 23.46,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 10.14,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka wrocławska",
+				"jednostka": "sztuka",
+				"cena": 1.09,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka wrocławska",
+				"jednostka": "sztuka",
+				"cena": 1.09,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka wrocławska",
+				"jednostka": "sztuka",
+				"cena": 1.09,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "papryka czerwona",
+				"jednostka": "kilogram",
+				"cena": 8.54,
+				"rabat": 3.99,
+				"ilość": 0.57,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ryż biały długoziarnisty",
+				"jednostka": "kilogram",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 0.95,
+				"ilość": 190,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 0.7,
+				"rabat": 0.14,
+				"ilość": 0.14,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-11",
+		"suma": 18.46,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "baterie paluszki aaa",
+				"jednostka": "sztuka (x4)",
+				"cena": 9.99,
+				"ilość": 1,
+				"kategoria": "elektronika"
+			},
+			{
+				"nazwa": "chlep słoneczniki",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 1.49,
+				"ilość": 0.205,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "surówkimix",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-11",
+		"suma": 3.89,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "arbuz",
+				"jednostka": "kilogram",
+				"cena": 6.82,
+				"rabat": 2.93,
+				"ilość": 0.975,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-08",
+		"suma": 5.49,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "żel do udrożniania rur agent max",
+				"jednostka": "kilogram",
+				"cena": 6.99,
+				"rabat": 1.5,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-04",
+		"suma": 112.86,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"rabat": 5.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"rabat": 5.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "frytki proste",
+				"jednostka": "kilogram",
+				"cena": 8.99,
+				"rabat": 1.8,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "frytki proste",
+				"jednostka": "kilogram",
+				"cena": 8.99,
+				"rabat": 1.8,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory suszone",
+				"jednostka": "gram",
+				"cena": 13.49,
+				"ilość": 320,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki do sprzątania mr magic",
+				"jednostka": "sztuka (x80)",
+				"cena": 6.49,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "ketchup roleski",
+				"jednostka": "gram",
+				"cena": 6.49,
+				"ilość": 465,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 4.46,
+				"rabat": 1.47,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 4.46,
+				"rabat": 1.47,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sól",
+				"jednostka": "kilogram",
+				"cena": 1.79,
+				"rabat": 0.4,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "patyczki do uszu bebeauty",
+				"jednostka": "sztuka (x200)",
+				"cena": 2.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "ser gouda",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"rabat": 0.54,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "masło mleczna dolina",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański kokosowy",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"rabat": 0.36,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański kokosowy",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"rabat": 0.36,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt wegański kokosowy",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"rabat": 0.36,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mozzarella light",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"ilość": 125,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mozzarella light",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"ilość": 125,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "gram",
+				"cena": 6.01,
+				"rabat": 3.56,
+				"ilość": 0.86,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brokuł",
+				"jednostka": "sztuka",
+				"cena": 5.72,
+				"rabat": 2.86,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brokuł",
+				"jednostka": "sztuka",
+				"cena": 5.72,
+				"rabat": 2.86,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "szpinak myty",
+				"jednostka": "gram",
+				"cena": 5.89,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron spaghetti",
+				"jednostka": "gram",
+				"cena": 3.42,
+				"rabat": 1.03,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron fusilli",
+				"jednostka": "gram",
+				"cena": 3.42,
+				"rabat": 1.02,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron tagliatelle",
+				"jednostka": "gram",
+				"cena": 4.59,
+				"rabat": 1.37,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "rzodkiewka",
+				"jednostka": "sztuka",
+				"cena": 1.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "rzodkiewka",
+				"jednostka": "sztuka",
+				"cena": 1.99,
+				"rabat": 1.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-18",
+		"suma": 78.77,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 9.54,
+				"ilość": 9,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żel pod prysznic skino",
+				"jednostka": "mililitr",
+				"cena": 4.89,
+				"ilość": 400,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "ocet jabłkowy",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chusteczki do sprzątania mr magic",
+				"jednostka": "sztuka (x80)",
+				"cena": 6.49,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "makaron gnocci",
+				"jednostka": "gram",
+				"cena": 4.69,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieprz kamis",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 16,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieprz kamis",
+				"jednostka": "gram",
+				"cena": 1.99,
+				"ilość": 16,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki śniadaniowe",
+				"jednostka": "gram",
+				"cena": 3.41,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18% mleczna dolina",
+				"jednostka": "gram",
+				"cena": 2.4,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "szpinak myty",
+				"jednostka": "gram",
+				"cena": 5.89,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ręcznik papierowy",
+				"jednostka": "sztuka",
+				"cena": 11.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "papier toaletowy (8 rolek)",
+				"jednostka": "sztuka (x8)",
+				"cena": 7.29,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-09",
+		"suma": 65.25,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "makaron ryżowy",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 1.5,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "makaron ryżowy",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 1.5,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "paluszki rybne",
+				"jednostka": "gram",
+				"cena": 17.13,
+				"rabat": 3.14,
+				"ilość": 420,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "paluszki rybne",
+				"jednostka": "gram",
+				"cena": 17.13,
+				"rabat": 3.14,
+				"ilość": 420,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "maszynki do golenia",
+				"jednostka": "sztuka",
+				"cena": 9.99,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "cebula zółta",
+				"jednostka": "kilogram",
+				"cena": 0.99,
+				"ilość": 0.25,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kaszanka",
+				"jednostka": "kilogram",
+				"cena": 3.92,
+				"ilość": 0.236,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 5.42,
+				"ilość": 0.775,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "sztuka",
+				"cena": 1.98,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sos sojowy",
+				"jednostka": "mililitr",
+				"cena": 5.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-18",
+		"suma": 13.72,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 0.99,
+				"ilość": 190,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "truskawka",
+				"jednostka": "gram",
+				"cena": 10.98,
+				"rabat": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "arbuz",
+				"jednostka": "kilogram",
+				"cena": 13.5,
+				"rabat": 6.76,
+				"ilość": 1.932,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-13",
+		"suma": 31.98,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "papier do pieczenia",
+				"jednostka": "sztuka",
+				"cena": 7.49,
+				"ilość": 1,
+				"kategoria": "wyposażenie kuchnii"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.83,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pieczarki",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"rabat": 2.0,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "gram",
+				"cena": 3.19,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser edamski",
+				"jednostka": "kilogram",
+				"cena": 8.54,
+				"rabat": 1.46,
+				"ilość": 0.356,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mozzarella light",
+				"jednostka": "gram",
+				"cena": 2.85,
+				"ilość": 125,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-11",
+		"suma": 61.04,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 2.99,
+				"rabat": 0.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 2.99,
+				"rabat": 0.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 2.99,
+				"rabat": 0.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "spritezero",
+				"jednostka": "litr",
+				"cena": 6.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"rabat": 2.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jajka ściółkowe",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.99,
+				"rabat": 2.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek twarogowy proteinowy brzoskwinia-marakuja",
+				"jednostka": "gram",
+				"cena": 3.35,
+				"rabat": 0.66,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek twarogowy proteinowy malinowy",
+				"jednostka": "gram",
+				"cena": 3.35,
+				"rabat": 0.66,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "antyperperant sztyft",
+				"jednostka": "sztuka",
+				"cena": 16.99,
+				"rabat": 5.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "antyperperant sztyft",
+				"jednostka": "sztuka",
+				"cena": 16.99,
+				"rabat": 5.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-08",
+		"suma": 26.97,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "wafle kakaowe",
+				"jednostka": "gram",
+				"cena": 2.47,
+				"rabat": 0.48,
+				"ilość": 138,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "wafle kakaowe",
+				"jednostka": "gram",
+				"cena": 2.47,
+				"rabat": 0.48,
+				"ilość": 138,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"rabat": 0.06,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"rabat": 0.06,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ryż biały długoziarnisty",
+				"jednostka": "kilogram",
+				"cena": 3.8,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mąka tortowa",
+				"jednostka": "kilogram",
+				"cena": 2.29,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"rabat": 0.9,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"rabat": 0.9,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "soda oczyszczona",
+				"jednostka": "gram",
+				"cena": 1.09,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "majonez go vege",
+				"jednostka": "gram",
+				"cena": 3.89,
+				"ilość": 280,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kostka rosołowa culineo",
+				"jednostka": "gram",
+				"cena": 2.09,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 3.6,
+				"rabat": 2.13,
+				"ilość": 0.515,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-20",
+		"suma": 48.95,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy be power",
+				"jednostka": "litr",
+				"cena": 3.19,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "śmietana 18% mleczna dolina",
+				"jednostka": "gram",
+				"cena": 3.19,
+				"ilość": 330,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pasta do zębów colgate",
+				"jednostka": "mililitr",
+				"cena": 7.99,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pasta do zębów colgate",
+				"jednostka": "mililitr",
+				"cena": 7.99,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pomidory w puszce",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 240,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory w puszce",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 240,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kefir 1,5%",
+				"jednostka": "gram",
+				"cena": 2.39,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cytryna",
+				"jednostka": "kilogram",
+				"cena": 1.33,
+				"ilość": 0.19,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sól",
+				"jednostka": "kilogram",
+				"cena": 1.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czosnek",
+				"jednostka": "sztuka",
+				"cena": 1.98,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cebula żółta",
+				"jednostka": "kilogram",
+				"cena": 1.3,
+				"rabat": 0.3,
+				"ilość": 0.335,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb pasterski ręcznie zawijany",
+				"jednostka": "sztuka",
+				"cena": 4.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "tortilla",
+				"jednostka": "gram",
+				"cena": 4.19,
+				"ilość": 306,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-05-12",
+		"suma": 73.66,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "płyn micelarny evelina kosmetyczna",
+				"jednostka": "mililitr",
+				"cena": 23.99,
+				"ilość": 750,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka grahamka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "masło",
+				"jednostka": "gram",
+				"cena": 7.49,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żelki kółka",
+				"jednostka": "gram",
+				"cena": 4.39,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada mleczno-gorzka wedel",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 80,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada gorzka wedel",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "czekolada gorzka wedel",
+				"jednostka": "gram",
+				"cena": 4.49,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "nektarynki",
+				"jednostka": "kilogram",
+				"cena": 7.82,
+				"rabat": 5.06,
+				"ilość": 0.46,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lakier do baznokci brzoskwiniowy",
+				"jednostka": "mililitr",
+				"cena": 12.99,
+				"ilość": 5,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "kakao magnetic",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-12",
+		"suma": 22.55,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.9,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.9,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sałata lodowa",
+				"jednostka": "sztuka",
+				"cena": 3.99,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 0.8,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kabanosy tarczyński premium",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb włoski",
+				"jednostka": "sztuka",
+				"cena": 4.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki szklarniowe",
+				"jednostka": "kilogram",
+				"cena": 2.0,
+				"ilość": 0.2,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-12",
+		"suma": 8.66,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój izotoniczny 4move",
+				"jednostka": "litr",
+				"cena": 2.99,
+				"ilość": 0.75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cukierki mentos",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 76,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "marchew",
+				"jednostka": "kilogram",
+				"cena": 0.97,
+				"rabat": 0.29,
+				"ilość": 0.195,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-13",
+		"suma": 10.48,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "cukierki karmelki owocowe",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "landrynki lodowe",
+				"jednostka": "gram",
+				"cena": 3.49,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-13",
+		"suma": 9.98,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "litr",
+				"cena": 4.99,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "litr",
+				"cena": 4.99,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-14",
+		"suma": 29.61,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kabanosy tarczyński",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 90,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chipsy topchips w tubie",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"ilość": 100,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kostka do wc agent max",
+				"jednostka": "sztuka (x3)",
+				"cena": 9.99,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "półbagietka",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cheeseburger yeemy",
+				"jednostka": "gram",
+				"cena": 8.39,
+				"ilość": 190,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "action",
+		"data-zakupów": "2024-08-16",
+		"suma": 18.97,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "środek nabłyszczający do zmywarki",
+				"jednostka": "mililitr",
+				"cena": 5.49,
+				"ilość": 1000,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "napój herbaciany arizona",
+				"jednostka": "mililitr",
+				"cena": 3.99,
+				"ilość": 50,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "żel pod prysznic",
+				"jednostka": "mililitr",
+				"cena": 9.49,
+				"ilość": 750,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "mediaexpert",
+		"data-zakupów": "2024-08-16",
+		"suma": 119.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "plecak na plecak",
+				"jednostka": "sztuka",
+				"cena": 119.0,
+				"ilość": 1,
+				"kategoria": "elektronika"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-16",
+		"suma": 101.03,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "woda mineralna",
+				"jednostka": "litr",
+				"cena": 20.28,
+				"rabat": 7.36,
+				"ilość": 18,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 1.28,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.29,
+				"rabat": 1.28,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "nektarynki",
+				"jednostka": "kilogram",
+				"cena": 3.91,
+				"rabat": 2.31,
+				"ilość": 0.326,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z piersi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 10.64,
+				"rabat": 0.96,
+				"ilość": 0.56,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z piersi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 10.17,
+				"rabat": 0.92,
+				"ilość": 0.535,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser twardy",
+				"jednostka": "gram",
+				"cena": 8.49,
+				"rabat": 0.76,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "por",
+				"jednostka": "kilogram",
+				"cena": 6.54,
+				"rabat": 1.18,
+				"ilość": 0.385,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki musli",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 1.09,
+				"ilość": 350,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"rabat": 0.45,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "patyczki do uszu",
+				"jednostka": "sztuka (x300)",
+				"cena": 4.79,
+				"rabat": 0.43,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "bio napój owsiany",
+				"jednostka": "litr",
+				"cena": 4.46,
+				"rabat": 0.4,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "antyperperant w kulce",
+				"jednostka": "mililitr",
+				"cena": 4.49,
+				"rabat": 0.4,
+				"ilość": 50,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 4.29,
+				"rabat": 0.39,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "chusteczki kosmetyczne",
+				"jednostka": "sztuka (x150)",
+				"cena": 3.99,
+				"rabat": 0.36,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "śmietana 18%",
+				"jednostka": "gram",
+				"cena": 3.86,
+				"rabat": 0.35,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "worki na śmieci 25l",
+				"jednostka": "sztuka (x30)",
+				"cena": 3.69,
+				"rabat": 0.33,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.79,
+				"rabat": 0.16,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "lód rożek",
+				"jednostka": "mililitr",
+				"cena": 1.79,
+				"rabat": 0.16,
+				"ilość": 120,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mlekouht 0,5%",
+				"jednostka": "litr",
+				"cena": 3.14,
+				"rabat": 0.28,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb tostowy pszenny",
+				"jednostka": "kilogram",
+				"cena": 2.99,
+				"rabat": 0.27,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.27,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.27,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 1.75,
+				"rabat": 0.16,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "zupka chińska vifon",
+				"jednostka": "gram",
+				"cena": 1.49,
+				"rabat": 0.13,
+				"ilość": 70,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "reklamówka",
+				"jednostka": "sztuka",
+				"cena": 0.79,
+				"rabat": 0.07,
+				"ilość": 1,
+				"kategoria": "inne"
+			},
+			{
+				"nazwa": "marchew młoda",
+				"jednostka": "kilogram",
+				"cena": 0.21,
+				"rabat": 0.04,
+				"ilość": 0.106,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "szefito papito kebab",
+		"data-zakupów": "2024-08-16",
+		"suma": 48.0,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "kebab średni",
+				"jednostka": "sztuka",
+				"cena": 23.0,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "kebab średni",
+				"jednostka": "sztuka",
+				"cena": 23.0,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "opakowanie",
+				"jednostka": "sztuka",
+				"cena": 1.0,
+				"ilość": 1,
+				"kategoria": "inne"
+			},
+			{
+				"nazwa": "opakowanie",
+				"jednostka": "sztuka",
+				"cena": 1.0,
+				"ilość": 1,
+				"kategoria": "inne"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "stokrotka",
+		"data-zakupów": "2024-08-17",
+		"suma": 16.78,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "chrupki star mr snaki",
+				"jednostka": "gram",
+				"cena": 6.99,
+				"ilość": 125,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "prezerwatywy durex",
+				"jednostka": "sztuka (x3)",
+				"cena": 9.79,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-17",
+		"suma": 21.77,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "olej kujawski",
+				"jednostka": "litr",
+				"cena": 9.49,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka śniadaniowa pełnoziarnista",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "bułka śniadaniowa pełnoziarnista",
+				"jednostka": "sztuka",
+				"cena": 1.25,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cola oryginal zero",
+				"jednostka": "litr",
+				"cena": 3.99,
+				"rabat": 1.0,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "cola oryginal zero",
+				"jednostka": "litr",
+				"cena": 3.99,
+				"rabat": 1.0,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "brzoskwinie",
+				"jednostka": "kilogram",
+				"cena": 4.51,
+				"rabat": 1.19,
+				"ilość": 0.475,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 1.12,
+				"rabat": 0.64,
+				"ilość": 0.16,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-18",
+		"suma": 6.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy dzik",
+				"jednostka": "litr",
+				"cena": 6.99,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "circle k",
+		"data-zakupów": "2024-08-19",
+		"suma": 227.73,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "benzyna 95pb",
+				"jednostka": "litr",
+				"cena": 227.73,
+				"ilość": 36.79,
+				"kategoria": "transport"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-19",
+		"suma": 34.73,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "pasta do zębów colgate whitening",
+				"jednostka": "mililitr",
+				"cena": 9.99,
+				"rabat": 2.5,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "pasta do zębów colgate whitening",
+				"jednostka": "mililitr",
+				"cena": 9.99,
+				"rabat": 2.5,
+				"ilość": 75,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "guma do żucia 21szt",
+				"jednostka": "gram",
+				"cena": 3.99,
+				"ilość": 29,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"ilość": 150,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "pomidory malinowe",
+				"jednostka": "kilogram",
+				"cena": 1.84,
+				"ilość": 0.184,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "sałata lodowa",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 400,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chleb włoski",
+				"jednostka": "sztuka",
+				"cena": 4.19,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "apteka orchis",
+		"data-zakupów": "2024-08-19",
+		"suma": 7.99,
+		"waluta": "pln",
+		"produkty": [
+			{
+				"nazwa": "allefin allergy",
+				"jednostka": "sztuka (x10)",
+				"cena": 7.99,
+				"ilość": 1,
+				"kategoria": "zdrowie"
+			}
+		],
+		"czy_internetowy": false
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-20",
+		"suma": 36.5,
+		"waluta": "pln",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "chrupki serowe snack day",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 0.9,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "chrupki serowe snack day",
+				"jednostka": "gram",
+				"cena": 8.99,
+				"rabat": 0.9,
+				"ilość": 300,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki musli",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 0.6,
+				"ilość": 350,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ogórki gruntowe",
+				"jednostka": "kilogram",
+				"cena": 1.38,
+				"rabat": 0.14,
+				"ilość": 0.138,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "przyprawa kebab-gyros",
+				"jednostka": "gram",
+				"cena": 1.19,
+				"rabat": 0.12,
+				"ilość": 30,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jabłka czerwone",
+				"jednostka": "kilogram",
+				"cena": 0.76,
+				"rabat": 0.08,
+				"ilość": 0.19,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mięso z nogi kurczaka",
+				"jednostka": "kilogram",
+				"cena": 10.9,
+				"ilość": 0.496,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "jogurt naturalny",
+				"jednostka": "gram",
+				"cena": 1.04,
+				"ilość": 200,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "piekarnia bochenek",
+		"data-zakupów": "2024-08-22",
+		"suma": 9.0,
+		"waluta": "pln",
+		"czy_internetowy": false,
+		"adres": "Adama Bochenka 10/4 30-693 Kraków",
+		"strona_internetowa": "",
+		"produkty": [
+			{
+				"nazwa": "rogal z czekoladą",
+				"jednostka": "sztuka",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "rogal z czekoladą",
+				"jednostka": "sztuka",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "piekarnia bochenek",
+		"data-zakupów": "2024-08-23",
+		"suma": 9.0,
+		"waluta": "pln",
+		"czy_internetowy": false,
+		"adres": "Adama Bochenka 10/4 30-693 Kraków",
+		"strona_internetowa": "",
+		"produkty": [
+			{
+				"nazwa": "mini pizza",
+				"jednostka": "sztuka",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "mini pizza",
+				"jednostka": "sztuka",
+				"cena": 4.5,
+				"ilość": 1,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "lidl",
+		"data-zakupów": "2024-08-21",
+		"suma": 21.95,
+		"waluta": "pln",
+		"czy_internetowy": false,
+		"adres": "Witosa 4 30-612 Kraków",
+		"strona_internetowa": "",
+		"produkty": [
+			{
+				"nazwa": "ser carski",
+				"jednostka": "gram",
+				"cena": 7.93,
+				"rabat": 2.94,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "ser carski",
+				"jednostka": "gram",
+				"cena": 7.93,
+				"rabat": 2.94,
+				"ilość": 250,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "płatki musli",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"ilość": 350,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "filet z kurczaka wędlina",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"ilość": 75,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-21",
+		"suma": 11.8,
+		"waluta": "pln",
+		"adres": "Adama Bochenka 10/3 30-693 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "litr",
+				"cena": 6.99,
+				"rabat": 1.09,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "litr",
+				"cena": 6.99,
+				"rabat": 1.09,
+				"ilość": 0.5,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "good lood",
+		"data-zakupów": "2024-08-22",
+		"suma": 8.0,
+		"waluta": "pln",
+		"adres": "Wincentego Witosa 19A 30-612 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "gałka lodów o smaku ciasteczek korzennych",
+				"jednostka": "sztuka",
+				"cena": 8.0,
+				"ilość": 1,
+				"kategoria": "bilety i wyjścia z domu"
+			}
+		]
+	},
+	{
+		"sklep": "kebab pod 13",
+		"data-zakupów": "2024-08-25",
+		"suma": 58.0,
+		"waluta": "pln",
+		"adres": "pl. Wolnica 13, 31-060 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "kebab lawasz kurczak",
+				"jednostka": "sztuka",
+				"cena": 28.0,
+				"ilość": 1,
+				"kategoria": "bilety i wyjścia z domu"
+			},
+			{
+				"nazwa": "kebab lawasz kurczak + jagnięcina",
+				"jednostka": "sztuka",
+				"cena": 30.0,
+				"ilość": 1,
+				"kategoria": "bilety i wyjścia z domu"
+			}
+		]
+	},
+	{
+		"sklep": "carrefour",
+		"data-zakupów": "2024-08-25",
+		"suma": 9.35,
+		"waluta": "pln",
+		"adres": "Podgórska 34, 31-536 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "Starbucks Skinny Latte Mleczny Napój kawowy",
+				"jednostka": "mililitr",
+				"cena": 9.35,
+				"ilość": 220,
+				"kategoria": "bilety i wyjścia z domu"
+			}
+		]
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-08-24",
+		"suma": 5.49,
+		"waluta": "pln",
+		"adres": "Stanisława Stojałowskiego 6 30-611 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "płyn do mycia szyb (uzupełniacz) domol",
+				"jednostka": "mililitr",
+				"cena": 5.49,
+				"ilość": 750,
+				"kategoria": "środki czystości"
+			}
+		]
+	},
+	{
+		"sklep": "Nowohuckie centrum kultury",
+		"data-zakupów": "2024-08-11",
+		"suma": 30.0,
+		"waluta": "pln",
+		"adres": "al. Jana Pawła II 232 31-913 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "bilet wstępu na wystawe Beksiński",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"ilość": 1,
+				"kategoria": "bilety i wyjścia z domu"
+			},
+			{
+				"nazwa": "bilet wstępu na wystawe Beksiński",
+				"jednostka": "sztuka",
+				"cena": 15.0,
+				"ilość": 1,
+				"kategoria": "bilety i wyjścia z domu"
+			}
+		]
+	},
+	{
+		"sklep": "biedronka",
+		"data-zakupów": "2024-08-26",
+		"suma": 4.49,
+		"waluta": "pln",
+		"adres": "Łużycka 43F 30-693 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "cola oryginal zero",
+				"jednostka": "litra",
+				"cena": 4.49,
+				"ilość": 1.5,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-08-24",
+		"suma": 24.47,
+		"waluta": "pln",
+		"adres": "Wysłouchów 41 a 30-611 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "żel pod prysznic isana",
+				"jednostka": "mililitr",
+				"cena": 4.69,
+				"rabat": 1.7,
+				"ilość": 300,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "antyperperant w kulce adidas",
+				"jednostka": "mililitr",
+				"cena": 12.99,
+				"rabat": 3.0,
+				"ilość": 50,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "żel do golenia isana",
+				"jednostka": "mililitr",
+				"cena": 11.49,
+				"ilość": 200,
+				"kategoria": "higiena i kosmetyki"
+			}
+		]
+	},
+	{
+		"sklep": "pepco",
+		"data-zakupów": "2024-08-22",
+		"suma": 9.0,
+		"waluta": "pln",
+		"adres": "Stojalowskiego 6 Kraków 30-601",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "spinki do włosów",
+				"jednostka": "sztuka",
+				"cena": 2.0,
+				"ilość": 1,
+				"kategoria": "ubrania i garderoba"
+			},
+			{
+				"nazwa": "baterie paluszki aa",
+				"jednostka": "sztuka (x8)",
+				"cena": 5.0,
+				"ilość": 1,
+				"kategoria": "elektronika"
+			},
+			{
+				"nazwa": "magiczna gąbka",
+				"jednostka": "sztuka (x2)",
+				"cena": 2.0,
+				"ilość": 1,
+				"kategoria": "środki czystości"
+			}
+		]
+	}
+]
