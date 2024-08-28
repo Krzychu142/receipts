@@ -6839,5 +6839,86 @@
 				"kategoria": "środki czystości"
 			}
 		]
+	},
+	{
+		"sklep": "KFC",
+		"data-zakupów": "2024-08-24",
+		"suma": 68.97,
+		"waluta": "pln",
+		"adres": "Puszkarska 9 Kraków 30-644",
+		"strona_internetowa": "https://www.ubereats.com/pl",
+		"czy_internetowy": true,
+		"produkty": [
+			{
+				"nazwa": "sos kentucky gold",
+				"jednostka": "sztuka",
+				"cena": 2.49,
+				"ilość": 1,
+				"kategoria": "spożywcze z dostawą"
+			},
+			{
+				"nazwa": "sos kentucky gold",
+				"jednostka": "sztuka",
+				"cena": 2.49,
+				"ilość": 1,
+				"kategoria": "spożywcze z dostawą"
+			},
+			{
+				"nazwa": "kubełek opakowanie",
+				"jednostka": "sztuka",
+				"cena": 0.27,
+				"ilość": 1,
+				"kategoria": "spożywcze z dostawą"
+			},
+			{
+				"nazwa": "11 strips",
+				"jednostka": "sztuka",
+				"cena": 36.0,
+				"ilość": 1,
+				"kategoria": "spożywcze z dostawą"
+			},
+			{
+				"nazwa": "11 hot wings",
+				"jednostka": "sztuka",
+				"cena": 27.72,
+				"ilość": 1,
+				"kategoria": "spożywcze z dostawą"
+			}
+		]
+	},
+	{
+		"sklep": "rossmann",
+		"data-zakupów": "2024-08-22",
+		"suma": 47.97,
+		"waluta": "pln",
+		"adres": "Stanisława Stojałowskiego 6 30-611 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "pianka do golenia venus",
+				"jednostka": "mililitr",
+				"cena": 9.99,
+				"rabat": 3.0,
+				"ilość": 200,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "eveline liquid korektor",
+				"jednostka": "mililitr",
+				"cena": 25.99,
+				"rabat": 8.5,
+				"ilość": 7,
+				"kategoria": "higiena i kosmetyki"
+			},
+			{
+				"nazwa": "maybeline tusz do rzęs",
+				"jednostka": "mililitr",
+				"cena": 42.99,
+				"rabat": 19.5,
+				"ilość": 9.5,
+				"kategoria": "higiena i kosmetyki"
+			}
+		]
 	}
 ]
