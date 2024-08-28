@@ -1,0 +1,782 @@
+sklep,data_zakupow,suma,waluta,nazwa_produktu,jednostka,cena,ilość,rabat,kategoria,czy_internetowy
+biedronka,2024-06-05,34.94,pln,cocacolazero,litr,8.69,1.75,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,mlekouht,litr,3.14,1,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,brokuł,gram,5.76,500,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,śmietana 18%,gram,2.4,200,0.25,spożywcze,False
+biedronka,2024-06-05,34.94,pln,śmietana 18%,gram,2.4,200,0.25,spożywcze,False
+biedronka,2024-06-05,34.94,pln,cebula żółta,gram,0.82,165,,spożywcze,False
+biedronka,2024-06-05,34.94,pln,mozzarella light,gram,2.85,125,,spożywcze,False
+kaufland,2024-07-24,30.6,pln,uchwyt rowerowy,sztuka,24.99,1,,transport,False
+kaufland,2024-07-24,30.6,pln,arbuz,kilogram,4.11,1.65,0.99,spożywcze,False
+kaufland,2024-07-24,30.6,pln,familijne wafle,gram,2.99,180.0,0.5,spożywcze,False
+szubryt,2024-07-27,8.0,pln,szynka wieprzowa,kilogram,8.0,0.2,,spożywcze,False
+pepco,2024-06-03,31.0,pln,silikonowy uchwyt,sztuka,6.0,1,,wyposażenie kuchnii,False
+pepco,2024-06-03,31.0,pln,patelnia 24cm,sztuka,25.0,1,,wyposażenie kuchnii,False
+apteka hygieia,2024-07-27,6.3,pln,paracetamol 500mg,tabletki,6.3,20,,zdrowie,False
+biedronka,2024-05-31,39.86,pln,napój energetyczy monster,mililitr,5.49,500,,spożywcze,False
+biedronka,2024-05-31,39.86,pln,lasagne bolognese,gram,10.49,450,,spożywcze,False
+biedronka,2024-05-31,39.86,pln,ryż biały długoziarnisty,kilogram,3.8,1,,spożywcze,False
+biedronka,2024-05-31,39.86,pln,majonez go vege,gram,3.89,280,,spożywcze,False
+biedronka,2024-05-31,39.86,pln,ser gouda,kilogram,6.02,0.252,1.01,spożywcze,False
+biedronka,2024-05-31,39.86,pln,filet z indyka paprykowy kraina wędlin,gram,6.29,100,,spożywcze,False
+biedronka,2024-05-31,39.86,pln,żel pod prysznic skino,mililitr,4.89,400,,higiena i kosmetyki,False
+lidl,2024-06-20,29.81,pln,cocacola w puszce,mililitr,1.99,250,,spożywcze,False
+lidl,2024-06-20,29.81,pln,żel pod prysznic,mililitr,4.99,400,,higiena i kosmetyki,False
+lidl,2024-06-20,29.81,pln,totrtilla arabska,gram,7.25,250,,spożywcze,False
+lidl,2024-06-20,29.81,pln,totrtilla arabska,gram,7.25,250,,spożywcze,False
+lidl,2024-06-20,29.81,pln,chipsy fromage karbowane,gram,5.19,150,,spożywcze,False
+lidl,2024-06-20,29.81,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+lidl,2024-05-23,19.66,pln,pomidory malinowe,kilogram,3.96,0.264,2.11,spożywcze,False
+lidl,2024-05-23,19.66,pln,ogórki gruntowe,kilogram,2.66,0.266,0.8,spożywcze,False
+lidl,2024-05-23,19.66,pln,jogurt high protein,gram,3.99,200,,spożywcze,False
+lidl,2024-05-23,19.66,pln,płatki śniadaniowe,gram,3.79,250,,spożywcze,False
+lidl,2024-05-23,19.66,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+lidl,2024-05-23,19.66,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+lidl,2024-05-23,19.66,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+lidl,2024-05-23,19.66,pln,kefir 2%,gram,2.39,400,,spożywcze,False
+lidl,2024-05-23,19.66,pln,ser gouda,gram,3.29,150,,spożywcze,False
+rossmann,2024-06-03,21.98,pln,ziaja yego balsam,sztuka,8.99,1,,higiena i kosmetyki,False
+rossmann,2024-06-03,21.98,pln,lovely korektor,sztuka,23.99,1,11.0,higiena i kosmetyki,False
+lidl,2024-05-29,22.69,pln,star maczugi,gram,4.49,80,,spożywcze,False
+lidl,2024-05-29,22.69,pln,płatki śniadaniowe,gram,3.79,250,,spożywcze,False
+lidl,2024-05-29,22.69,pln,tortilla,gram,5.07,370,,spożywcze,False
+lidl,2024-05-29,22.69,pln,serek wysokobiałkowy,gram,3.35,200,,spożywcze,False
+lidl,2024-05-29,22.69,pln,napój energetyczy monster,mililitr,5.99,500,,spożywcze,False
+kebab byczek,2024-06-10,47.0,pln,kebab duży,sztuka,26.0,1,,spożywcze,False
+kebab byczek,2024-06-10,47.0,pln,kebab mały,sztuka,21.0,1,,spożywcze,False
+circle k,2024-06-28,150.72,pln,benzyna 95pb,litr,150.72,23.81,,transport,False
+biedronka,2024-07-16,1.14,pln,ciabatta,sztuka,1.14,1,,spożywcze,False
+apteka orchis,2024-07-27,9.99,pln,elektrolity,tabletki,9.99,20,,zdrowie,False
+stokrotka,2024-07-25,14.15,pln,pepsi,litr,7.79,1.5,,spożywcze,False
+stokrotka,2024-07-25,14.15,pln,paprykarz szczeciński,gram,4.29,250,,spożywcze,False
+stokrotka,2024-07-25,14.15,pln,kajzerka z makiem,sztuka,0.69,1,,spożywcze,False
+stokrotka,2024-07-25,14.15,pln,kajzerka z makiem,sztuka,0.69,1,,spożywcze,False
+stokrotka,2024-07-25,14.15,pln,kajzerka z makiem,sztuka,0.69,1,,spożywcze,False
+apteka słoneczna,2024-07-19,99.99,pln,vibin,tabletki,99.99,84,,zdrowie,False
+żabka,2024-06-12,12.69,pln,snickers,gram,5.7,75,,spożywcze,False
+żabka,2024-06-12,12.69,pln,napój energetyczy monster,mililitr,6.99,500,,spożywcze,False
+lidl,2024-07-04,21.72,pln,pieczarki,gram,6.99,500,,spożywcze,False
+lidl,2024-07-04,21.72,pln,nektarynki,kilogram,5.47,0.304,3.65,spożywcze,False
+lidl,2024-07-04,21.72,pln,czekolada,gram,3.99,100,,spożywcze,False
+lidl,2024-07-04,21.72,pln,koncentrat pomidorowy,gram,2.59,100,,spożywcze,False
+lidl,2024-07-04,21.72,pln,tortilla,gram,5.07,370,,spożywcze,False
+lidl,2024-07-04,21.72,pln,cytryna,kilogram,1.26,0.14,,spożywcze,False
+action,2024-07-19,44.56,pln,dzwonek rowerowy,sztuka,8.99,1,,transport,False
+action,2024-07-19,44.56,pln,lampka rowerowa,sztuka,3.99,1,,transport,False
+action,2024-07-19,44.56,pln,lampka rowerowa,sztuka,3.99,1,,transport,False
+action,2024-07-19,44.56,pln,zapięcie rowerowe,sztuka,8.89,1,,transport,False
+action,2024-07-19,44.56,pln,zestaw kluczy rowerowych,sztuka,16.95,1,,transport,False
+action,2024-07-19,44.56,pln,napój energetyczy,mililitr,1.75,250,,spożywcze,False
+action,2024-07-06,31.85,pln,słoik do kiszenia,sztuka,19.95,1,,wyposażenie kuchnii,False
+action,2024-07-06,31.85,pln,żel pod prysznic,mililitr,5.95,450,,higiena i kosmetyki,False
+action,2024-07-06,31.85,pln,żel pod prysznic umbro,mililitr,5.95,300,,higiena i kosmetyki,False
+lidl,2024-05-22,7.17,pln,napój energetyczy,mililitr,1.69,250,,spożywcze,False
+lidl,2024-05-22,7.17,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-05-22,7.17,pln,bułka grahamka,sztuka,2.49,1,,spożywcze,False
+pepco,2024-07-27,34.0,pln,ścierka,sztuka,4.0,1,,środki czystości,False
+pepco,2024-07-27,34.0,pln,biustonosz,sztuka,15.0,1,,ubrania i garderoba,False
+pepco,2024-07-27,34.0,pln,blacha do pieczenia,sztuka,15.0,1,,wyposażenie kuchnii,False
+lidl,2024-07-27,81.07,pln,woda,zgrzewka (6x1.5l),10.14,1,3.06,spożywcze,False
+lidl,2024-07-27,81.07,pln,papryka czerwona,kilogram,4.35,0.29,2.4,spożywcze,False
+lidl,2024-07-27,81.07,pln,papryka czerwona,kilogram,3.63,0.242,2.0,spożywcze,False
+lidl,2024-07-27,81.07,pln,śliwki niebieskie,kilogram,3.22,0.358,1.61,spożywcze,False
+lidl,2024-07-27,81.07,pln,mąka tortowa,kilogram,2.29,1,0.23,spożywcze,False
+lidl,2024-07-27,81.07,pln,marchew młoda,kilogram,0.44,0.088,0.04,spożywcze,False
+lidl,2024-07-27,81.07,pln,papier toaletowy,sztuka,3.59,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,papier toaletowy,sztuka,3.59,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,papier toaletowy,sztuka,3.59,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,mięso mielone z piersi kurczaka,gram,9.99,400,,spożywcze,False
+lidl,2024-07-27,81.07,pln,ananas w puszce,gram,5.99,567,,spożywcze,False
+lidl,2024-07-27,81.07,pln,bella podpaski,sztuka,7.49,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,papryka jalapenos,gram,3.99,350,,spożywcze,False
+lidl,2024-07-27,81.07,pln,seler wiórki,sztuka,3.99,1,,spożywcze,False
+lidl,2024-07-27,81.07,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+lidl,2024-07-27,81.07,pln,serek twarogowy,gram,3.74,150,,spożywcze,False
+lidl,2024-07-27,81.07,pln,masło,gram,5.99,170,,spożywcze,False
+lidl,2024-07-27,81.07,pln,chleb tostowy pszenny,kilogram,2.99,0.5,,spożywcze,False
+lidl,2024-07-27,81.07,pln,makaron spaghetti,gram,3.42,500,,spożywcze,False
+lidl,2024-06-01,41.95,pln,lód rożek,mililitr,1.29,120,0.65,spożywcze,False
+lidl,2024-06-01,41.95,pln,lód rożek,mililitr,1.29,120,0.65,spożywcze,False
+lidl,2024-06-01,41.95,pln,lód rożek,mililitr,1.29,120,0.65,spożywcze,False
+lidl,2024-06-01,41.95,pln,lód rożek,mililitr,1.29,120,0.65,spożywcze,False
+lidl,2024-06-01,41.95,pln,woda,zgrzewka (6x1.5l),10.14,1,,spożywcze,False
+lidl,2024-06-01,41.95,pln,czekolada,gram,3.99,100,,spożywcze,False
+lidl,2024-06-01,41.95,pln,chrupki cheetos,gram,5.99,150,,spożywcze,False
+lidl,2024-06-01,41.95,pln,płatki śniadaniowe,gram,3.79,250,,spożywcze,False
+lidl,2024-06-01,41.95,pln,ketchup roleski,gram,6.99,425,,spożywcze,False
+lidl,2024-06-01,41.95,pln,ser twardy,gram,8.49,150,,spożywcze,False
+action,2024-06-28,51.77,pln,zupka chińska,gram,0.99,65,,spożywcze,False
+action,2024-06-28,51.77,pln,płyn do spryskiwaczy,litr,8.99,5,,transport,False
+action,2024-06-28,51.77,pln,zupka chińska,gram,0.99,65,,spożywcze,False
+action,2024-06-28,51.77,pln,zupka chińska,gram,0.99,65,,spożywcze,False
+action,2024-06-28,51.77,pln,płatki do demakijażu,sztuka (x50),3.25,1,,higiena i kosmetyki,False
+action,2024-06-28,51.77,pln,worki na śmieci,sztuka (x20),4.96,1,,środki czystości,False
+action,2024-06-28,51.77,pln,żel do golenia gillette,mililitr,13.95,240,,higiena i kosmetyki,False
+action,2024-06-28,51.77,pln,linka na pranie,metr,2.99,20,,inne,False
+action,2024-06-28,51.77,pln,zupka chińska pikantna,gram,2.19,65,,spożywcze,False
+action,2024-06-28,51.77,pln,worki na śmieci,sztuka (x30),1.99,1,,środki czystości,False
+action,2024-06-28,51.77,pln,worki na śmieci,sztuka (x30),1.99,1,,środki czystości,False
+action,2024-06-28,51.77,pln,antyperperant nivea,mililitr,8.49,150,,higiena i kosmetyki,False
+merida polska,2024-07-24,42.0,pln,łańcuch shimano,sztuka,42.0,1,,transport,False
+stokrotka,2024-07-27,6.01,pln,bułka kajzerka,sztuka,0.35,1,,spożywcze,False
+stokrotka,2024-07-27,6.01,pln,bułka kajzerka,sztuka,0.35,1,,spożywcze,False
+stokrotka,2024-07-27,6.01,pln,bułka kajzerka,sztuka,0.35,1,,spożywcze,False
+stokrotka,2024-07-27,6.01,pln,bułka kajzerka,sztuka,0.35,1,,spożywcze,False
+stokrotka,2024-07-27,6.01,pln,ser gouda,kilogram,4.61,0.244,,spożywcze,False
+biedronka,2024-07-23,27.95,pln,warzywa na patelnie mroźna kraina,gram,4.95,1,0.99,spożywcze,False
+biedronka,2024-07-23,27.95,pln,warzywa na patelnie mroźna kraina,gram,4.95,1,0.99,spożywcze,False
+biedronka,2024-07-23,27.95,pln,paluszki beskidzkie,gram,4.69,180,,spożywcze,False
+biedronka,2024-07-23,27.95,pln,jogurt naturalny,gram,0.95,190,,spożywcze,False
+biedronka,2024-07-23,27.95,pln,banany,kilogram,2.41,0.345,,spożywcze,False
+biedronka,2024-07-23,27.95,pln,spray do czyszczenia kurzu mr magic,mililitr,5.49,300,,środki czystości,False
+biedronka,2024-07-23,27.95,pln,ketchup roleski,gram,6.49,465,,spożywcze,False
+biedronka,2024-06-26,21.58,pln,chleb tostowy pszenny,gram,2.99,500,,spożywcze,False
+biedronka,2024-06-26,21.58,pln,filet z kurczaka wędlina,gram,3.99,100,,spożywcze,False
+biedronka,2024-06-26,21.58,pln,ser gouda,kilogram,6.32,0.276,1.1,spożywcze,False
+biedronka,2024-06-26,21.58,pln,zapiekanka,gram,4.69,236,,spożywcze,False
+biedronka,2024-06-26,21.58,pln,zapiekanka,gram,4.69,236,,spożywcze,False
+lidl,2024-08-01,6.38,pln,oshee napój vitamin,litr,5.49,1,,spożywcze,False
+lidl,2024-08-01,6.38,pln,ziemniaki wczesne,kilogram,0.89,0.446,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,ser gouda,kilogram,7.65,0.306,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,jajka ściółkowe,sztuka (x10),8.99,1,2.25,spożywcze,False
+biedronka,2024-05-25,41.6,pln,jajka ściółkowe,sztuka (x10),8.99,1,2.25,spożywcze,False
+biedronka,2024-05-25,41.6,pln,mięso mielone wołowe,gram,12.79,400,2.3,spożywcze,False
+biedronka,2024-05-25,41.6,pln,bułka poranna,sztuka,0.99,1,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,bułka poranna,sztuka,0.99,1,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,cebula żółta,gram,0.74,0.19,,spożywcze,False
+biedronka,2024-05-25,41.6,pln,arbuz,kilogram,8.25,1.18,4.13,spożywcze,False
+biedronka,2024-06-01,62.13,pln,frytki karbowane,kilogram,19.95,2.5,,spożywcze,False
+biedronka,2024-06-01,62.13,pln,ręcznik papierowy,metr,11.99,100,,środki czystości,False
+biedronka,2024-06-01,62.13,pln,piwo tyskie,mililitr,5.79,650,,używki,False
+biedronka,2024-06-01,62.13,pln,szpinak myty,gram,5.99,200,,spożywcze,False
+biedronka,2024-06-01,62.13,pln,papryka czerwona,kilogram,6.9,0.46,1.84,spożywcze,False
+biedronka,2024-06-01,62.13,pln,cebula żółta,kilogram,1.17,0.225,,spożywcze,False
+biedronka,2024-06-01,62.13,pln,czosnek,sztuka,1.98,1,,spożywcze,False
+biedronka,2024-06-01,62.13,pln,bakłażan,kilogram,3.12,0.26,1.56,spożywcze,False
+biedronka,2024-06-01,62.13,pln,arbuz,kilogram,10.03,1.435,5.74,spożywcze,False
+biedronka,2024-06-01,62.13,pln,pudding proteinowy,gram,4.35,200,,spożywcze,False
+auchan,2024-07-13,16.4,pln,mąka tortowa,kilogram,2.59,1,,spożywcze,False
+auchan,2024-07-13,16.4,pln,jogurt naturalny (bez laktozy),gram,1.07,180,,spożywcze,False
+auchan,2024-07-13,16.4,pln,ser twardy,gram,2.99,40,,spożywcze,False
+auchan,2024-07-13,16.4,pln,chipsy,gram,4.79,140,1.02,spożywcze,False
+auchan,2024-07-13,16.4,pln,masło,gram,5.98,200,,spożywcze,False
+biedronka,2024-07-17,12.86,pln,pomidory malinowe,kilogram,2.0,0.2,1.1,spożywcze,False
+biedronka,2024-07-17,12.86,pln,bułka wrocławska,sztuka,1.09,1,,spożywcze,False
+biedronka,2024-07-17,12.86,pln,bułka wrocławska,sztuka,1.09,1,,spożywcze,False
+biedronka,2024-07-17,12.86,pln,kabanosy tarczyński,gram,6.45,90,1.56,spożywcze,False
+biedronka,2024-07-17,12.86,pln,kabanosy tarczyński,gram,6.45,90,1.56,spożywcze,False
+lidl,2024-06-11,43.2,pln,napój energetyczy monster,mililitr,4.99,500,,spożywcze,False
+lidl,2024-06-11,43.2,pln,filet z piersi kurczaka,kilogram,11.04,0.581,,spożywcze,False
+lidl,2024-06-11,43.2,pln,ser gouda,gram,4.29,150,,spożywcze,False
+lidl,2024-06-11,43.2,pln,sos sojowy,mililitr,10.99,625,,spożywcze,False
+lidl,2024-06-11,43.2,pln,makaron ryżowy,gram,6.29,200,,spożywcze,False
+lidl,2024-06-11,43.2,pln,marchew młoda,kilogram,0.78,0.112,,spożywcze,False
+lidl,2024-06-11,43.2,pln,cebula żółta,kilogram,0.63,0.122,,spożywcze,False
+lidl,2024-06-11,43.2,pln,chleb włoski,sztuka,4.19,1,,spożywcze,False
+apteka orchis,2024-06-25,25.98,pln,ortanol max,tabletki,12.99,14,,zdrowie,False
+apteka orchis,2024-06-25,25.98,pln,prezerwatywy durex,sztuka (x3),12.99,1,,zdrowie,False
+sinsay,2024-06-26,30.0,pln,szorty damskie,sztuka,39.99,1,10.0,ubrania i garderoba,False
+sinsay,2024-06-26,30.0,pln,torba papierowa,sztuka,1.0,1,0.99,inne,False
+rossmann,2024-06-26,30.38,pln,szampon do włosów isana,mililitr,6.39,300,,higiena i kosmetyki,False
+rossmann,2024-06-26,30.38,pln,podkład eveline satin mat,mililitr,23.99,30,,higiena i kosmetyki,False
+action,2024-05-02,5.99,pln,spray do czyszczenia łazienki odkamieniający,mililitr,5.99,750,,środki czystości,False
+biedronka,2024-05-02,19.46,pln,wino musujące michel,mililitr,9.49,750,,używki,False
+biedronka,2024-05-02,19.46,pln,boczek krojony morliny,gram,5.99,150,,spożywcze,False
+biedronka,2024-05-02,19.46,pln,pieprz kamis,gram,1.99,16,,spożywcze,False
+biedronka,2024-05-02,19.46,pln,pieprz kamis,gram,1.99,16,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+biedronka,2024-05-15,26.19,pln,pieczarki,gram,6.95,500,1.96,spożywcze,False
+biedronka,2024-05-15,26.19,pln,ketchup roleski,gram,6.49,465,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,filet z kurczaka wędlina,gram,3.99,100,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,półbagietka,sztuka,1.25,1,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-15,26.19,pln,bagietka,sztuka,2.99,1,,spożywcze,False
+stokrotka,2024-05-04,6.21,pln,ser gouda,kilogram,3.42,0.172,,spożywcze,False
+stokrotka,2024-05-04,6.21,pln,śmietana 18%,gram,2.79,200,,spożywcze,False
+biedronka,2024-05-25,13.9,pln,por,kilogram,2.0,0.2,,spożywcze,False
+biedronka,2024-05-25,13.9,pln,żelki kółka,gram,4.39,200,,spożywcze,False
+biedronka,2024-05-25,13.9,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-05-25,13.9,pln,pomidory papryczkowe,kilogram,5.4,0.235,2.58,spożywcze,False
+orlen,2024-08-02,260.93,pln,benzyna 95pb,litr,281.04,44.68,20.11,transport,False
+biedronka,2024-08-03,30.14,pln,zapiekanka,gram,4.89,236,,spożywcze,False
+biedronka,2024-08-03,30.14,pln,zapiekanka,gram,4.89,236,,spożywcze,False
+biedronka,2024-08-03,30.14,pln,herbata zielona lipton,torebki,8.99,20,,spożywcze,False
+biedronka,2024-08-03,30.14,pln,napój kawowy,mililitr,3.19,230,,spożywcze,False
+biedronka,2024-08-03,30.14,pln,napój kawowy,mililitr,3.19,230,,spożywcze,False
+biedronka,2024-08-03,30.14,pln,ser edamski,gram,4.99,150,,spożywcze,False
+lidl,2024-07-25,33.86,pln,pieczarki,gram,6.99,500,3.5,spożywcze,False
+lidl,2024-07-25,33.86,pln,winmgrono jasne,kilogram,7.41,0.494,3.46,spożywcze,False
+lidl,2024-07-25,33.86,pln,śliwki niebieskie,kilogram,2.63,0.292,1.17,spożywcze,False
+lidl,2024-07-25,33.86,pln,kukurydza konserwowa,gram,3.99,340,,spożywcze,False
+lidl,2024-07-25,33.86,pln,ananas w puszce,gram,5.99,567,,spożywcze,False
+lidl,2024-07-25,33.86,pln,oshee napój vitamin,litr,5.49,1,,spożywcze,False
+lidl,2024-07-25,33.86,pln,szynka wieprzowa,gram,5.83,80,,spożywcze,False
+lidl,2024-07-25,33.86,pln,wafle kukurydziane smakowe,gram,3.66,120,,spożywcze,False
+żabka,2024-07-26,28.09,pln,kubek z lodem,gram,3.99,130,0.69,spożywcze,False
+żabka,2024-07-26,28.09,pln,kubek z lodem,gram,3.99,130,0.69,spożywcze,False
+żabka,2024-07-26,28.09,pln,cocacola,litr,5.5,0.5,,spożywcze,False
+żabka,2024-07-26,28.09,pln,wódka lubelska wiśniowa,litr,15.99,0.2,,używki,False
+biedronka,2024-08-05,56.87,pln,spray do czyszczenia łazienki odkamieniający,mililitr,6.99,750,,środki czystości,False
+biedronka,2024-08-05,56.87,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+biedronka,2024-08-05,56.87,pln,mięso mielone z indyka,gram,11.99,400,3.0,spożywcze,False
+biedronka,2024-08-05,56.87,pln,sos sriracha,gram,4.49,180,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,makaron spaghetti,gram,3.42,500,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,makaron spaghetti,gram,3.42,500,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,mlekouht,litr,3.14,1,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,ser edamski,gram,4.99,150,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,filet z kurczaka wędlina,gram,3.99,100,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,marchew,kilogram,0.66,0.165,0.33,spożywcze,False
+biedronka,2024-08-05,56.87,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+biedronka,2024-08-05,56.87,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+biedronka,2024-08-05,56.87,pln,ciastka,gram,5.99,210,,spożywcze,False
+biedronka,2024-06-04,31.25,pln,bułka grahamka,sztuka,0.79,1,,spożywcze,False
+biedronka,2024-06-04,31.25,pln,bułka grahamka,sztuka,0.79,1,,spożywcze,False
+biedronka,2024-06-04,31.25,pln,ser podlaski,kilogram,9.52,0.304,4.08,spożywcze,False
+biedronka,2024-06-04,31.25,pln,banany,kilogram,3.58,0.515,,spożywcze,False
+biedronka,2024-06-04,31.25,pln,ogórki szklarniowe,kilogram,2.45,0.245,1.23,spożywcze,False
+biedronka,2024-06-04,31.25,pln,kaszka proteinowa,gram,4.45,200,,spożywcze,False
+biedronka,2024-06-04,31.25,pln,papier toaletowy (8 rolek),sztuka,8.99,1,1.5,higiena i kosmetyki,False
+biedronka,2024-06-04,31.25,pln,papier toaletowy (8 rolek),sztuka,8.99,1,1.5,higiena i kosmetyki,False
+stokrotka,2024-05-07,12.45,pln,bułka kajzerka siemię lniane,sztuka,0.99,1,,spożywcze,False
+stokrotka,2024-05-07,12.45,pln,bułka kajzerka siemię lniane,sztuka,0.99,1,,spożywcze,False
+stokrotka,2024-05-07,12.45,pln,bułka kajzerka siemię lniane,sztuka,0.99,1,,spożywcze,False
+stokrotka,2024-05-07,12.45,pln,zupka chińska,sztuka,2.79,1,,spożywcze,False
+stokrotka,2024-05-07,12.45,pln,zupka chińska,sztuka,2.79,1,,spożywcze,False
+stokrotka,2024-05-07,12.45,pln,ser gouda,kilogram,3.9,0.196,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,napój fuze tea,litr,4.99,1.5,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,śmietana 30%,gram,4.13,200,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,filet z kurczaka wędlina,gram,3.99,100,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,boczek krojony morliny,gram,6.78,130,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,ser twardy grana padano,gram,8.25,100,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,ser gouda,gram,4.45,150,,spożywcze,False
+biedronka,2024-07-30,35.73,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+biedronka,2024-08-06,20.92,pln,chusteczki do sprzątania mr magic,sztuka,6.49,1,,środki czystości,False
+biedronka,2024-08-06,20.92,pln,chipsy topchips w tubie,gram,4.99,100,,spożywcze,False
+biedronka,2024-08-06,20.92,pln,ser gouda,gram,4.45,150,,spożywcze,False
+biedronka,2024-08-06,20.92,pln,żel pod prysznic skino,mililitr,4.99,400,,higiena i kosmetyki,False
+biedronka,2024-07-27,31.77,pln,oshee napój vitamin,litr,3.99,1,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,chipsy tortilla topchips,gram,3.89,150,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,jajka ściółkowe,sztuka (x10),8.99,1,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,cukier puder,gram,2.99,500,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,napój kawowy,mililitr,3.19,230,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,majonez dekoracyjny winiary,mililitr,5.99,250,,spożywcze,False
+biedronka,2024-07-27,31.77,pln,brzoskwinie paraguayo,kilogram,6.63,0.39,3.9,spożywcze,False
+biedronka,2024-07-22,33.89,pln,cola oryginal zero,litr,3.99,1.5,,spożywcze,False
+biedronka,2024-07-22,33.89,pln,płyn do mycia szyb mr magic,mililitr,4.99,750,,środki czystości,False
+biedronka,2024-07-22,33.89,pln,jogurt naturalny,gram,2.25,180,,spożywcze,False
+biedronka,2024-07-22,33.89,pln,cebula czerwona,kilogram,0.94,0.135,,spożywcze,False
+biedronka,2024-07-22,33.89,pln,pieprz kamis,gram,1.99,13,,spożywcze,False
+biedronka,2024-07-22,33.89,pln,czosnek,sztuka,1.75,1,,spożywcze,False
+biedronka,2024-07-22,33.89,pln,ręcznik papierowy,sztuka,11.99,1,3.0,środki czystości,False
+biedronka,2024-07-22,33.89,pln,ręcznik papierowy,sztuka,11.99,1,3.0,środki czystości,False
+biedronka,2024-07-02,85.81,pln,oliwa z oliwek,mililitr,29.99,500,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,cebula dymka,sztuka,2.99,1,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,śmietana 18% mleczna dolina,gram,3.19,330,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,mięso mielone z indyka,gram,11.99,400,3.0,spożywcze,False
+biedronka,2024-07-02,85.81,pln,ser sałatkowy,gram,5.09,270,1.1,spożywcze,False
+biedronka,2024-07-02,85.81,pln,ser sałatkowy,gram,5.09,270,1.1,spożywcze,False
+biedronka,2024-07-02,85.81,pln,zupka chińska,gram,1.25,60,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,zupka chińska,gram,1.25,60,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,papryka czerwona,kilogram,6.2,0.415,2.47,spożywcze,False
+biedronka,2024-07-02,85.81,pln,jogurt wegański kokosowy,gram,2.99,150,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,kabanosy tarczyński (pikantne),gram,6.99,90,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,ogórki gruntowe,kilogram,2.6,0.26,1.56,spożywcze,False
+biedronka,2024-07-02,85.81,pln,oliwki zielone,gram,4.49,170,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,półbagietka,sztuka,1.25,1,,spożywcze,False
+biedronka,2024-07-02,85.81,pln,chipsy pieczony kurczak topchips,gram,4.99,150,,spożywcze,False
+biedronka,2024-05-02,167.7,pln,woda,litr,0.75,0.5,,spożywcze,False
+biedronka,2024-05-02,167.7,pln,papier toaletowy (8 rolek),sztuka,8.99,1,,higiena i kosmetyki,False
+biedronka,2024-05-02,167.7,pln,ręcznik papierowy,sztuka,11.99,1,,środki czystości,False
+biedronka,2024-05-02,167.7,pln,kapsułki finish do zmywarki,tabletki,69.99,70,,środki czystości,False
+biedronka,2024-05-02,167.7,pln,kapsułki ariel do prania,tabletki,69.99,63,,środki czystości,False
+biedronka,2024-05-02,167.7,pln,napój energetyczy monster,mililitr,5.99,500,,spożywcze,False
+auchan,2024-05-18,57.41,pln,pizza mrożona,gram,9.29,390,,spożywcze,False
+auchan,2024-05-18,57.41,pln,pizza mrożona,gram,9.29,390,,spożywcze,False
+auchan,2024-05-18,57.41,pln,ser twardy,gram,2.99,40,,spożywcze,False
+auchan,2024-05-18,57.41,pln,ser twardy,gram,2.99,40,,spożywcze,False
+auchan,2024-05-18,57.41,pln,uchywt na telefon do samochodu,sztuka,15.99,1,,transport,False
+auchan,2024-05-18,57.41,pln,serek kanapkowy z pomidorami suszonymi,gram,3.09,135,,spożywcze,False
+auchan,2024-05-18,57.41,pln,napój energetyczy,mililitr,2.98,250,,spożywcze,False
+auchan,2024-05-18,57.41,pln,chrupki maczugi,gram,3.98,80,,spożywcze,False
+auchan,2024-05-18,57.41,pln,śmietana 18%,gram,2.12,180,,spożywcze,False
+auchan,2024-05-18,57.41,pln,chleb kukurydziany,sztuka,4.69,1,,spożywcze,False
+pepco,2024-07-03,5.0,pln,spryskiwacz 0.5l,sztuka,5.0,1,,środki czystości,False
+pepco,2024-05-08,26.0,pln,ścierka kuchenna,sztuka,6.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz deserowy,sztuka,3.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz deserowy,sztuka,3.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz deserowy,sztuka,3.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz deserowy,sztuka,3.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz płytki,sztuka,4.0,1,,wyposażenie kuchnii,False
+pepco,2024-05-08,26.0,pln,talerz płytki,sztuka,4.0,1,,wyposażenie kuchnii,False
+primark,2024-06-06,22.0,pln,skarpety sportowe,sztuka (x3),22.0,1,,ubrania i garderoba,False
+dealz,2024-05-04,6.5,pln,spritezero,litr,6.5,1,,spożywcze,False
+dealz,2024-05-04,8.0,pln,kieliszki do wina,sztuka (x2),8.0,1,,wyposażenie kuchnii,False
+lidl,2024-07-06,38.85,pln,kalafior,sztuka,9.99,1,5.5,spożywcze,False
+lidl,2024-07-06,38.85,pln,kalafior,sztuka,9.99,1,5.5,spożywcze,False
+lidl,2024-07-06,38.85,pln,papryka czerwona,kilogram,3.72,0.248,0.37,spożywcze,False
+lidl,2024-07-06,38.85,pln,cebula czerwona,kilogram,1.04,0.13,0.1,spożywcze,False
+lidl,2024-07-06,38.85,pln,pudding proteinowy,gram,4.35,200,,spożywcze,False
+lidl,2024-07-06,38.85,pln,jogurt wegański owocowy,gram,2.99,150,,spożywcze,False
+lidl,2024-07-06,38.85,pln,pączek z nadzieniem pistacjowym,sztuka,3.99,1,,spożywcze,False
+lidl,2024-07-06,38.85,pln,fanta puszka,mililitr,4.99,330,,spożywcze,False
+lidl,2024-07-06,38.85,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-07-06,38.85,pln,batoniki z czekoladą mleczną,gram,4.69,100,,spożywcze,False
+lidl,2024-07-06,38.85,pln,wafelek mleczny roger,gram,0.79,40,,spożywcze,False
+lidl,2024-07-06,38.85,pln,wafelek mleczny roger,gram,0.79,40,,spożywcze,False
+adidas,2024-06-30,48.0,pln,spodnie legging,sztuka,68.0,1,20.0,ubrania i garderoba,False
+nike,2024-06-30,66.49,pln,spodnie chino,sztuka,94.99,1,28.5,ubrania i garderoba,False
+orlen,2024-05-09,227.78,pln,benzyna 95pb,litr,230.54,34.46,2.76,transport,False
+action,2024-05-04,14.42,pln,widelce,sztuka (x4),5.95,1,,wyposażenie kuchnii,False
+action,2024-05-04,14.42,pln,łyżeczki do herbaty,sztuka (x6),3.89,1,,wyposażenie kuchnii,False
+action,2024-05-04,14.42,pln,spinacze do prania,sztuka (x24),2.79,1,,ubrania i garderoba,False
+action,2024-05-04,14.42,pln,teczka na dokumenty,sztuka,1.79,1,,artykuły biurowe,False
+pepco,2024-07-06,7.0,pln,zestaw 3 nożyczek,sztuka,7.0,1,,artykuły biurowe,False
+decathlon,2024-05-08,19.99,pln,pompka rowerowa,sztuka,19.99,1,,transport,False
+lidl,2024-06-29,29.15,pln,cola freeway zero,litr,5.29,2,,spożywcze,False
+lidl,2024-06-29,29.15,pln,brzoskwinie,kilogram,3.64,0.304,1.82,spożywcze,False
+lidl,2024-06-29,29.15,pln,chipsy fromage karbowane,gram,5.19,150,,spożywcze,False
+lidl,2024-06-29,29.15,pln,chleb żytni bez drożdży,sztuka,3.85,1,,spożywcze,False
+lidl,2024-06-29,29.15,pln,ser gouda,gram,2.89,150,,spożywcze,False
+lidl,2024-06-29,29.15,pln,ser gouda,gram,2.89,150,,spożywcze,False
+lidl,2024-06-29,29.15,pln,cytryna,kilogram,1.55,0.172,,spożywcze,False
+lidl,2024-06-29,29.15,pln,czosnek młody,kilogram,1.68,0.042,,spożywcze,False
+lidl,2024-06-29,29.15,pln,serek twarogowy proteinowy,gram,3.99,200,,spożywcze,False
+stokrotka,2024-08-07,3.79,pln,lód solo,mililitr,3.79,105,,spożywcze,False
+dealz,2024-05-04,37.0,pln,przedłużacz,sztuka,17.0,1,,elektronika,False
+dealz,2024-05-04,37.0,pln,deska do krojenia,sztuka,4.0,1,,wyposażenie kuchnii,False
+dealz,2024-05-04,37.0,pln,chipsy pringles,gram,9.0,165,1.0,spożywcze,False
+dealz,2024-05-04,37.0,pln,chipsy pringles,gram,9.0,165,1.0,spożywcze,False
+lidl,2024-05-09,26.95,pln,chleb tostowy pszenny,gram,2.99,500,,spożywcze,False
+lidl,2024-05-09,26.95,pln,pepsi zero,litr,23.96,8,,spożywcze,False
+pepco,2024-06-03,19.5,pln,wieszaki,sztuka (x6),4.0,1,,ubrania i garderoba,False
+pepco,2024-06-03,19.5,pln,szorty damskie,sztuka (x2),12.0,1,,ubrania i garderoba,False
+pepco,2024-06-03,19.5,pln,spinacze do prania,sztuka (x30),3.5,1,,ubrania i garderoba,False
+dealz,2024-06-28,82.5,pln,oshee napój vitamin,litr,4.5,1,,spożywcze,False
+dealz,2024-06-28,82.5,pln,foremki papierowe do piczenia,sztuka (x100),4.0,1,,wyposażenie kuchnii,False
+dealz,2024-06-28,82.5,pln,napój energetyczy monster,mililitr,6.0,500,,spożywcze,False
+dealz,2024-06-28,82.5,pln,rozgałęźnik gniazdka,sztuka,12.0,1,,elektronika,False
+dealz,2024-06-28,82.5,pln,mydło w płynie,mililitr,7.0,900,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,chusteczki higieniczne,sztuka,5.0,1,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,chusteczki higieniczne nawilżone,sztuka,8.0,1,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,podpaski naturella,sztuka (x10),4.5,1,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,podpaski naturella,sztuka (x10),4.5,1,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,płyn do mycia szyb ludwik,mililitr,6.0,600,,środki czystości,False
+dealz,2024-06-28,82.5,pln,szczoteczka do mycia zębów colgate,sztuka,4.0,1,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,mydło w płynie apart,mililitr,7.0,900,,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,pasta do zębów colgate whitening,mililitr,8.0,75,3.0,higiena i kosmetyki,False
+dealz,2024-06-28,82.5,pln,pasta do zębów colgate whitening,mililitr,8.0,75,3.0,higiena i kosmetyki,False
+lidl,2024-05-04,65.84,pln,filet z piersi kurczaka,kilogram,16.28,0.654,6.51,spożywcze,False
+lidl,2024-05-04,65.84,pln,filet z piersi kurczaka,kilogram,14.19,0.57,5.68,spożywcze,False
+lidl,2024-05-04,65.84,pln,ogórki gruntowe,kilogram,1.35,0.104,0.52,spożywcze,False
+lidl,2024-05-04,65.84,pln,papryka jalapenos,gram,6.59,340,,spożywcze,False
+lidl,2024-05-04,65.84,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-05-04,65.84,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-05-04,65.84,pln,"mlekouht 0,5%",litr,2.89,1,,spożywcze,False
+lidl,2024-05-04,65.84,pln,boczek krojony,gram,9.88,250,,spożywcze,False
+lidl,2024-05-04,65.84,pln,kwasek cytrynowy,sztuka,4.59,1,,spożywcze,False
+lidl,2024-05-04,65.84,pln,chleb tostowy pszenny,gram,2.99,500,,spożywcze,False
+lidl,2024-05-04,65.84,pln,płatki owsiane błyskawiczne,gram,2.84,500,,spożywcze,False
+lidl,2024-05-04,65.84,pln,wafle kukurydziane smakowe,gram,3.66,120,,spożywcze,False
+lidl,2024-05-04,65.84,pln,chipsy tortilla,gram,3.74,150,,spożywcze,False
+lidl,2024-05-04,65.84,pln,półbagietka,sztuka,1.19,1,,spożywcze,False
+lidl,2024-05-04,65.84,pln,półbagietka,sztuka,1.19,1,,spożywcze,False
+lidl,2024-05-04,65.84,pln,półbagietka,sztuka,1.19,1,,spożywcze,False
+primark,2024-05-18,30.0,pln,odświeżacz powietrza,sztuka,5.5,1,,meble i dekoracje,False
+primark,2024-05-18,30.0,pln,stanik,sztuka,15.0,1,,ubrania i garderoba,False
+primark,2024-05-18,30.0,pln,t-shirt rozciągliwy,sztuka,15.0,1,5.5,ubrania i garderoba,False
+lidl,2024-05-02,80.29,pln,woda,litr,9.54,9,,spożywcze,False
+lidl,2024-05-02,80.29,pln,jajka ściółkowe,sztuka (x10),8.49,1,,spożywcze,False
+lidl,2024-05-02,80.29,pln,ser twardy,gram,8.49,150,,spożywcze,False
+lidl,2024-05-02,80.29,pln,cukier kryształ,kilogram,4.49,1,,spożywcze,False
+lidl,2024-05-02,80.29,pln,kawa rozpuszczalna gold,gram,19.99,100,,spożywcze,False
+lidl,2024-05-02,80.29,pln,mydło w płynie,litr,3.99,1,,higiena i kosmetyki,False
+lidl,2024-05-02,80.29,pln,makaron spaghetti,gram,2.33,500,,spożywcze,False
+lidl,2024-05-02,80.29,pln,bio napój owsiany,litr,4.25,1,,spożywcze,False
+lidl,2024-05-02,80.29,pln,"mlekouht 0,5%",litr,2.89,1,,spożywcze,False
+lidl,2024-05-02,80.29,pln,herbata czarna rainfor,sztuka,7.39,1,,spożywcze,False
+lidl,2024-05-02,80.29,pln,śmietanka 30%,gram,2.95,200,,spożywcze,False
+lidl,2024-05-02,80.29,pln,worki na śmieci,sztuka,3.69,1,,środki czystości,False
+lidl,2024-05-02,80.29,pln,cytryna,kilogram,0.91,0.152,,spożywcze,False
+lidl,2024-05-02,80.29,pln,czosnek,kilogram,0.89,0.024,,spożywcze,False
+lidl,2024-07-20,81.34,pln,ziemniaki wczesne,kilogram,2.73,0.684,1.81,spożywcze,False
+lidl,2024-07-20,81.34,pln,tortilla 6x25cm,gram,4.82,370,1.21,spożywcze,False
+lidl,2024-07-20,81.34,pln,chleb żytni bez drożdży,sztuka,3.85,1,0.39,spożywcze,False
+lidl,2024-07-20,81.34,pln,cebula dymka,sztuka,2.99,1,0.3,spożywcze,False
+lidl,2024-07-20,81.34,pln,cytryna,kilogram,1.66,0.208,0.17,spożywcze,False
+lidl,2024-07-20,81.34,pln,wino gewurztr,litr,19.99,0.75,,używki,False
+lidl,2024-07-20,81.34,pln,reklamówka,sztuka,0.79,1,,inne,False
+lidl,2024-07-20,81.34,pln,żel pod prysznic,mililitr,4.99,400,,higiena i kosmetyki,False
+lidl,2024-07-20,81.34,pln,lipton,litr,4.99,1.5,,spożywcze,False
+lidl,2024-07-20,81.34,pln,frankfurterki z szynki,gram,9.99,350,,spożywcze,False
+lidl,2024-07-20,81.34,pln,polędwica z kurczaka,gram,11.59,400,,spożywcze,False
+lidl,2024-07-20,81.34,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-07-20,81.34,pln,śmietana 18%,gram,3.86,400,,spożywcze,False
+lidl,2024-07-20,81.34,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+lidl,2024-07-20,81.34,pln,chrupki cheetos,gram,5.99,150,,spożywcze,False
+lidl,2024-06-22,170.44,pln,bób,gram,17.99,500,9.0,spożywcze,False
+lidl,2024-06-22,170.44,pln,pieczarki brązowe,gram,4.99,300,2.75,spożywcze,False
+lidl,2024-06-22,170.44,pln,płatki śniadaniowe,gram,3.79,250,0.38,spożywcze,False
+lidl,2024-06-22,170.44,pln,brzoskwinie,kilogram,3.21,0.214,1.86,spożywcze,False
+lidl,2024-06-22,170.44,pln,cebula czerwona,kilogram,1.41,0.176,0.14,spożywcze,False
+lidl,2024-06-22,170.44,pln,marchew młoda,kilogram,0.96,0.138,0.1,spożywcze,False
+lidl,2024-06-22,170.44,pln,cebula żółta,kilogram,0.82,0.158,0.08,spożywcze,False
+lidl,2024-06-22,170.44,pln,makaron tagliatelle,gram,4.59,400,1.38,spożywcze,False
+lidl,2024-06-22,170.44,pln,woda mineralna,litr,10.14,9,,spożywcze,False
+lidl,2024-06-22,170.44,pln,cola freeway zero,litr,5.29,2,,spożywcze,False
+lidl,2024-06-22,170.44,pln,cola freeway zero,litr,5.29,2,,spożywcze,False
+lidl,2024-06-22,170.44,pln,roleski sos bbq,gram,5.99,365,,spożywcze,False
+lidl,2024-06-22,170.44,pln,"mlekouht 0,5%",litr,3.14,1,,spożywcze,False
+lidl,2024-06-22,170.44,pln,"mlekouht 0,5%",litr,3.14,1,,spożywcze,False
+lidl,2024-06-22,170.44,pln,woda mineralna,litr,0.99,1.5,,spożywcze,False
+lidl,2024-06-22,170.44,pln,woda mineralna,litr,0.99,1.5,,spożywcze,False
+lidl,2024-06-22,170.44,pln,chusteczki higieniczne miętowe,sztuka,3.99,1,,spożywcze,False
+lidl,2024-06-22,170.44,pln,mięso mielone wołowe,gram,14.15,400,,spożywcze,False
+lidl,2024-06-22,170.44,pln,paluchy beskidzkie,gram,2.49,100,,spożywcze,False
+lidl,2024-06-22,170.44,pln,tofu xxl,gram,6.99,360,,spożywcze,False
+lidl,2024-06-22,170.44,pln,pomidory suszone,gram,13.99,480,,spożywcze,False
+lidl,2024-06-22,170.44,pln,worki na śmieci,sztuka,3.69,1,,środki czystości,False
+lidl,2024-06-22,170.44,pln,ser gouda,gram,4.45,150,,spożywcze,False
+lidl,2024-06-22,170.44,pln,jajka ściółkowe,sztuka (x10),6.29,1,,spożywcze,False
+lidl,2024-06-22,170.44,pln,guma do żucia 21szt,gram,4.69,29,,spożywcze,False
+lidl,2024-06-22,170.44,pln,guma do żucia 21szt,gram,4.69,29,,spożywcze,False
+lidl,2024-06-22,170.44,pln,worki na śmieci 60l,sztuka,3.69,1,,środki czystości,False
+lidl,2024-06-22,170.44,pln,wafle kukurydziane smakowe,gram,3.66,120,,spożywcze,False
+lidl,2024-06-22,170.44,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+lidl,2024-06-22,170.44,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-06-22,170.44,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-06-22,170.44,pln,ser twardy,gram,8.49,150,,spożywcze,False
+lidl,2024-06-22,170.44,pln,boczek krojony,gram,11.3,250,,spożywcze,False
+lidl,2024-06-22,170.44,pln,lody rożki,mililitr,1.29,120,,spożywcze,False
+lidl,2024-06-22,170.44,pln,lody rożki,mililitr,1.29,120,,spożywcze,False
+lidl,2024-06-22,170.44,pln,śmietanka 30%,gram,3.29,200,,spożywcze,False
+lidl,2024-06-22,170.44,pln,jogurt wegański (vegangurt ekonomiczny),gram,1.99,150,,spożywcze,False
+lidl,2024-06-22,170.44,pln,śmietana 18%,gram,3.86,400,,spożywcze,False
+lidl,2024-08-10,42.62,pln,brzoskwinie paraguayo,kilogram,9.56,0.638,6.12,spożywcze,False
+lidl,2024-08-10,42.62,pln,papryka czerwona,kilogram,6.44,2.3,4.14,spożywcze,False
+lidl,2024-08-10,42.62,pln,bułka pszenna,sztuka,0.83,1,0.08,spożywcze,False
+lidl,2024-08-10,42.62,pln,bułka pszenna,sztuka,0.83,1,0.08,spożywcze,False
+lidl,2024-08-10,42.62,pln,bułka pszenna,sztuka,0.83,1,0.08,spożywcze,False
+lidl,2024-08-10,42.62,pln,bułka pszenna,sztuka,0.83,1,0.08,spożywcze,False
+lidl,2024-08-10,42.62,pln,ogórki szklarniowe,kilogram,1.97,0.246,0.2,spożywcze,False
+lidl,2024-08-10,42.62,pln,fasola czerwona,gram,2.89,255,,spożywcze,False
+lidl,2024-08-10,42.62,pln,pomidory w puszce,gram,2.99,400,,spożywcze,False
+lidl,2024-08-10,42.62,pln,pomidory w puszce,gram,2.99,400,,spożywcze,False
+lidl,2024-08-10,42.62,pln,napój energetyczy monster,mililitr,4.99,500,,spożywcze,False
+lidl,2024-08-10,42.62,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-10,42.62,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-10,42.62,pln,chleb tostowy pszenny,gram,2.99,500,,spożywcze,False
+lidl,2024-08-10,42.62,pln,tortilla 6x25cm,gram,4.82,370,,spożywcze,False
+lidl,2024-08-10,42.62,pln,boczek w plastrach,gram,5.85,100,,spożywcze,False
+lidl,2024-08-10,42.62,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-08-10,4.5,pln,guma do żucia 21szt,gram,2.25,29,,spożywcze,False
+lidl,2024-08-10,4.5,pln,guma do żucia 21szt,gram,2.25,29,,spożywcze,False
+lidl,2024-06-05,20.07,pln,pomidory malinowe,kilogram,3.21,0.214,1.71,spożywcze,False
+lidl,2024-06-05,20.07,pln,chleb tostowy pszenny,gram,3.14,500,,spożywcze,False
+lidl,2024-06-05,20.07,pln,czekolada,gram,3.99,100,,spożywcze,False
+lidl,2024-06-05,20.07,pln,płatki śniadaniowe,gram,3.79,250,,spożywcze,False
+lidl,2024-06-05,20.07,pln,chrupki cheetos,gram,5.99,150,,spożywcze,False
+lidl,2024-06-05,20.07,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+lidl,2024-06-05,20.07,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+lidl,2024-06-08,57.94,pln,szpinak myty,gram,5.99,200,0.6,spożywcze,False
+lidl,2024-06-08,57.94,pln,chleb włoski,sztuka,4.19,1,0.42,spożywcze,False
+lidl,2024-06-08,57.94,pln,płatki śniadaniowe,gram,3.79,250,0.38,spożywcze,False
+lidl,2024-06-08,57.94,pln,pomidory malinowe,kilogram,0.99,0.198,0.1,spożywcze,False
+lidl,2024-06-08,57.94,pln,cebula czerwona,kilogram,0.86,0.108,0.09,spożywcze,False
+lidl,2024-06-08,57.94,pln,czosnek,kilogram,0.81,0.022,0.08,spożywcze,False
+lidl,2024-06-08,57.94,pln,woda mineralna,litr,10.14,9,,spożywcze,False
+lidl,2024-06-08,57.94,pln,makaron tagliatelle,gram,4.59,400,,spożywcze,False
+lidl,2024-06-08,57.94,pln,kostka do wc w5,sztuka (x3),8.99,1,,środki czystości,False
+lidl,2024-06-08,57.94,pln,chusteczki do sprzątania,sztuka,4.85,1,,środki czystości,False
+lidl,2024-06-08,57.94,pln,serek wysokobiałkowy,gram,3.74,200,,spożywcze,False
+lidl,2024-06-08,57.94,pln,jogurt naturalny,gram,1.69,400,,spożywcze,False
+lidl,2024-06-08,57.94,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-06-08,57.94,pln,chrupki cheetos,gram,5.99,150,,spożywcze,False
+stokrotka,2024-07-31,6.29,pln,lody sammontana,gram,6.29,80,,spożywcze,False
+stokrotka,2024-07-31,6.29,pln,lody sammontana,gram,6.29,80,6.29,spożywcze,False
+stokrotka,2024-07-31,6.29,pln,lody sammontana,gram,6.29,80,,spożywcze,False
+stokrotka,2024-07-31,6.29,pln,lody sammontana,gram,6.29,80,6.29,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ręcznik papierowy,sztuka,11.89,1,2.9,środki czystości,False
+biedronka,2024-08-10,34.7,pln,kukurydza kolba,sztuka,3.97,1,,spożywcze,False
+biedronka,2024-08-10,34.7,pln,kukurydza kolba,sztuka,3.97,1,3.97,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ser podlaski,gram,8.99,300,3.6,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ser podlaski,gram,8.99,300,3.6,spożywcze,False
+biedronka,2024-08-10,34.7,pln,jajka ściółkowe,sztuka (x10),8.99,1,,spożywcze,False
+biedronka,2024-08-10,34.7,pln,banany,kilogram,2.76,0.395,0.79,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ręcznik papierowy,sztuka,11.89,1,2.9,środki czystości,False
+biedronka,2024-08-10,34.7,pln,kukurydza kolba,sztuka,3.97,1,,spożywcze,False
+biedronka,2024-08-10,34.7,pln,kukurydza kolba,sztuka,3.97,1,3.97,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ser podlaski,gram,8.99,300,3.6,spożywcze,False
+biedronka,2024-08-10,34.7,pln,ser podlaski,gram,8.99,300,3.6,spożywcze,False
+biedronka,2024-08-10,34.7,pln,jajka ściółkowe,sztuka (x10),8.99,1,,spożywcze,False
+biedronka,2024-08-10,34.7,pln,banany,kilogram,2.76,0.395,0.79,spożywcze,False
+żabka,2024-08-10,9.98,pln,cocacola zero limonka,litr,7.5,0.85,2.51,spożywcze,False
+żabka,2024-08-10,9.98,pln,cocacola zero limonka,litr,7.5,0.85,2.51,spożywcze,False
+rossmann,2024-08-10,12.99,pln,prezerwatywy durex,sztuka (x3),12.99,1,,higiena i kosmetyki,False
+biedronka,2024-07-06,69.53,pln,napój energetyczy monster,mililitr,5.99,500,,spożywcze,False
+biedronka,2024-07-06,69.53,pln,gąbka do kąpieli,sztuka (x4),3.85,1,,higiena i kosmetyki,False
+biedronka,2024-07-06,69.53,pln,chusteczki do sprzątania mr magic,sztuka (x60),6.49,1,,środki czystości,False
+biedronka,2024-07-06,69.53,pln,papier toaletowy (8 rolek),sztuka (x8),6.99,1,2.0,higiena i kosmetyki,False
+biedronka,2024-07-06,69.53,pln,szynka wieprzowa,gram,7.95,80,1.96,spożywcze,False
+biedronka,2024-07-06,69.53,pln,szynka wieprzowa,gram,7.95,80,1.96,spożywcze,False
+biedronka,2024-07-06,69.53,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+biedronka,2024-07-06,69.53,pln,chusteczki higieniczne,sztuka,3.99,1,,higiena i kosmetyki,False
+biedronka,2024-07-06,69.53,pln,makaron ryżowy,gram,6.29,200,,spożywcze,False
+biedronka,2024-07-06,69.53,pln,ser edamski,kilogram,6.1,0.254,1.3,spożywcze,False
+biedronka,2024-07-06,69.53,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-07-06,69.53,pln,cebula żółta,kilogram,0.78,0.15,,spożywcze,False
+biedronka,2024-07-06,69.53,pln,marchew,gram,0.63,0.09,0.27,spożywcze,False
+biedronka,2024-07-06,69.53,pln,cebula dymka,sztuka,2.99,1,,spożywcze,False
+biedronka,2024-07-06,69.53,pln,woda mineralna,litr,10.14,9,1.8,spożywcze,False
+biedronka,2024-07-18,23.46,pln,woda mineralna,litr,10.14,9,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,bułka wrocławska,sztuka,1.09,1,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,bułka wrocławska,sztuka,1.09,1,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,bułka wrocławska,sztuka,1.09,1,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,papryka czerwona,kilogram,8.54,0.57,3.99,spożywcze,False
+biedronka,2024-07-18,23.46,pln,ryż biały długoziarnisty,kilogram,3.99,1,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,jogurt naturalny,gram,0.95,190,,spożywcze,False
+biedronka,2024-07-18,23.46,pln,cebula żółta,kilogram,0.7,0.14,0.14,spożywcze,False
+biedronka,2024-05-11,18.46,pln,baterie paluszki aaa,sztuka (x4),9.99,1,,elektronika,False
+biedronka,2024-05-11,18.46,pln,chlep słoneczniki,sztuka,3.99,1,,spożywcze,False
+biedronka,2024-05-11,18.46,pln,cytryna,kilogram,1.49,0.205,,spożywcze,False
+biedronka,2024-05-11,18.46,pln,surówkimix,gram,2.99,300,,spożywcze,False
+biedronka,2024-05-11,3.89,pln,arbuz,kilogram,6.82,0.975,2.93,spożywcze,False
+biedronka,2024-05-08,5.49,pln,żel do udrożniania rur agent max,kilogram,6.99,1,1.5,środki czystości,False
+biedronka,2024-05-04,112.86,pln,ręcznik papierowy,sztuka,11.99,1,5.0,środki czystości,False
+biedronka,2024-05-04,112.86,pln,ręcznik papierowy,sztuka,11.99,1,5.0,środki czystości,False
+biedronka,2024-05-04,112.86,pln,frytki proste,kilogram,8.99,1,1.8,spożywcze,False
+biedronka,2024-05-04,112.86,pln,frytki proste,kilogram,8.99,1,1.8,spożywcze,False
+biedronka,2024-05-04,112.86,pln,pomidory suszone,gram,13.49,320,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,chusteczki do sprzątania mr magic,sztuka (x80),6.49,1,,środki czystości,False
+biedronka,2024-05-04,112.86,pln,ketchup roleski,gram,6.49,465,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,serek kanapkowy,gram,4.46,150,1.47,spożywcze,False
+biedronka,2024-05-04,112.86,pln,serek kanapkowy,gram,4.46,150,1.47,spożywcze,False
+biedronka,2024-05-04,112.86,pln,sól,kilogram,1.79,1,0.4,spożywcze,False
+biedronka,2024-05-04,112.86,pln,patyczki do uszu bebeauty,sztuka (x200),2.99,1,,higiena i kosmetyki,False
+biedronka,2024-05-04,112.86,pln,ser gouda,gram,4.99,150,0.54,spożywcze,False
+biedronka,2024-05-04,112.86,pln,masło mleczna dolina,gram,5.99,200,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,jogurt wegański kokosowy,gram,2.85,150,0.36,spożywcze,False
+biedronka,2024-05-04,112.86,pln,jogurt wegański kokosowy,gram,2.85,150,0.36,spożywcze,False
+biedronka,2024-05-04,112.86,pln,jogurt wegański kokosowy,gram,2.85,150,0.36,spożywcze,False
+biedronka,2024-05-04,112.86,pln,mozzarella light,gram,2.85,125,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,mozzarella light,gram,2.85,125,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,banany,gram,6.01,0.86,3.56,spożywcze,False
+biedronka,2024-05-04,112.86,pln,brokuł,sztuka,5.72,1,2.86,spożywcze,False
+biedronka,2024-05-04,112.86,pln,brokuł,sztuka,5.72,1,2.86,spożywcze,False
+biedronka,2024-05-04,112.86,pln,szpinak myty,gram,5.89,200,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,makaron spaghetti,gram,3.42,500,1.03,spożywcze,False
+biedronka,2024-05-04,112.86,pln,makaron fusilli,gram,3.42,500,1.02,spożywcze,False
+biedronka,2024-05-04,112.86,pln,makaron tagliatelle,gram,4.59,400,1.37,spożywcze,False
+biedronka,2024-05-04,112.86,pln,rzodkiewka,sztuka,1.99,1,,spożywcze,False
+biedronka,2024-05-04,112.86,pln,rzodkiewka,sztuka,1.99,1,1.99,spożywcze,False
+biedronka,2024-05-18,78.77,pln,woda mineralna,litr,9.54,9,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,serek kanapkowy,gram,3.74,150,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,żel pod prysznic skino,mililitr,4.89,400,,higiena i kosmetyki,False
+biedronka,2024-05-18,78.77,pln,ocet jabłkowy,mililitr,4.99,500,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,chusteczki do sprzątania mr magic,sztuka (x80),6.49,1,,higiena i kosmetyki,False
+biedronka,2024-05-18,78.77,pln,makaron gnocci,gram,4.69,500,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,pieprz kamis,gram,1.99,16,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,pieprz kamis,gram,1.99,16,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,płatki śniadaniowe,gram,3.41,250,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,filet z kurczaka wędlina,gram,3.99,100,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,śmietana 18% mleczna dolina,gram,2.4,200,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,chleb tostowy pszenny,gram,2.99,500,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,szpinak myty,gram,5.89,200,,spożywcze,False
+biedronka,2024-05-18,78.77,pln,ręcznik papierowy,sztuka,11.99,1,,środki czystości,False
+biedronka,2024-05-18,78.77,pln,papier toaletowy (8 rolek),sztuka (x8),7.29,1,,higiena i kosmetyki,False
+biedronka,2024-05-09,65.25,pln,makaron ryżowy,gram,5.99,200,1.5,spożywcze,False
+biedronka,2024-05-09,65.25,pln,makaron ryżowy,gram,5.99,200,1.5,spożywcze,False
+biedronka,2024-05-09,65.25,pln,paluszki rybne,gram,17.13,420,3.14,spożywcze,False
+biedronka,2024-05-09,65.25,pln,paluszki rybne,gram,17.13,420,3.14,spożywcze,False
+biedronka,2024-05-09,65.25,pln,maszynki do golenia,sztuka,9.99,1,,higiena i kosmetyki,False
+biedronka,2024-05-09,65.25,pln,cebula zółta,kilogram,0.99,0.25,,spożywcze,False
+biedronka,2024-05-09,65.25,pln,kaszanka,kilogram,3.92,0.236,,spożywcze,False
+biedronka,2024-05-09,65.25,pln,banany,kilogram,5.42,0.775,,spożywcze,False
+biedronka,2024-05-09,65.25,pln,czosnek,sztuka,1.98,1,,spożywcze,False
+biedronka,2024-05-09,65.25,pln,sos sojowy,mililitr,5.99,500,,spożywcze,False
+biedronka,2024-05-18,13.72,pln,jogurt naturalny,gram,0.99,190,,spożywcze,False
+biedronka,2024-05-18,13.72,pln,truskawka,gram,10.98,500,4.99,spożywcze,False
+biedronka,2024-05-18,13.72,pln,arbuz,kilogram,13.5,1.932,6.76,spożywcze,False
+biedronka,2024-05-13,31.98,pln,papier do pieczenia,sztuka,7.49,1,,wyposażenie kuchnii,False
+biedronka,2024-05-13,31.98,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-13,31.98,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-13,31.98,pln,bułka grahamka,sztuka,0.83,1,,spożywcze,False
+biedronka,2024-05-13,31.98,pln,pieczarki,gram,6.99,500,2.0,spożywcze,False
+biedronka,2024-05-13,31.98,pln,chleb tostowy pszenny,gram,3.19,500,,spożywcze,False
+biedronka,2024-05-13,31.98,pln,ser edamski,kilogram,8.54,0.356,1.46,spożywcze,False
+biedronka,2024-05-13,31.98,pln,filet z kurczaka wędlina,gram,3.89,100,,spożywcze,False
+biedronka,2024-05-13,31.98,pln,mozzarella light,gram,2.85,125,,spożywcze,False
+biedronka,2024-05-11,61.04,pln,"mlekouht 0,5%",litr,2.99,1,0.5,spożywcze,False
+biedronka,2024-05-11,61.04,pln,"mlekouht 0,5%",litr,2.99,1,0.5,spożywcze,False
+biedronka,2024-05-11,61.04,pln,"mlekouht 0,5%",litr,2.99,1,0.5,spożywcze,False
+biedronka,2024-05-11,61.04,pln,spritezero,litr,6.99,1,,spożywcze,False
+biedronka,2024-05-11,61.04,pln,jajka ściółkowe,sztuka (x10),8.99,1,2.25,spożywcze,False
+biedronka,2024-05-11,61.04,pln,jajka ściółkowe,sztuka (x10),8.99,1,2.25,spożywcze,False
+biedronka,2024-05-11,61.04,pln,serek twarogowy proteinowy brzoskwinia-marakuja,gram,3.35,200,0.66,spożywcze,False
+biedronka,2024-05-11,61.04,pln,serek twarogowy proteinowy malinowy,gram,3.35,200,0.66,spożywcze,False
+biedronka,2024-05-11,61.04,pln,serek kanapkowy,gram,3.74,150,,spożywcze,False
+biedronka,2024-05-11,61.04,pln,antyperperant sztyft,sztuka,16.99,1,5.0,higiena i kosmetyki,False
+biedronka,2024-05-11,61.04,pln,antyperperant sztyft,sztuka,16.99,1,5.0,higiena i kosmetyki,False
+biedronka,2024-05-08,26.97,pln,wafle kakaowe,gram,2.47,138,0.48,spożywcze,False
+biedronka,2024-05-08,26.97,pln,wafle kakaowe,gram,2.47,138,0.48,spożywcze,False
+biedronka,2024-05-08,26.97,pln,półbagietka,sztuka,1.25,1,0.06,spożywcze,False
+biedronka,2024-05-08,26.97,pln,półbagietka,sztuka,1.25,1,0.06,spożywcze,False
+biedronka,2024-05-08,26.97,pln,ryż biały długoziarnisty,kilogram,3.8,1,,spożywcze,False
+biedronka,2024-05-08,26.97,pln,mąka tortowa,kilogram,2.29,1,,spożywcze,False
+biedronka,2024-05-08,26.97,pln,filet z kurczaka wędlina,gram,3.89,100,0.9,spożywcze,False
+biedronka,2024-05-08,26.97,pln,filet z kurczaka wędlina,gram,3.89,1,0.9,spożywcze,False
+biedronka,2024-05-08,26.97,pln,soda oczyszczona,gram,1.09,70,,spożywcze,False
+biedronka,2024-05-08,26.97,pln,majonez go vege,gram,3.89,280,,spożywcze,False
+biedronka,2024-05-08,26.97,pln,kostka rosołowa culineo,gram,2.09,120,,spożywcze,False
+biedronka,2024-05-08,26.97,pln,banany,kilogram,3.6,0.515,2.13,spożywcze,False
+biedronka,2024-05-20,48.95,pln,napój energetyczy be power,litr,3.19,0.5,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,śmietana 18% mleczna dolina,gram,3.19,330,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,serek kanapkowy,gram,3.74,150,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,pasta do zębów colgate,mililitr,7.99,75,,higiena i kosmetyki,False
+biedronka,2024-05-20,48.95,pln,pasta do zębów colgate,mililitr,7.99,75,,higiena i kosmetyki,False
+biedronka,2024-05-20,48.95,pln,pomidory w puszce,gram,2.99,240,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,pomidory w puszce,gram,2.99,240,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,"kefir 1,5%",gram,2.39,400,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,cytryna,kilogram,1.33,0.19,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,sól,kilogram,1.79,1,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,czosnek,sztuka,1.98,1,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,cebula żółta,kilogram,1.3,0.335,0.3,spożywcze,False
+biedronka,2024-05-20,48.95,pln,chleb pasterski ręcznie zawijany,sztuka,4.19,1,,spożywcze,False
+biedronka,2024-05-20,48.95,pln,tortilla,gram,4.19,306,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,płyn micelarny evelina kosmetyczna,mililitr,23.99,750,,higiena i kosmetyki,False
+biedronka,2024-05-12,73.66,pln,bułka grahamka,sztuka,0.79,1,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,bułka grahamka,sztuka,0.79,1,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,masło,gram,7.49,200,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,żelki kółka,gram,4.39,200,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,czekolada mleczno-gorzka wedel,gram,4.49,80,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,czekolada gorzka wedel,gram,4.49,90,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,czekolada gorzka wedel,gram,4.49,90,,spożywcze,False
+biedronka,2024-05-12,73.66,pln,nektarynki,kilogram,7.82,0.46,5.06,spożywcze,False
+biedronka,2024-05-12,73.66,pln,lakier do baznokci brzoskwiniowy,mililitr,12.99,5,,higiena i kosmetyki,False
+biedronka,2024-05-12,73.66,pln,kakao magnetic,gram,6.99,200,,spożywcze,False
+lidl,2024-08-12,22.55,pln,filet z kurczaka wędlina,gram,2.99,75,0.9,spożywcze,False
+lidl,2024-08-12,22.55,pln,filet z kurczaka wędlina,gram,2.99,75,0.9,spożywcze,False
+lidl,2024-08-12,22.55,pln,sałata lodowa,sztuka,3.99,1,,spożywcze,False
+lidl,2024-08-12,22.55,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-12,22.55,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-12,22.55,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-12,22.55,pln,zupka chińska vifon,gram,0.8,70,,spożywcze,False
+lidl,2024-08-12,22.55,pln,kabanosy tarczyński premium,gram,4.99,90,,spożywcze,False
+lidl,2024-08-12,22.55,pln,chleb włoski,sztuka,4.19,1,,spożywcze,False
+lidl,2024-08-12,22.55,pln,ogórki szklarniowe,kilogram,2.0,0.2,,spożywcze,False
+biedronka,2024-08-12,8.66,pln,napój izotoniczny 4move,litr,2.99,0.75,,spożywcze,False
+biedronka,2024-08-12,8.66,pln,cukierki mentos,gram,4.99,76,,spożywcze,False
+biedronka,2024-08-12,8.66,pln,marchew,kilogram,0.97,0.195,0.29,spożywcze,False
+biedronka,2024-08-13,10.48,pln,cukierki karmelki owocowe,gram,6.99,300,,spożywcze,False
+biedronka,2024-08-13,10.48,pln,landrynki lodowe,gram,3.49,150,,spożywcze,False
+żabka,2024-08-13,9.98,pln,napój energetyczy monster,litr,4.99,0.5,,spożywcze,False
+żabka,2024-08-13,9.98,pln,napój energetyczy monster,litr,4.99,0.5,,spożywcze,False
+biedronka,2024-08-14,29.61,pln,kabanosy tarczyński,gram,4.99,90,,spożywcze,False
+biedronka,2024-08-14,29.61,pln,chipsy topchips w tubie,gram,4.99,100,,spożywcze,False
+biedronka,2024-08-14,29.61,pln,kostka do wc agent max,sztuka (x3),9.99,1,,środki czystości,False
+biedronka,2024-08-14,29.61,pln,półbagietka,sztuka,1.25,1,,spożywcze,False
+biedronka,2024-08-14,29.61,pln,cheeseburger yeemy,gram,8.39,190,,spożywcze,False
+action,2024-08-16,18.97,pln,środek nabłyszczający do zmywarki,mililitr,5.49,1000,,środki czystości,False
+action,2024-08-16,18.97,pln,napój herbaciany arizona,mililitr,3.99,50,,spożywcze,False
+action,2024-08-16,18.97,pln,żel pod prysznic,mililitr,9.49,750,,higiena i kosmetyki,False
+mediaexpert,2024-08-16,119.0,pln,plecak na plecak,sztuka,119.0,1,,elektronika,False
+lidl,2024-08-16,101.03,pln,woda mineralna,litr,20.28,18,7.36,spożywcze,False
+lidl,2024-08-16,101.03,pln,lód rożek,mililitr,1.29,120,1.28,spożywcze,False
+lidl,2024-08-16,101.03,pln,lód rożek,mililitr,1.29,120,1.28,spożywcze,False
+lidl,2024-08-16,101.03,pln,nektarynki,kilogram,3.91,0.326,2.31,spożywcze,False
+lidl,2024-08-16,101.03,pln,filet z piersi kurczaka,kilogram,10.64,0.56,0.96,spożywcze,False
+lidl,2024-08-16,101.03,pln,filet z piersi kurczaka,kilogram,10.17,0.535,0.92,spożywcze,False
+lidl,2024-08-16,101.03,pln,ser twardy,gram,8.49,150,0.76,spożywcze,False
+lidl,2024-08-16,101.03,pln,por,kilogram,6.54,0.385,1.18,spożywcze,False
+lidl,2024-08-16,101.03,pln,płatki musli,gram,5.99,350,1.09,spożywcze,False
+lidl,2024-08-16,101.03,pln,napój energetyczy monster,mililitr,4.99,500,0.45,spożywcze,False
+lidl,2024-08-16,101.03,pln,patyczki do uszu,sztuka (x300),4.79,1,0.43,higiena i kosmetyki,False
+lidl,2024-08-16,101.03,pln,bio napój owsiany,litr,4.46,1,0.4,spożywcze,False
+lidl,2024-08-16,101.03,pln,antyperperant w kulce,mililitr,4.49,50,0.4,higiena i kosmetyki,False
+lidl,2024-08-16,101.03,pln,chusteczki higieniczne,sztuka,4.29,1,0.39,higiena i kosmetyki,False
+lidl,2024-08-16,101.03,pln,chusteczki kosmetyczne,sztuka (x150),3.99,1,0.36,higiena i kosmetyki,False
+lidl,2024-08-16,101.03,pln,śmietana 18%,gram,3.86,400,0.35,spożywcze,False
+lidl,2024-08-16,101.03,pln,worki na śmieci 25l,sztuka (x30),3.69,1,0.33,środki czystości,False
+lidl,2024-08-16,101.03,pln,lód rożek,mililitr,1.79,120,0.16,spożywcze,False
+lidl,2024-08-16,101.03,pln,lód rożek,mililitr,1.79,120,0.16,spożywcze,False
+lidl,2024-08-16,101.03,pln,"mlekouht 0,5%",litr,3.14,1,0.28,spożywcze,False
+lidl,2024-08-16,101.03,pln,chleb tostowy pszenny,kilogram,2.99,500,0.27,spożywcze,False
+lidl,2024-08-16,101.03,pln,filet z kurczaka wędlina,gram,2.99,75,0.27,spożywcze,False
+lidl,2024-08-16,101.03,pln,filet z kurczaka wędlina,gram,2.99,75,0.27,spożywcze,False
+lidl,2024-08-16,101.03,pln,guma do żucia 21szt,gram,1.75,29,0.16,spożywcze,False
+lidl,2024-08-16,101.03,pln,zupka chińska vifon,gram,1.49,70,0.13,spożywcze,False
+lidl,2024-08-16,101.03,pln,reklamówka,sztuka,0.79,1,0.07,inne,False
+lidl,2024-08-16,101.03,pln,marchew młoda,kilogram,0.21,0.106,0.04,spożywcze,False
+szefito papito kebab,2024-08-16,48.0,pln,kebab średni,sztuka,23.0,1,,spożywcze,False
+szefito papito kebab,2024-08-16,48.0,pln,kebab średni,sztuka,23.0,1,,spożywcze,False
+szefito papito kebab,2024-08-16,48.0,pln,opakowanie,sztuka,1.0,1,,inne,False
+szefito papito kebab,2024-08-16,48.0,pln,opakowanie,sztuka,1.0,1,,inne,False
+stokrotka,2024-08-17,16.78,pln,chrupki star mr snaki,gram,6.99,125,,spożywcze,False
+stokrotka,2024-08-17,16.78,pln,prezerwatywy durex,sztuka (x3),9.79,1,,higiena i kosmetyki,False
+biedronka,2024-08-17,21.77,pln,olej kujawski,litr,9.49,1,,spożywcze,False
+biedronka,2024-08-17,21.77,pln,bułka śniadaniowa pełnoziarnista,sztuka,1.25,1,,spożywcze,False
+biedronka,2024-08-17,21.77,pln,bułka śniadaniowa pełnoziarnista,sztuka,1.25,1,,spożywcze,False
+biedronka,2024-08-17,21.77,pln,cola oryginal zero,litr,3.99,1.5,1.0,spożywcze,False
+biedronka,2024-08-17,21.77,pln,cola oryginal zero,litr,3.99,1.5,1.0,spożywcze,False
+biedronka,2024-08-17,21.77,pln,brzoskwinie,kilogram,4.51,0.475,1.19,spożywcze,False
+biedronka,2024-08-17,21.77,pln,banany,kilogram,1.12,0.16,0.64,spożywcze,False
+żabka,2024-08-18,6.99,pln,napój energetyczy dzik,litr,6.99,0.5,,spożywcze,False
+circle k,2024-08-19,227.73,pln,benzyna 95pb,litr,227.73,36.79,,transport,False
+lidl,2024-08-19,34.73,pln,pasta do zębów colgate whitening,mililitr,9.99,75,2.5,higiena i kosmetyki,False
+lidl,2024-08-19,34.73,pln,pasta do zębów colgate whitening,mililitr,9.99,75,2.5,higiena i kosmetyki,False
+lidl,2024-08-19,34.73,pln,guma do żucia 21szt,gram,3.99,29,,spożywcze,False
+lidl,2024-08-19,34.73,pln,serek kanapkowy,gram,3.74,150,,spożywcze,False
+lidl,2024-08-19,34.73,pln,pomidory malinowe,kilogram,1.84,0.184,,spożywcze,False
+lidl,2024-08-19,34.73,pln,sałata lodowa,gram,5.99,400,,spożywcze,False
+lidl,2024-08-19,34.73,pln,chleb włoski,sztuka,4.19,1,,spożywcze,False
+apteka orchis,2024-08-19,7.99,pln,allefin allergy,sztuka (x10),7.99,1,,zdrowie,False
+lidl,2024-08-20,36.5,pln,chrupki serowe snack day,gram,8.99,300,0.9,spożywcze,False
+lidl,2024-08-20,36.5,pln,chrupki serowe snack day,gram,8.99,300,0.9,spożywcze,False
+lidl,2024-08-20,36.5,pln,płatki musli,gram,5.99,350,0.6,spożywcze,False
+lidl,2024-08-20,36.5,pln,ogórki gruntowe,kilogram,1.38,0.138,0.14,spożywcze,False
+lidl,2024-08-20,36.5,pln,przyprawa kebab-gyros,gram,1.19,30,0.12,spożywcze,False
+lidl,2024-08-20,36.5,pln,jabłka czerwone,kilogram,0.76,0.19,0.08,spożywcze,False
+lidl,2024-08-20,36.5,pln,mięso z nogi kurczaka,kilogram,10.9,0.496,,spożywcze,False
+lidl,2024-08-20,36.5,pln,jogurt naturalny,gram,1.04,200,,spożywcze,False
+piekarnia bochenek,2024-08-22,9.0,pln,rogal z czekoladą,sztuka,4.5,1,,spożywcze,False
+piekarnia bochenek,2024-08-22,9.0,pln,rogal z czekoladą,sztuka,4.5,1,,spożywcze,False
+piekarnia bochenek,2024-08-23,9.0,pln,mini pizza,sztuka,4.5,1,,spożywcze,False
+piekarnia bochenek,2024-08-23,9.0,pln,mini pizza,sztuka,4.5,1,,spożywcze,False
+lidl,2024-08-21,21.95,pln,ser carski,gram,7.93,250,2.94,spożywcze,False
+lidl,2024-08-21,21.95,pln,ser carski,gram,7.93,250,2.94,spożywcze,False
+lidl,2024-08-21,21.95,pln,płatki musli,gram,5.99,350,,spożywcze,False
+lidl,2024-08-21,21.95,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+lidl,2024-08-21,21.95,pln,filet z kurczaka wędlina,gram,2.99,75,,spożywcze,False
+żabka,2024-08-21,11.8,pln,napój energetyczy monster,litr,6.99,0.5,1.09,spożywcze,False
+żabka,2024-08-21,11.8,pln,napój energetyczy monster,litr,6.99,0.5,1.09,spożywcze,False
+good lood,2024-08-22,8.0,pln,gałka lodów o smaku ciasteczek korzennych,sztuka,8.0,1,,bilety i wyjścia z domu,False
+kebab pod 13,2024-08-25,58.0,pln,kebab lawasz kurczak,sztuka,28.0,1,,bilety i wyjścia z domu,False
+kebab pod 13,2024-08-25,58.0,pln,kebab lawasz kurczak + jagnięcina,sztuka,30.0,1,,bilety i wyjścia z domu,False
+carrefour,2024-08-25,9.35,pln,Starbucks Skinny Latte Mleczny Napój kawowy,mililitr,9.35,220,,bilety i wyjścia z domu,False
+rossmann,2024-08-24,5.49,pln,płyn do mycia szyb (uzupełniacz) domol,mililitr,5.49,750,,środki czystości,False
+Nowohuckie centrum kultury,2024-08-11,30.0,pln,bilet wstępu na wystawe Beksiński,sztuka,15.0,1,,bilety i wyjścia z domu,False
+Nowohuckie centrum kultury,2024-08-11,30.0,pln,bilet wstępu na wystawe Beksiński,sztuka,15.0,1,,bilety i wyjścia z domu,False
+biedronka,2024-08-26,4.49,pln,cola oryginal zero,litra,4.49,1.5,,spożywcze,False
+rossmann,2024-08-24,24.47,pln,żel pod prysznic isana,mililitr,4.69,300,1.7,higiena i kosmetyki,False
+rossmann,2024-08-24,24.47,pln,antyperperant w kulce adidas,mililitr,12.99,50,3.0,higiena i kosmetyki,False
+rossmann,2024-08-24,24.47,pln,żel do golenia isana,mililitr,11.49,200,,higiena i kosmetyki,False
+pepco,2024-08-22,9.0,pln,spinki do włosów,sztuka,2.0,1,,ubrania i garderoba,False
+pepco,2024-08-22,9.0,pln,baterie paluszki aa,sztuka (x8),5.0,1,,elektronika,False
+pepco,2024-08-22,9.0,pln,magiczna gąbka,sztuka (x2),2.0,1,,środki czystości,False
+KFC,2024-08-24,68.97,pln,sos kentucky gold,sztuka,2.49,1,,spożywcze z dostawą,True
+KFC,2024-08-24,68.97,pln,sos kentucky gold,sztuka,2.49,1,,spożywcze z dostawą,True
+KFC,2024-08-24,68.97,pln,kubełek opakowanie,sztuka,0.27,1,,spożywcze z dostawą,True
+KFC,2024-08-24,68.97,pln,11 strips,sztuka,36.0,1,,spożywcze z dostawą,True
+KFC,2024-08-24,68.97,pln,11 hot wings,sztuka,27.72,1,,spożywcze z dostawą,True
+rossmann,2024-08-22,47.97,pln,pianka do golenia venus,mililitr,9.99,200,3.0,higiena i kosmetyki,False
+rossmann,2024-08-22,47.97,pln,eveline liquid korektor,mililitr,25.99,7,8.5,higiena i kosmetyki,False
+rossmann,2024-08-22,47.97,pln,maybeline tusz do rzęs,mililitr,42.99,9.5,19.5,higiena i kosmetyki,False
