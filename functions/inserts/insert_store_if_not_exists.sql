@@ -16,7 +16,7 @@ BEGIN
     END IF;
 
     IF p_website IS NOT NULL AND v_store_row.website IS NULL THEN
-        -- UPDATE ROW WITH NEW WEBSITE IF OLD ONE IS NULL 
+        v_store_row := update_store_website(v_store_row.store_id, p_website); 
     END IF;
 
     RETURN v_store_row;
