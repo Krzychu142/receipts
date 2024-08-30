@@ -10,8 +10,29 @@ RETURNS record AS $$
 DECLARE
  v_product_row record;
 BEGIN
-    -- SELECT product by name and category_id 
-    
+    v_product_row = select_product_by_name_and_category_id(p_name, p_category_id);
+
+    IF v_product_row IS NULL THEN
+        -- NOT EXISTS
+        
+    ELSE
+    -- LOGIC HERE IS - IF PRODUCT ALREADY HAS A PROPERTY, DO NOT CHANGE IT!
+    -- ONLY IF THE PROPERTY IS CURRENTLY NULL AND A NON-NULL VALUE IS PROVIDED AS A PARAMETER
+    -- THIS RULE APPLIES ONLY TO OPTIONAL PROPERTIES
+        IF v_product_row.product_link IS NULL 
+            AND v_product_row.description IS NULL 
+            AND p_product_link IS NOT NULL 
+            AND p_description IS NOT NULL 
+        THEN
+            -- UPDATE BOTH
+        END IF;
+        IF v_product_row.product_link IS NULL AND p_product_link IS NOT NULL THEN
+            -- UPDATE ONE
+        END IF;
+        IF v_product_row.description IS NULL AND p_description IS NOT NULL THEN
+            -- UPDATE ONE 
+        END IF;
+    END IF;
     -- IF EXISTS 
         -- CHECK IS P_DESCRIPTION IS NOT NULL AND row.DESCRIPTION IS NULL
         -- UPDATE DESC
