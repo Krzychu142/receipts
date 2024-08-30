@@ -6920,5 +6920,55 @@
 				"kategoria": "higiena i kosmetyki"
 			}
 		]
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-29",
+		"suma": 9.98,
+		"waluta": "pln",
+		"adres": "Adama Bochenka 10/3 30-693 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		]
+	},
+	{
+		"sklep": "żabka",
+		"data-zakupów": "2024-08-30",
+		"suma": 9.98,
+		"waluta": "pln",
+		"adres": "Adama Bochenka 10/3 30-693 Kraków",
+		"strona_internetowa": "",
+		"czy_internetowy": false,
+		"produkty": [
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			},
+			{
+				"nazwa": "napój energetyczy monster",
+				"jednostka": "mililitr",
+				"cena": 4.99,
+				"ilość": 500,
+				"kategoria": "spożywcze"
+			}
+		]
 	}
 ]
