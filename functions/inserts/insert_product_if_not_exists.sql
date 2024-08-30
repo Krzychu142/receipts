@@ -24,20 +24,16 @@ BEGIN
             AND p_product_link IS NOT NULL 
             AND p_description IS NOT NULL 
         THEN
-            -- UPDATE BOTH
+            v_product_row := update_product_description_and_product_link(v_product_row.product_id, p_description, p_product_link);
         END IF;
         IF v_product_row.product_link IS NULL AND p_product_link IS NOT NULL THEN
-            -- UPDATE ONE
+            v_product_row := update_product_product_link(v_product_row.product_id, p_product_link);
         END IF;
         IF v_product_row.description IS NULL AND p_description IS NOT NULL THEN
-            -- UPDATE ONE 
+            v_product_row := update_product_description(v_product_row.product_id, p_description);
         END IF;
     END IF;
-    -- IF EXISTS 
-        -- CHECK IS P_DESCRIPTION IS NOT NULL AND row.DESCRIPTION IS NULL
-        -- UPDATE DESC
-        -- CHECK IS P_PRODUCT_LINK IS NOT NULL AND row.P_PRODUCT_LINK IS NULL
-        -- UPDATE PRODUCT_LINK
+
     -- IF NOT EXISTS
         -- CHECK IS CATEGORY WITH THIS CATEGORY_ID EXISTS
             -- IF NOT - RAISE EXCEPTION
