@@ -13,7 +13,8 @@ BEGIN
 
     IF p_description IS NOT NULL AND v_currency_row.description IS NULL THEN
         v_currency_row := update_currency_description(v_currency_row.currency_id, p_description);             
-    END IF;  
+    END IF;
 
+    RETURN v_currency_row;
 END;
 $$ LANGUAGE plpgsql;
