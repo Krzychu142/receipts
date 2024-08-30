@@ -12,8 +12,7 @@ BEGIN
     END IF;
 
     IF p_description IS NOT NULL AND v_currency_row.description IS NULL THEN
-        -- if description for old one row was null and for the same code we have desc in data - change desc for this notnull one
-               
+        v_currency_row := update_currency_description(v_currency_row.currency_id, p_description);             
     END IF;  
 
 END;
