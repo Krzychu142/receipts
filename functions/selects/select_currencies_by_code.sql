@@ -1,11 +1,11 @@
-CREATE OR REPLACE FUNCTION select_currencies_by_code(p_code VARCHAR) RETURNS record AS $$ 
+CREATE OR REPLACE FUNCTION select_currencies_by_code(p_code VARCHAR(10)) RETURNS record AS $$ 
 DECLARE
-    v_currencies_row record;
+    v_currency_row record;
 BEGIN
-    SELECT * INTO v_currencies_row
+    SELECT * INTO v_currency_row
     FROM currencies
     WHERE code = p_code;
 
-    RETURN v_currencies_row;
+    RETURN v_currency_row;
 END; 
 $$ LANGUAGE plpgsql; 

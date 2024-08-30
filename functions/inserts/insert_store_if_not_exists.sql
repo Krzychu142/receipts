@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION insert_store_if_not_exists (
-        p_name VARCHAR,
-        p_address VARCHAR,
-        p_website VARCHAR
+        p_name VARCHAR(180),
+        p_address VARCHAR(255),
+        p_website VARCHAR(255)
     ) RETURNS record AS $$
 DECLARE 
     v_store_row record;
