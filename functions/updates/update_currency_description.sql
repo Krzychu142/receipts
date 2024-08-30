@@ -8,7 +8,7 @@ BEGIN
     WHERE currency_id = p_currency_id
     RETURNING * INTO v_currency_row;
 
-    IF v_currency_row.currency_id IS NULL THEN 
+    IF v_currency_row IS NULL THEN 
         RAISE EXCEPTION 'Currency with ID % not found', p_currency_id;
     END IF;
 

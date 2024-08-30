@@ -7,7 +7,7 @@ BEGIN
     WHERE store_id = p_store_id
     RETURNING * INTO v_store_row;
     
-    IF v_store_row.store_id IS NULL THEN 
+    IF v_store_row IS NULL THEN 
         RAISE EXCEPTION 'Store with ID % not found', p_store_id;
     END IF;
 

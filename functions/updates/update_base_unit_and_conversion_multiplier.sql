@@ -10,9 +10,15 @@ BEGIN
     PERFORM validate_base_unit_and_conversion_multiplier(p_base_unit, p_conversion_multiplier);
 
     UPDATE units
-    SET base_unit = p_base_unit, conversion_multiplier = p_conversion_multiplier
+    SET 
+        base_unit = p_base_unit, 
+        conversion_multiplier = p_conversion_multiplier
     WHERE unit_id = p_unit_id
     RETURNING * INTO v_unit_row;
+
+    IF v_unit_row IS NULL THEN
+        RAISE EXCEPTION 'Unit with ID % not found', p_unit_id;
+    END IF; 
 
     RETURN v_unit_row;
 END;
