@@ -3,10 +3,14 @@ RETURNS record AS $$
 DECLARE
     v_category_row record;
 BEGIN
-    -- SELECT CATEGORY BY NAME
+    v_category_row := select_category_by_name(p_name);
 
-    -- CHECK IS CATEGORY EXISTS - IF NOT INSERT NEW ONE
+    IF v_category_row IS NULL THEN
+        INSERT INTO categories (name)
+        VALUES (p_name)
+        RETURNING * INTO v_category_row;
+    END IF;
 
-    -- RETURN CATEGORY ROW
+    RETURN v_category_row;
 END;
 $$ LANGUAGE plpqsql; 
