@@ -10,6 +10,12 @@ RETURNS record AS $$
 DECLARE
     v_receipt_row record;
 BEGIN
+    -- SELECT receipt 
+    -- IF NOT EXISTS
+        -- CHECK IS store_id IS VALID STORE
+        -- CHECK IS currency_id IS VALID CURRENCY
+        -- INSERT
 
+    RETURN v_receipt_row;
 END;
 $$ LANGUAGE plpgsql;
