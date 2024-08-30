@@ -1,4 +1,5 @@
-CREATE OR REPLACE FUNCTION select_currencies_by_code(p_code VARCHAR(10)) RETURNS record AS $$ 
+CREATE OR REPLACE FUNCTION select_currencies_by_code(p_code VARCHAR(10)) 
+RETURNS record AS $$ 
 DECLARE
     v_currency_row record;
 BEGIN
