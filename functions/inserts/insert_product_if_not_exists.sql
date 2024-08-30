@@ -9,12 +9,19 @@ CREATE OR REPLACE FUNCTION insert_product_if_not_exists(
 RETURNS record AS $$
 DECLARE
  v_product_row record;
+ v_category_row record;
 BEGIN
-    v_product_row = select_product_by_name_and_category_id(p_name, p_category_id);
+    v_product_row := select_product_by_name_and_category_id(p_name, p_category_id);
 
     IF v_product_row IS NULL THEN
-        -- NOT EXISTS
-        
+        v_category_row := select_category_by_id(p_category_id);
+        IF v_category_row IS NULL THEN
+            RAISE EXCEPTION 'Category with ID % not found. Product name: %', p_category_id, p_name;
+        END IF;
+
+        INSERT INTO products (name, category_id, product_link, is_virtual, is_fee, description)
+        VALUES (p_name, p_category_id, p_product_link, p_is_virtual, p_is_fee, p_description)
+        RETURNING * INTO v_product_row;
     ELSE
     -- LOGIC HERE IS - IF PRODUCT ALREADY HAS A PROPERTY, DO NOT CHANGE IT!
     -- ONLY IF THE PROPERTY IS CURRENTLY NULL AND A NON-NULL VALUE IS PROVIDED AS A PARAMETER
@@ -34,11 +41,6 @@ BEGIN
         END IF;
     END IF;
 
-    -- IF NOT EXISTS
-        -- CHECK IS CATEGORY WITH THIS CATEGORY_ID EXISTS
-            -- IF NOT - RAISE EXCEPTION
-        -- INSERT NEW PRODUCT
-
     RETURN v_product_row;
 END;
-$$ LANGUAGE plpqsql;
+$$ LANGUAGE plpgsql;

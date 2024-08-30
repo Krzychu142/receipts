@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION select_unit_by_unit_id(p_unit_id INT)
+CREATE OR REPLACE FUNCTION select_unit_by_id(p_unit_id INT)
 RETURNS record AS $$
 DECLARE
     v_unit_row record;

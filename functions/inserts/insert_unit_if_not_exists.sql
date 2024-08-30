@@ -14,7 +14,7 @@ BEGIN
         PERFORM validate_base_unit_and_conversion_multiplier(p_base_unit, p_conversion_multiplier);
 
         IF p_base_unit IS NOT NULL AND p_conversion_multiplier IS NOT NULL THEN
-            v_base_unit_row := select_unit_by_unit_id(p_base_unit);
+            v_base_unit_row := select_unit_by_id(p_base_unit);
             IF v_base_unit_row IS NULL THEN
                 RAISE EXCEPTION 'Provided base unit does not exist. p_base_unit: %', p_base_unit;  
             END IF;

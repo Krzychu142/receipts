@@ -13,4 +13,4 @@ BEGIN
 
     RETURN v_category_row;
 END;
-$$ LANGUAGE plpqsql; 
+$$ LANGUAGE plpgsql; 
