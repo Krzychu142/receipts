@@ -11,7 +11,15 @@ DECLARE
     v_receipt_row record;
 CREATE
 
-    v_receipt_row := select_receipt_by_unique_receipt();
+    v_receipt_row := select_receipt_by_unique_receipt(p_store_id, p_currency_id, p_total);
+
+    IF v_receipt_row IS NULL THEN
+      -- not exists
+    ELSE
+        -- exists
+        -- is old receipt_date is null and new is not null
+            -- update_receipt_scan_by_id()
+    END IF;
 
 END;
 $$ LANGUAGE plpgsql;
