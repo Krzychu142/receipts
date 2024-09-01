@@ -11,7 +11,14 @@ DECLARE
     v_receipt_row record;
 CREATE
 
-    v_receipt_row := select_receipt_by_unique_receipt(p_store_id, p_currency_id, p_total);
+    v_receipt_row := select_receipt_by_unique_receipt(
+        p_store_id, 
+        p_currency_id, 
+        p_total, 
+        p_receipt_date,
+        p_is_online,
+        p_receipt_scan 
+    );
 
     IF v_receipt_row IS NULL THEN
       -- not exists
