@@ -15,6 +15,11 @@ CREATE
 
     IF v_receipt_row IS NULL THEN
       -- not exists
+      -- check is p_store_id valid object
+      -- if not raise error
+      -- check is p_currency_id valid object 
+      -- if not raise error
+      -- insert new object
     ELSE
         -- exists
         -- is old receipt_date is null and new is not null
