@@ -11,7 +11,7 @@ DECLARE
     v_receipt_row record;
     v_store_row record;
     v_currency_row record;
-CREATE
+BEGIN
     v_receipt_row := select_receipt_by_unique_receipt(
         p_store_id, 
         p_currency_id, 
@@ -31,7 +31,7 @@ CREATE
             RAISE EXCEPTION 'Currency with ID % not found', p_currency_id;
         END IF;
 
-        INSERT receipts (
+        INSERT INTO receipts (
             store_id, 
             currency_id, 
             total,
