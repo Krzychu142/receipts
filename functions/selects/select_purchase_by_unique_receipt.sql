@@ -15,6 +15,14 @@ BEGIN
     SELECT * INTO v_purchase_row
     FROM purchases
     WHERE
-        product_id = p_purchase_id
+        product_id = p_purchase_id AND
+        unit_id = p_unit_id AND 
+        receipt_id = p_receipt_id AND
+        price = p_price AND
+        discount = p_discount AND
+        is_warranty = p_is_warranty AND
+        warranty_expiration_date = p_warranty_expiration_date; 
+
+    RETURN v_purchase_row;
 END;
 $$ LANGUAGE plpgsql;
