@@ -7,7 +7,7 @@ DECLARE
     v_product_row record;
 BEGIN
     UPDATE products
-    SET product_link = p_product_link, 
+    SET product_link = p_product_link 
     WHERE product_id = p_product_id
     RETURNING * INTO v_product_row;
 
