@@ -48,10 +48,10 @@ BEGIN
             p_receipt_scan  
         )
         RETURNING * INTO v_receipt_row;
-    ELSE
-        IF v_receipt_row.receipt_scan IS NULL AND p_receipt_scan IS NOT NULL THEN
-            v_receipt_row := update_receipt_scan_by_id(v_receipt_row.receipt_id, p_receipt_scan);
-        END IF;
+    -- ELSE
+    --     IF v_receipt_row.receipt_scan IS NULL AND p_receipt_scan IS NOT NULL THEN
+    --         v_receipt_row := update_receipt_scan_by_id(v_receipt_row.receipt_id, p_receipt_scan);
+    --     END IF;
     END IF;
 
     RETURN v_receipt_row;
