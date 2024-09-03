@@ -5,6 +5,7 @@ CREATE TABLE csv_plain_data (
     suma NUMERIC,
     adres VARCHAR(255),
     waluta VARCHAR(10),
+    opis_waluty VARCHAR(80),
     nazwa_produktu VARCHAR(255),
     jednostka VARCHAR(50),
     cena NUMERIC,
@@ -15,7 +16,7 @@ CREATE TABLE csv_plain_data (
     strona_internetowa VARCHAR(255)
 );
 
--- \copy csv_plain_data(sklep, data_zakupow, suma, adres, waluta, nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy, strona_internetowa)
+-- \copy csv_plain_data(sklep, data_zakupow, suma, adres, waluta, opis_waluty,  nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy, strona_internetowa)
 -- FROM '/home/krzysiek/projects/receipt-project-sql/data/data.csv'
 -- DELIMITER ','
 -- CSV HEADER;
