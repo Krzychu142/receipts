@@ -10,12 +10,10 @@ DECLARE
     currency_description VARCHAR(80);
     v_currency_row record;
 BEGIN
-
-    FOR record_data IN 
-        SELECT * FROM csv_plain_data
-    LOOP
-        BEGIN
-
+    BEGIN
+        FOR record_data IN 
+            SELECT * FROM csv_plain_data
+        LOOP
             store_name := record_data.sklep;
             PERFORM validate_parameter_is_not_null(store_name, 'Store name');
             store_address := COALESCE(record_data.adres, '');
@@ -28,11 +26,10 @@ BEGIN
             currency_description := record_data.opis_waluty;
 
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
-
-        EXCEPTION
-            WHEN OTHERS THEN
-                RAISE;
-        END;
-    END LOOP;
+        END LOOP;
+    EXCEPTION
+        WHEN OTHERS THEN
+            RAISE;
+    END;
 END;
 $$ LANGUAGE plpgsql;
