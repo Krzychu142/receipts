@@ -3,6 +3,7 @@ CREATE TABLE csv_plain_data (
     sklep VARCHAR(255),
     data_zakupow DATE,
     suma NUMERIC,
+    adres VARCHAR(255),
     waluta VARCHAR(10),
     nazwa_produktu VARCHAR(255),
     jednostka VARCHAR(50),
@@ -13,7 +14,7 @@ CREATE TABLE csv_plain_data (
     czy_internetowy BOOLEAN
 );
 
--- \copy csv_plain_data(sklep, data_zakupow, suma, waluta, nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy)
+-- \copy csv_plain_data(sklep, data_zakupow, suma, adres, waluta, nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy)
 -- FROM '/home/krzysiek/projects/receipt-project-sql/data/data.csv'
 -- DELIMITER ','
 -- CSV HEADER;
