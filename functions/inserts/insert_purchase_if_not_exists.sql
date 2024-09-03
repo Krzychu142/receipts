@@ -49,6 +49,8 @@ BEGIN
                             p_receipt_id, p_is_warranty, p_warranty_expiration_date;
         END IF;
 
+        -- TODO: valid price, discount and quantity - they can not be negative
+
         INSERT INTO purchases (
             product_id, 
             unit_id, 
