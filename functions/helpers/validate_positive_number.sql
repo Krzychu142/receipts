@@ -1,3 +1,4 @@
+-- Active: 1725207710208@@127.0.0.1@5432@receipts_project
 CREATE OR REPLACE FUNCTION validate_positive_number(
     p_number_to_validate NUMERIC,
     p_name_of_validating_parameter TEXT,
