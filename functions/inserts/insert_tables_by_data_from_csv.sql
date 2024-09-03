@@ -2,7 +2,7 @@ CREATE OR REPLACE FUNCTION insert_tables_by_data_from_csv()
 RETURNS VOID AS $$
 DECLARE
     record_data record;
-    store_name VARCHAR(180); -- check is it not null
+    store_name VARCHAR(180);
     store_address VARCHAR(255);
     website VARCHAR(255);
 BEGIN
