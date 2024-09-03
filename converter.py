@@ -15,7 +15,7 @@ with open('data.csv', 'w', newline='') as csv_file:
         suma = record['suma']
         adres = record.get('adres', '')
         waluta = record['waluta']
-        czy_internetowy = record.get['czy_internetowy']
+        czy_internetowy = record['czy_internetowy']
         strona_internetowa = record.get('strona_internetowa', '')
 
         for produkt in record['produkty']:
