@@ -31,6 +31,8 @@ BEGIN
             RAISE EXCEPTION 'Currency with ID % not found', p_currency_id;
         END IF;
 
+        perform validate_positive_number(p_total, 'Total', FALSE); 
+
         INSERT INTO receipts (
             store_id, 
             currency_id, 
