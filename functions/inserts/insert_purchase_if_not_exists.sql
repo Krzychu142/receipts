@@ -49,10 +49,10 @@ BEGIN
                             p_receipt_id, p_is_warranty, p_warranty_expiration_date;
         END IF;
 
-        perform validate_positive_number(p_price, 'Price', FALSE); 
-        perform validate_positive_number(p_quantity, 'Quantity', FALSE);
+        PERFORM validate_positive_number(p_price, 'Price', FALSE); 
+        PERFORM validate_positive_number(p_quantity, 'Quantity', FALSE);
         IF p_discount IS NOT NULL THEN
-            perform validate_positive_number(p_discount, 'Discount');  
+            PERFORM validate_positive_number(p_discount, 'Discount');  
         END;
 
         INSERT INTO purchases (
