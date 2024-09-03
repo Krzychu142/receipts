@@ -21,7 +21,8 @@ BEGIN
         -- LET TRY FROM RECEIPT - WE NEED STORE AND CURRENCIE, other data are ready to use from csv
 
         store_name := record_data.sklep;
-        RAISE NOTICE 'store_name = %', store_name;
+        store_address := record_data.adres;
+        store_website := record_data.strona_internetowa;
 
     END LOOP;
 END;
