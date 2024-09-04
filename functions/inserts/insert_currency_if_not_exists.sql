@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION insert_currencie_if_not_exists(p_code VARCHAR(10), p_description VARCHAR(80)) 
+CREATE OR REPLACE FUNCTION insert_currency_if_not_exists(p_code VARCHAR(10), p_description VARCHAR(80)) 
 RETURNS record AS $$
 DECLARE
     v_currency_row record;

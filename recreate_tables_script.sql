@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS stores CASCADE;
 CREATE TABLE stores (
     store_id SERIAL PRIMARY KEY,
     name VARCHAR(180) NOT NULL,
-    address VARCHAR(255),
+    address VARCHAR(255) NOT NULL DEFAULT '',
     website VARCHAR(255),
     CONSTRAINT unique_name_address UNIQUE (name, address)
 );
