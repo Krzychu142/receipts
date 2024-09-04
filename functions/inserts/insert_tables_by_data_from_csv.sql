@@ -9,6 +9,7 @@ DECLARE
     currency_code VARCHAR(10);
     currency_description VARCHAR(80);
     v_currency_row record;
+    receipt_total NUMERIC(10, 2)
 BEGIN
     BEGIN
         FOR record_data IN 
@@ -26,6 +27,9 @@ BEGIN
             currency_description := record_data.opis_waluty;
 
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
+
+            receipt_total := record_data.suma;
+            validate_positive_number(receipt_total, 'Receipt total', FALSE);
         END LOOP;
         
         RETURN TRUE;
