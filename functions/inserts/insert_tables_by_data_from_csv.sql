@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION insert_tables_by_data_from_csv()
-RETURNS VOID AS $$
+RETURNS BOOLEAN AS $$
 DECLARE
     record_data record;
     store_name VARCHAR(180);
@@ -27,9 +27,13 @@ BEGIN
 
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
         END LOOP;
+        
+        RETURN TRUE;
+
     EXCEPTION
         WHEN OTHERS THEN
-            RAISE;
+            RAISE NOTICE 'Error: %', SQLERRM;
+            RETURN FALSE;
     END;
 END;
 $$ LANGUAGE plpgsql;
