@@ -9,7 +9,9 @@ DECLARE
     currency_code VARCHAR(10);
     currency_description VARCHAR(80);
     v_currency_row record;
-    receipt_total NUMERIC(10, 2)
+    receipt_total NUMERIC(10, 2);
+    receipt_date_string TEXT;
+    receipt_date_date DATE;
 BEGIN
     BEGIN
         FOR record_data IN 
@@ -30,6 +32,10 @@ BEGIN
 
             receipt_total := record_data.suma;
             validate_positive_number(receipt_total, 'Receipt total', FALSE);
+            receipt_date_string := record_data.data;
+            validate_string_as_date(receipt_date_string);
+            receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
+            
         END LOOP;
         
         RETURN TRUE;
