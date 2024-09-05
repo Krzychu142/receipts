@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION insert_tables_by_data_from_csv()
-RETURNS VOID AS $$
+RETURNS BOOLEAN AS $$
 DECLARE
     record_data record;
     store_name VARCHAR(180);
@@ -9,6 +9,9 @@ DECLARE
     currency_code VARCHAR(10);
     currency_description VARCHAR(80);
     v_currency_row record;
+    receipt_total NUMERIC(10, 2);
+    receipt_date_string TEXT;
+    receipt_date_date DATE;
 BEGIN
     BEGIN
         FOR record_data IN 
@@ -26,10 +29,21 @@ BEGIN
             currency_description := record_data.opis_waluty;
 
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
+
+            receipt_total := record_data.suma;
+            validate_positive_number(receipt_total, 'Receipt total', FALSE);
+            receipt_date_string := record_data.data;
+            validate_string_as_date(receipt_date_string);
+            receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
+            
         END LOOP;
+        
+        RETURN TRUE;
+
     EXCEPTION
         WHEN OTHERS THEN
-            RAISE;
+            RAISE NOTICE 'Error: %', SQLERRM;
+            RETURN FALSE;
     END;
 END;
 $$ LANGUAGE plpgsql;
