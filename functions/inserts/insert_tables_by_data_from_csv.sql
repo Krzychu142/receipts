@@ -31,9 +31,9 @@ BEGIN
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
 
             receipt_total := record_data.suma;
-            validate_positive_number(receipt_total, 'Receipt total', FALSE);
+            PERFORM validate_positive_number(receipt_total, 'Receipt total', FALSE);
             receipt_date_string := record_data.data;
-            validate_string_as_date(receipt_date_string);
+            PERFORM validate_string_as_date(receipt_date_string);
             receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
             
         END LOOP;
