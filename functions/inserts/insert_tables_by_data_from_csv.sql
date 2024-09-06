@@ -12,6 +12,7 @@ DECLARE
     receipt_total NUMERIC(10, 2);
     receipt_date_string TEXT;
     receipt_date_date DATE;
+    receipt_is_online BOOLEAN;
 BEGIN
     BEGIN
         FOR record_data IN 
@@ -35,6 +36,7 @@ BEGIN
             receipt_date_string := record_data.data_zakupow;
             PERFORM validate_string_as_date(receipt_date_string);
             receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
+            receipt_is_online := record_data.czy_internetowy;
             
         END LOOP;
         
