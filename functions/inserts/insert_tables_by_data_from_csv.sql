@@ -12,6 +12,7 @@ DECLARE
     receipt_total NUMERIC(10, 2);
     receipt_date_string TEXT;
     receipt_date_date DATE;
+    receipt_is_online BOOLEAN;
 BEGIN
     BEGIN
         FOR record_data IN 
@@ -31,10 +32,12 @@ BEGIN
             v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
 
             receipt_total := record_data.suma;
-            validate_positive_number(receipt_total, 'Receipt total', FALSE);
-            receipt_date_string := record_data.data;
-            validate_string_as_date(receipt_date_string);
+            PERFORM validate_positive_number(receipt_total, 'Receipt total', FALSE);
+            receipt_date_string := record_data.data_zakupow;
+            PERFORM validate_string_as_date(receipt_date_string);
             receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
+            receipt_is_online := record_data.czy_internetowy;
+            -- validate receipt_is_online is it bool type
             
         END LOOP;
         
