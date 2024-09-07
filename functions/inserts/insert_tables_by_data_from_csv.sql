@@ -26,6 +26,7 @@ BEGIN
         FOR record_data IN 
             SELECT * FROM csv_plain_data
         LOOP
+
             store_name := record_data.sklep;
             PERFORM validate_parameter_is_not_null(store_name, 'Store name');
             store_address := COALESCE(record_data.adres, '');
@@ -65,12 +66,23 @@ BEGIN
             PERFORM validate_parameter_is_boolean_type(receipt_is_online, 'Is receipt online');
             receipt_scan := COALESCE(record_data.skan_paragonu, '');
 
-            v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
+            IF v_previous_iteration_receipt_row IS NULL THEN
+                v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
+                v_previous_iteration_receipt_row := v_receipt_row;
+            END IF;
+            IF  v_previous_iteration_receipt_row.store_id <> v_store_row.store_id
+                OR v_previous_iteration_receipt_row.currency_id  <> v_currency_row.currency_id
+                OR v_previous_iteration_receipt_row.total  <> receipt_total
+                OR v_previous_iteration_receipt_row.receipt_date  <> receipt_date_date
+                OR v_previous_iteration_receipt_row.is_online  <> receipt_is_online
+                OR v_previous_iteration_receipt_row.receipt_scan  <> receipt_scan
+            THEN
+                v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
+                v_previous_iteration_receipt_row := v_receipt_row;
+            END IF;
             
         END LOOP;
-        
         RETURN TRUE;
-
     EXCEPTION
         WHEN OTHERS THEN
             RAISE NOTICE 'Error: %', SQLERRM;
