@@ -6,30 +6,55 @@ DECLARE
     store_address VARCHAR(255);
     store_website VARCHAR(255);
     v_store_row record;
+    v_previous_iteration_store_row record;
     currency_code VARCHAR(10);
     currency_description VARCHAR(80);
     v_currency_row record;
+    v_previous_iteration_currency_row record;
     receipt_total NUMERIC(10, 2);
     receipt_date_string TEXT;
     receipt_date_date DATE;
     receipt_is_online BOOLEAN;
     receipt_scan TEXT;
     v_receipt_row record;
+    v_previous_iteration_receipt_row record;
 BEGIN
     BEGIN
+        v_previous_iteration_store_row := NULL;
+        v_previous_iteration_currency_row := NULL;
+        v_previous_iteration_receipt_row := NULL;
         FOR record_data IN 
             SELECT * FROM csv_plain_data
         LOOP
             store_name := record_data.sklep;
             PERFORM validate_parameter_is_not_null(store_name, 'Store name');
             store_address := COALESCE(record_data.adres, '');
-            store_website := record_data.strona_internetowa;
-            v_store_row := insert_store_if_not_exists(store_name, store_address, store_website);
-
+            store_website := COALESCE(record_data.strona_internetowa, '');
+            IF v_previous_iteration_store_row IS NULL THEN
+                v_store_row := insert_store_if_not_exists(store_name, store_address, store_website);
+                v_previous_iteration_store_row := v_store_row;
+            END IF;
+            IF  v_previous_iteration_store_row.name <> store_name
+                OR v_previous_iteration_store_row.address  <> store_address
+                OR v_previous_iteration_store_row.website <> store_website
+            THEN
+                v_store_row := insert_store_if_not_exists(store_name, store_address, store_website);
+                v_previous_iteration_store_row := v_store_row;
+            END IF;
+    
             currency_code := record_data.waluta;
             PERFORM validate_parameter_is_not_null(currency_code, 'Currency code');
-            currency_description := record_data.opis_waluty;
-            v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
+            currency_description := COALESCE(record_data.opis_waluty, '');
+            IF v_previous_iteration_currency_row IS NULL THEN
+                v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
+                v_previous_iteration_currency_row := v_currency_row;
+            END IF;
+            IF  v_previous_iteration_currency_row.code <> currency_code
+                OR v_previous_iteration_currency_row.description  <> currency_description
+            THEN
+                v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
+                v_previous_iteration_currency_row := v_currency_row;
+            END IF;
 
             receipt_total := record_data.suma;
             PERFORM validate_positive_number(receipt_total, 'Receipt total', FALSE);

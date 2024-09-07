@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION update_currency_description(p_currency_id INT, p_description VARCHAR(80)) 
 RETURNS record AS $$
 DECLARE
-    v_currency_row record
+    v_currency_row record;
 BEGIN
     UPDATE currencies
     SET description = p_description
