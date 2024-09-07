@@ -89,7 +89,6 @@ BEGIN
                 v_previous_iteration_receipt_row := v_receipt_row;
             END IF;
 
-            -- insert product
             product_name := record_data.nazwa_produktu;
             PERFORM validate_parameter_is_not_null(product_name, 'Product name');
             product_link := COALESCE(record_data.strona_produktu, '');
@@ -98,6 +97,10 @@ BEGIN
             product_is_fee := record_data.czy_to_oplata;
             PERFORM validate_parameter_is_boolean_type(product_is_fee, 'Is product a fee');
             product_description := COALESCE(record_data.strona_produktu, '');
+            IF v_previous_iteration_product_row IS NULL THEN
+                
+            END IF;
+
 
         END LOOP;
         RETURN TRUE;
