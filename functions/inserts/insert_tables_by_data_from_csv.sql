@@ -38,8 +38,8 @@ BEGIN
             receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
             receipt_is_online := record_data.czy_internetowy;
             PERFORM validate_parameter_is_boolean_type(receipt_is_online, 'Is receipt online');
-            -- receipt_scan := coalesce(record_data.skan_paragonu, NULL);
-            -- v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
+            receipt_scan := record_data.skan_paragonu;
+            v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
             
         END LOOP;
         

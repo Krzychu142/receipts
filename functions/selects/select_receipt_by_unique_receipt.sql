@@ -6,7 +6,7 @@ CREATE OR REPLACE FUNCTION select_receipt_by_unique_receipt(
     p_is_online BOOLEAN,
     p_receipt_scan TEXT
 )
-RETURN record AS $$
+RETURNS record AS $$
 DECLARE
     v_receipt_row record;
 BEGIN
