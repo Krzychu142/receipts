@@ -7,12 +7,13 @@ with open('data/data.json', 'r') as json_file:
 with open('data.csv', 'w', newline='') as csv_file:
     csv_writer = csv.writer(csv_file)
 
-    csv_writer.writerow(['sklep', 'data_zakupow', 'suma', 'adres', 'waluta', 'opis_waluty', 'nazwa_produktu', 'jednostka', 'cena', 'ilość', 'rabat', 'kategoria', 'czy_internetowy', 'strona_internetowa'])
+    csv_writer.writerow(['sklep', 'data_zakupow', 'suma', 'skan_paragonu', 'adres', 'waluta', 'opis_waluty', 'nazwa_produktu', 'jednostka', 'cena', 'ilość', 'rabat', 'kategoria', 'czy_internetowy', 'strona_internetowa'])
 
     for record in data:
         sklep = record['sklep']
         data_zakupow = record['data-zakupów']
         suma = record['suma']
+        skan_paragonu = record.get('skan_paragonu', '')
         adres = record.get('adres', '')
         waluta = record['waluta']
         opis_waluty = record.get('opis_waluty', '')
@@ -27,4 +28,4 @@ with open('data.csv', 'w', newline='') as csv_file:
             rabat = produkt.get('rabat', '')
             kategoria = produkt['kategoria']
 
-            csv_writer.writerow([sklep, data_zakupow, suma, adres, waluta, opis_waluty, nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy, strona_internetowa])
+            csv_writer.writerow([sklep, data_zakupow, suma, skan_paragonu, adres, waluta, opis_waluty, nazwa_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy, strona_internetowa])
