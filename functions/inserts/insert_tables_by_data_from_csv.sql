@@ -37,6 +37,7 @@ BEGIN
             PERFORM validate_string_as_date(receipt_date_string);
             receipt_date_date := to_date(receipt_date_string, 'YYYY-MM-DD');
             receipt_is_online := record_data.czy_internetowy;
+            -- validate receipt_is_online is it bool type
             
         END LOOP;
         
