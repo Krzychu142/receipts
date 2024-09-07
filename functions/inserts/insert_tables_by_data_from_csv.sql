@@ -18,11 +18,19 @@ DECLARE
     receipt_scan TEXT;
     v_receipt_row record;
     v_previous_iteration_receipt_row record;
+    product_name VARCHAR(200);
+    product_link VARCHAR(255);
+    product_is_virtual BOOLEAN;
+    product_is_fee BOOLEAN;
+    product_description TEXT;
+    v_product_row record;
+    v_previous_iteration_product_row record;
 BEGIN
     BEGIN
         v_previous_iteration_store_row := NULL;
         v_previous_iteration_currency_row := NULL;
         v_previous_iteration_receipt_row := NULL;
+        v_previous_iteration_product_row := NULL;
         FOR record_data IN 
             SELECT * FROM csv_plain_data
         LOOP
@@ -80,7 +88,17 @@ BEGIN
                 v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
                 v_previous_iteration_receipt_row := v_receipt_row;
             END IF;
-            
+
+            -- insert product
+            product_name := record_data.nazwa_produktu;
+            PERFORM validate_parameter_is_not_null(product_name, 'Product name');
+            product_link := COALESCE(record_data.strona_produktu, '');
+            product_is_virtual := record_data.czy_wirtualny;
+            PERFORM validate_parameter_is_boolean_type(product_is_virtual, 'Is product virtual');
+            product_is_fee := record_data.czy_to_oplata;
+            PERFORM validate_parameter_is_boolean_type(product_is_fee, 'Is product a fee');
+            product_description := COALESCE(record_data.strona_produktu, '');
+
         END LOOP;
         RETURN TRUE;
     EXCEPTION
