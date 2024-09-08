@@ -1,7 +1,11 @@
 CREATE OR REPLACE FUNCTION update_currency_description(p_currency_id INT, p_description VARCHAR(80)) 
 RETURNS record AS $$
 DECLARE
+<<<<<<< HEAD
     v_currency_row record;
+=======
+    v_currency_row record
+>>>>>>> 4d66eb33437928034459043f895b1d8b22f42017
 BEGIN
     UPDATE currencies
     SET description = p_description
