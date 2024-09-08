@@ -20,7 +20,7 @@ DECLARE
     v_previous_iteration_receipt_row record;
     category_name VARCHAR(100);
     v_category_row record;
-    v_previous_category_row record;
+    v_previous_iteration_category_row record;
     product_name VARCHAR(200);
     product_link VARCHAR(255);
     product_is_virtual BOOLEAN;
@@ -34,6 +34,7 @@ BEGIN
         v_previous_iteration_currency_row := NULL;
         v_previous_iteration_receipt_row := NULL;
         v_previous_iteration_product_row := NULL;
+        v_previous_iteration_category_row := NULL;
         FOR record_data IN 
             SELECT * FROM csv_plain_data
         LOOP
@@ -91,10 +92,18 @@ BEGIN
                 v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
                 v_previous_iteration_receipt_row := v_receipt_row;
             END IF;
-            -- category
-            
-            category_name := 
-            -- we need category before it
+    
+            category_name := record_data.kategoria;
+            PERFORM validate_parameter_is_not_null(category_name, 'Category name');
+            IF v_previous_iteration_category_row IS NULL THEN
+                v_category_row := insert_category_if_not_exists(category_name);
+                v_previous_iteration_category_row := v_category_row;
+            END IF;
+            IF v_previous_iteration_category_row.name <> category_name THEN
+                v_category_row := insert_category_if_not_exists(category_name);
+                v_previous_iteration_category_row := v_category_row;
+            END IF;
+
             product_name := record_data.nazwa_produktu;
             PERFORM validate_parameter_is_not_null(product_name, 'Product name');
             product_link := COALESCE(record_data.strona_produktu, '');
@@ -104,12 +113,10 @@ BEGIN
             PERFORM validate_parameter_is_boolean_type(product_is_fee, 'Is product a fee');
             product_description := COALESCE(record_data.strona_produktu, '');
             IF v_previous_iteration_product_row IS NULL THEN
-                v_product_row := insert_product_if_not_exists(product_name, v);
+                v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
                 v_previous_iteration_product_row := v_product_row;
             END IF;
-
-
-
+            
 
         END LOOP;
         RETURN TRUE;
