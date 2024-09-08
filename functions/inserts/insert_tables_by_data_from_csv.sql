@@ -116,7 +116,15 @@ BEGIN
                 v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
                 v_previous_iteration_product_row := v_product_row;
             END IF;
-            
+            IF v_previous_iteration_product_row.name <> product_name 
+                OR v_previous_iteration_product_row.category_id <> v_previous_iteration_category_row.category_id 
+                OR <> v_previous_iteration_product_row.product_link <> product_link 
+                OR v_previous_iteration_product_row.description <> product_description 
+            THEN
+                v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
+                v_previous_iteration_product_row := v_product_row;
+            END IF;
+
 
         END LOOP;
         RETURN TRUE;

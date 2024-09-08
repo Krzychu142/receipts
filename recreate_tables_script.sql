@@ -53,11 +53,7 @@ CREATE TABLE receipts (
     total NUMERIC(10, 2) NOT NULL CHECK(total >= 0),
     receipt_date DATE NOT NULL,
     is_online BOOLEAN NOT NULL DEFAULT FALSE,
-<<<<<<< HEAD
     receipt_scan TEXT NOT NULL,
-=======
-    receipt_scan TEXT,
->>>>>>> 4d66eb33437928034459043f895b1d8b22f42017
     CONSTRAINT unique_receipt UNIQUE (store_id, currency_id, total, receipt_date, is_online, receipt_scan)
 );
 
