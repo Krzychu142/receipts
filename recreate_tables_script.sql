@@ -64,7 +64,7 @@ CREATE TABLE purchases (
     unit_id INT REFERENCES units(unit_id),
     receipt_id INT REFERENCES receipts(receipt_id) ON DELETE CASCADE,
     price NUMERIC(10, 2) NOT NULL CHECK(price >= 0),
-    discount NUMERIC(10, 2),
+    discount NUMERIC(10, 2) NOT NULL,
     quantity NUMERIC(10, 3) NOT NULL CHECK(quantity >= 0),
     is_warranty BOOLEAN NOT NULL DEFAULT FALSE,
     warranty_expiration_date DATE,

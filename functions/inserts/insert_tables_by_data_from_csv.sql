@@ -28,6 +28,11 @@ DECLARE
     product_description TEXT;
     v_product_row record;
     v_previous_iteration_product_row record;
+    purchase_price NUMERIC(10, 2);
+    purchase_discount NUMERIC(10, 2);
+    purchase_quantity NUMERIC(10, 3);
+    purchase_is_warranty BOOLEAN;
+    warranty_expiration_date DATE;
 BEGIN
     BEGIN
         v_previous_iteration_store_row := NULL;
@@ -125,6 +130,15 @@ BEGIN
                 v_previous_iteration_product_row := v_product_row;
             END IF;
 
+            -- purchase
+            -- purchase_price NUMERIC(10, 2);
+            -- purchase_discount NUMERIC(10, 2);
+            -- purchase_quantity NUMERIC(10, 3);
+            -- purchase_is_warranty BOOLEAN;
+            -- warranty_expiration_date DATE;
+            purchase_price := record_data.cena;
+            -- VALIDATE IS PURCHASE_PRICE IS NUMERIC TYPE
+            
 
         END LOOP;
         RETURN TRUE;
