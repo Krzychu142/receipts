@@ -108,6 +108,9 @@ BEGIN
                 v_previous_iteration_product_row := v_product_row;
             END IF;
 
+
+
+
         END LOOP;
         RETURN TRUE;
     EXCEPTION
