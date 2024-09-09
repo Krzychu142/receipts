@@ -32,7 +32,8 @@ DECLARE
     purchase_discount NUMERIC(10, 2);
     purchase_quantity NUMERIC(10, 3);
     purchase_is_warranty BOOLEAN;
-    warranty_expiration_date DATE;
+    purchase_warranty_expiration_string TEXT;
+    purchase_warranty_expiration_date DATE;
 BEGIN
     BEGIN
         v_previous_iteration_store_row := NULL;
@@ -130,15 +131,20 @@ BEGIN
                 v_previous_iteration_product_row := v_product_row;
             END IF;
 
-            -- purchase
-            -- purchase_price NUMERIC(10, 2);
-            -- purchase_discount NUMERIC(10, 2);
-            -- purchase_quantity NUMERIC(10, 3);
-            -- purchase_is_warranty BOOLEAN;
-            -- warranty_expiration_date DATE;
             purchase_price := record_data.cena;
-            -- VALIDATE IS PURCHASE_PRICE IS NUMERIC TYPE
-            
+            PERFORM validate_positive_number(purchase_price, 'Purchase price', FALSE);
+            purchase_discount := record_data.rabat;
+            PERFORM validate_positive_number(purchase_discount, 'Purchase price');
+            purchase_quantity := record_data.ilosc;
+            PERFORM validate_positive_number(purchase_quantity, 'Purchase quantity' FALSE);
+            purchase_is_warranty := record_data.czy_na_gwarancji;
+            PERFORM validate_parameter_is_boolean_type(purchase_is_warranty, 'Purchase is on warranty');
+            purchase_warranty_expiration_string := record_data.data_gwarancji;
+            IF purchase_is_warranty IS TRUE THEN
+                PERFORM validate_string_as_date(purchase_warranty_expiration_string);
+            ELSE
+                
+            END IF;
 
         END LOOP;
         RETURN TRUE;

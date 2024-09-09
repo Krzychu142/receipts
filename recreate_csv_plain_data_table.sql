@@ -17,11 +17,13 @@ CREATE TABLE csv_plain_data (
     ilosc NUMERIC,
     rabat NUMERIC,
     kategoria VARCHAR(255),
+    czy_na_gwarancji BOOLEAN,
+    data_gwarancji DATE,
     czy_internetowy BOOLEAN,
     strona_internetowa VARCHAR(255)
 );
 
--- \copy csv_plain_data(sklep, data_zakupow, suma, skan_paragonu, adres, waluta, opis_waluty, nazwa_produktu, czy_wirtualny, czy_to_oplata,  opis_produktu, strona_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_internetowy, strona_internetowa)
+-- \copy csv_plain_data(sklep, data_zakupow, suma, skan_paragonu, adres, waluta, opis_waluty, nazwa_produktu, czy_wirtualny, czy_to_oplata,  opis_produktu, strona_produktu, jednostka, cena, ilosc, rabat, kategoria, czy_na_gwarancji, data_gwarancji, czy_internetowy, strona_internetowa)
 -- FROM '/home/krzysiek/projects/receipt-project-sql/data/data.csv'
 -- DELIMITER ','
 -- CSV HEADER;
