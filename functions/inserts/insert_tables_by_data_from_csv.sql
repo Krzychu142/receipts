@@ -34,6 +34,7 @@ DECLARE
     purchase_is_warranty BOOLEAN;
     purchase_warranty_expiration_string TEXT;
     purchase_warranty_expiration_date DATE;
+    v_purchase_row record;
 BEGIN
     BEGIN
         v_previous_iteration_store_row := NULL;
@@ -124,7 +125,7 @@ BEGIN
             END IF;
             IF v_previous_iteration_product_row.name <> product_name 
                 OR v_previous_iteration_product_row.category_id <> v_previous_iteration_category_row.category_id 
-                OR <> v_previous_iteration_product_row.product_link <> product_link 
+                OR v_previous_iteration_product_row.product_link <> product_link 
                 OR v_previous_iteration_product_row.description <> product_description 
             THEN
                 v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
@@ -136,15 +137,32 @@ BEGIN
             purchase_discount := record_data.rabat;
             PERFORM validate_positive_number(purchase_discount, 'Purchase price');
             purchase_quantity := record_data.ilosc;
-            PERFORM validate_positive_number(purchase_quantity, 'Purchase quantity' FALSE);
+            PERFORM validate_positive_number(purchase_quantity, 'Purchase quantity', FALSE);
             purchase_is_warranty := record_data.czy_na_gwarancji;
             PERFORM validate_parameter_is_boolean_type(purchase_is_warranty, 'Purchase is on warranty');
             purchase_warranty_expiration_string := record_data.data_gwarancji;
+            purchase_warranty_expiration_date := purchase_warranty_expiration_string;
             IF purchase_is_warranty IS TRUE THEN
                 PERFORM validate_string_as_date(purchase_warranty_expiration_string);
+                purchase_warranty_expiration_date := to_date(purchase_warranty_expiration_string, 'YYYY-MM-DD');
             ELSE
-                
+                IF purchase_warranty_expiration_string IS NOT NULL
+                    OR purchase_warranty_expiration_string <> ''
+                THEN
+                    RAISE EXCEPTION 'The warranty date cannot be given if the purchase is marked as without warranty. Purchase price: %, Purchase produkt name: %', purchase_price, v_previous_iteration_product_row.name;
+                END IF;
             END IF;
+
+            v_receipt_row := insert_purchase_if_not_exists(
+                v_previous_iteration_product_row.id,
+                v_previous_iteration_unit_row.id,
+                v_previous_iteration_receipt.id,
+                purchase_price,
+                purchase_discount,
+                purchase_quantity,
+                purchase_is_warranty,
+                purchase_warranty_expiration_date
+            );
 
         END LOOP;
         RETURN TRUE;
