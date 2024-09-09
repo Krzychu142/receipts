@@ -132,6 +132,8 @@ BEGIN
                 v_previous_iteration_product_row := v_product_row;
             END IF;
 
+            -- need unit
+
             purchase_price := record_data.cena;
             PERFORM validate_positive_number(purchase_price, 'Purchase price', FALSE);
             purchase_discount := record_data.rabat;
@@ -154,7 +156,7 @@ BEGIN
             END IF;
 
             v_receipt_row := insert_purchase_if_not_exists(
-                v_previous_iteration_product_row.id,
+                v_previous_iteration_product_row.product_id,
                 v_previous_iteration_unit_row.id,
                 v_previous_iteration_receipt.id,
                 purchase_price,

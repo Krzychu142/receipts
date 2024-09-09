@@ -7,6 +7,6 @@ BEGIN
     FROM products
     WHERE name = p_name AND category_id = p_category_id;
 
-    RETURN v_category_row; 
+    RETURN v_product_row; 
 END;
 $$ LANGUAGE plpgsql;
