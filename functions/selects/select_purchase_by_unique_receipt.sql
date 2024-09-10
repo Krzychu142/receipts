@@ -15,7 +15,7 @@ BEGIN
     SELECT * INTO v_purchase_row
     FROM purchases
     WHERE
-        product_id = p_purchase_id AND
+        product_id = p_product_id AND
         unit_id = p_unit_id AND 
         receipt_id = p_receipt_id AND
         price = p_price AND

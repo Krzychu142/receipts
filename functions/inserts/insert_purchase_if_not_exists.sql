@@ -10,10 +10,10 @@ CREATE OR REPLACE FUNCTION insert_purchase_if_not_exists(
 )
 RETURNS record AS $$
 DECLARE
-    v_purchase_row record,
-    v_product_row record,
-    v_unit_row record,
-    v_receipt_row record
+    v_purchase_row record;
+    v_product_row record;
+    v_unit_row record;
+    v_receipt_row record;
 BEGIN
     v_purchase_row := select_purchase_by_unique_receipt(
         p_product_id, 
@@ -53,7 +53,7 @@ BEGIN
         PERFORM validate_positive_number(p_quantity, 'Quantity', FALSE);
         IF p_discount IS NOT NULL THEN
             PERFORM validate_positive_number(p_discount, 'Discount');  
-        END;
+        END IF;
 
         INSERT INTO purchases (
             product_id, 

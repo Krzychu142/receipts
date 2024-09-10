@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION update_product_description_and_product_link(
     p_product_id INT,
-    p_description TEXT,  
-    p_product_link VARCHAR(255)   
+    p_description TEXT,
+    p_product_link VARCHAR(255)
 )
 RETURNS record AS $$
 DECLARE

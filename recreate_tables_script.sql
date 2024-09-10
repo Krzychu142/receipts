@@ -25,7 +25,7 @@ CREATE TABLE units (
     unit_id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL UNIQUE,
     base_unit INT NULL,
-    conversion_multiplier NUMERIC(10, 4) NULL,
+    conversion_multiplier NUMERIC(10, 4),
     FOREIGN KEY (base_unit) REFERENCES units(unit_id),
     CHECK (
         (base_unit IS NOT NULL AND conversion_multiplier IS NOT NULL) OR

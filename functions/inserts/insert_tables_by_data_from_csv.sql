@@ -28,6 +28,9 @@ DECLARE
     product_description TEXT;
     v_product_row record;
     v_previous_iteration_product_row record;
+    unit_name VARCHAR(50);
+    v_unit_row record;
+    v_previous_iteration_unit_row record;
     purchase_price NUMERIC(10, 2);
     purchase_discount NUMERIC(10, 2);
     purchase_quantity NUMERIC(10, 3);
@@ -42,6 +45,7 @@ BEGIN
         v_previous_iteration_receipt_row := NULL;
         v_previous_iteration_product_row := NULL;
         v_previous_iteration_category_row := NULL;
+        v_previous_iteration_unit_row := NULL;
         FOR record_data IN 
             SELECT * FROM csv_plain_data
         LOOP
@@ -132,7 +136,16 @@ BEGIN
                 v_previous_iteration_product_row := v_product_row;
             END IF;
 
-            -- need unit
+            unit_name := record_data.jednostka;
+            PERFORM validate_parameter_is_not_null(unit_name, 'Unit name');
+            IF v_previous_iteration_unit_row IS NULL THEN
+                v_unit_row := insert_unit_if_not_exists(unit_name, NULL::INT, NULL::NUMERIC(10, 4));
+                v_previous_iteration_unit_row := v_unit_row;
+            END IF; 
+            IF v_previous_iteration_unit_row.name <> unit_name THEN
+                v_unit_row := insert_unit_if_not_exists(unit_name, NULL::INT, NULL::NUMERIC(10, 4));
+                v_previous_iteration_unit_row := v_unit_row;
+            END IF;
 
             purchase_price := record_data.cena;
             PERFORM validate_positive_number(purchase_price, 'Purchase price', FALSE);
@@ -157,8 +170,8 @@ BEGIN
 
             v_receipt_row := insert_purchase_if_not_exists(
                 v_previous_iteration_product_row.product_id,
-                v_previous_iteration_unit_row.id,
-                v_previous_iteration_receipt.id,
+                v_previous_iteration_unit_row.unit_id,
+                v_previous_iteration_receipt_row.receipt_id,
                 purchase_price,
                 purchase_discount,
                 purchase_quantity,
