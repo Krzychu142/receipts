@@ -15,19 +15,18 @@ DECLARE
     v_unit_row record;
     v_receipt_row record;
 BEGIN
-    -- v_purchase_row := select_purchase_by_unique_receipt(
-    --     p_product_id, 
-    --     p_unit_id, 
-    --     p_receipt_id, 
-    --     p_price, 
-    --     p_discount, 
-    --     p_quantity, 
-    --     p_is_warranty
-    --     -- , 
-    --     -- p_warranty_expiration_date
-    -- );
+    v_purchase_row := select_purchase_by_unique_receipt(
+        p_product_id, 
+        p_unit_id, 
+        p_receipt_id, 
+        p_price, 
+        p_discount, 
+        p_quantity, 
+        p_is_warranty, 
+        p_warranty_expiration_date
+    );
 
-    -- IF v_purchase_row IS NULL THEN
+    IF v_purchase_row IS NULL THEN
         v_product_row := select_product_by_id(p_product_id);
         IF v_product_row IS NULL THEN
             RAISE EXCEPTION 'Product with ID % not found', p_product_id; 
@@ -76,7 +75,7 @@ BEGIN
             p_warranty_expiration_date 
         )
         RETURNING * INTO v_purchase_row;
-    -- END IF;
+    END IF;
 
     RETURN v_purchase_row;
 END;

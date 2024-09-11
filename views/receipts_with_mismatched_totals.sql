@@ -1,3 +1,4 @@
+CREATE OR REPLACE VIEW receipts_with_mismatched_totals AS
 SELECT 
     r.receipt_id, 
     s.name AS store_name,

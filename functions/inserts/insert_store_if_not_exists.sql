@@ -14,11 +14,7 @@ BEGIN
         RETURNING * INTO v_store_row;
     END IF;
 
-<<<<<<< HEAD
     IF p_website IS NOT NULL AND (v_store_row.website IS NULL OR rtrim(v_store_row.website) = '') THEN
-=======
-    IF p_website IS NOT NULL AND v_store_row.website IS NULL THEN 
->>>>>>> 4d66eb33437928034459043f895b1d8b22f42017
         v_store_row := update_store_website(v_store_row.store_id, p_website);
     END IF;
 

@@ -54,31 +54,31 @@ BEGIN
             PERFORM validate_parameter_is_not_null(store_name, 'Store name');
             store_address := COALESCE(record_data.adres, '');
             store_website := COALESCE(record_data.strona_internetowa, '');
-            -- IF v_previous_iteration_store_row IS NULL THEN
+            IF v_previous_iteration_store_row IS NULL THEN
                 v_store_row := insert_store_if_not_exists(store_name, store_address, store_website);
                 v_previous_iteration_store_row := v_store_row;
-            -- END IF;
-            -- IF  v_previous_iteration_store_row.name <> store_name
-            --     OR v_previous_iteration_store_row.address  <> store_address
-            --     OR v_previous_iteration_store_row.website <> store_website
-            -- THEN
+            END IF;
+            IF  v_previous_iteration_store_row.name <> store_name
+                OR v_previous_iteration_store_row.address  <> store_address
+                OR v_previous_iteration_store_row.website <> store_website
+            THEN
                 v_store_row := insert_store_if_not_exists(store_name, store_address, store_website);
                 v_previous_iteration_store_row := v_store_row;
-            -- END IF;
+            END IF;
     
             currency_code := record_data.waluta;
             PERFORM validate_parameter_is_not_null(currency_code, 'Currency code');
             currency_description := COALESCE(record_data.opis_waluty, '');
-            -- IF v_previous_iteration_currency_row IS NULL THEN
+            IF v_previous_iteration_currency_row IS NULL THEN
                 v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
                 v_previous_iteration_currency_row := v_currency_row;
-            -- END IF;
-            -- IF  v_previous_iteration_currency_row.code <> currency_code
-            --     OR v_previous_iteration_currency_row.description  <> currency_description
-            -- THEN
+            END IF;
+            IF  v_previous_iteration_currency_row.code <> currency_code
+                OR v_previous_iteration_currency_row.description  <> currency_description
+            THEN
                 v_currency_row := insert_currency_if_not_exists(currency_code, currency_description);
                 v_previous_iteration_currency_row := v_currency_row;
-            -- END IF;
+            END IF;
 
             receipt_total := record_data.suma;
             PERFORM validate_positive_number(receipt_total, 'Receipt total', FALSE);
@@ -89,31 +89,31 @@ BEGIN
             PERFORM validate_parameter_is_boolean_type(receipt_is_online, 'Is receipt online');
             receipt_scan := COALESCE(record_data.skan_paragonu, '');
 
-            -- IF v_previous_iteration_receipt_row IS NULL THEN
+            IF v_previous_iteration_receipt_row IS NULL THEN
                 v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
                 v_previous_iteration_receipt_row := v_receipt_row;
-            -- END IF;
-            -- IF  v_previous_iteration_receipt_row.store_id <> v_store_row.store_id
-            --     OR v_previous_iteration_receipt_row.currency_id  <> v_currency_row.currency_id
-            --     OR v_previous_iteration_receipt_row.total  <> receipt_total
-            --     OR v_previous_iteration_receipt_row.receipt_date  <> receipt_date_date
-            --     OR v_previous_iteration_receipt_row.is_online  <> receipt_is_online
-            --     OR v_previous_iteration_receipt_row.receipt_scan  <> receipt_scan
-            -- THEN
+            END IF;
+            IF  v_previous_iteration_receipt_row.store_id <> v_store_row.store_id
+                OR v_previous_iteration_receipt_row.currency_id  <> v_currency_row.currency_id
+                OR v_previous_iteration_receipt_row.total  <> receipt_total
+                OR v_previous_iteration_receipt_row.receipt_date  <> receipt_date_date
+                OR v_previous_iteration_receipt_row.is_online  <> receipt_is_online
+                OR v_previous_iteration_receipt_row.receipt_scan  <> receipt_scan
+            THEN
                 v_receipt_row := insert_receipt_if_not_exists(v_store_row.store_id, v_currency_row.currency_id, receipt_total, receipt_date_date, receipt_is_online, receipt_scan);
                 v_previous_iteration_receipt_row := v_receipt_row;
-            -- END IF;
+            END IF;
     
             category_name := record_data.kategoria;
             PERFORM validate_parameter_is_not_null(category_name, 'Category name');
-            -- IF v_previous_iteration_category_row IS NULL THEN
+            IF v_previous_iteration_category_row IS NULL THEN
                 v_category_row := insert_category_if_not_exists(category_name);
                 v_previous_iteration_category_row := v_category_row;
-            -- END IF;
-            -- IF v_previous_iteration_category_row.name <> category_name THEN
+            END IF;
+            IF v_previous_iteration_category_row.name <> category_name THEN
                 v_category_row := insert_category_if_not_exists(category_name);
                 v_previous_iteration_category_row := v_category_row;
-            -- END IF;
+            END IF;
 
             product_name := record_data.nazwa_produktu;
             PERFORM validate_parameter_is_not_null(product_name, 'Product name');
@@ -123,29 +123,29 @@ BEGIN
             product_is_fee := record_data.czy_to_oplata;
             PERFORM validate_parameter_is_boolean_type(product_is_fee, 'Is product a fee');
             product_description := COALESCE(record_data.strona_produktu, '');
-            -- IF v_previous_iteration_product_row IS NULL THEN
+            IF v_previous_iteration_product_row IS NULL THEN
                 v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
                 v_previous_iteration_product_row := v_product_row;
-            -- END IF;
-            -- IF v_previous_iteration_product_row.name <> product_name 
-            --     OR v_previous_iteration_product_row.category_id <> v_previous_iteration_category_row.category_id 
-            --     OR v_previous_iteration_product_row.product_link <> product_link 
-            --     OR v_previous_iteration_product_row.description <> product_description 
-            -- THEN
+            END IF;
+            IF v_previous_iteration_product_row.name <> product_name 
+                OR v_previous_iteration_product_row.category_id <> v_previous_iteration_category_row.category_id 
+                OR v_previous_iteration_product_row.product_link <> product_link 
+                OR v_previous_iteration_product_row.description <> product_description 
+            THEN
                 v_product_row := insert_product_if_not_exists(product_name, v_previous_iteration_category_row.category_id, product_link, product_is_virtual, product_is_fee, product_description);
                 v_previous_iteration_product_row := v_product_row;
-            -- END IF;
+            END IF;
 
             unit_name := record_data.jednostka;
             PERFORM validate_parameter_is_not_null(unit_name, 'Unit name');
-            -- IF v_previous_iteration_unit_row IS NULL THEN
+            IF v_previous_iteration_unit_row IS NULL THEN
                 v_unit_row := insert_unit_if_not_exists(unit_name, NULL::INT, NULL::NUMERIC(10, 4));
                 v_previous_iteration_unit_row := v_unit_row;
-            -- END IF; 
-            -- IF v_previous_iteration_unit_row.name <> unit_name THEN
+            END IF; 
+            IF v_previous_iteration_unit_row.name <> unit_name THEN
                 v_unit_row := insert_unit_if_not_exists(unit_name, NULL::INT, NULL::NUMERIC(10, 4));
                 v_previous_iteration_unit_row := v_unit_row;
-            -- END IF;
+            END IF;
 
             purchase_price := record_data.cena;
             PERFORM validate_positive_number(purchase_price, 'Purchase price', FALSE);
