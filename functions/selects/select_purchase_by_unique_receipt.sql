@@ -5,8 +5,9 @@ CREATE OR REPLACE FUNCTION select_purchase_by_unique_receipt(
     p_price NUMERIC(10, 2),
     p_discount NUMERIC(10, 2),
     p_quantity NUMERIC(10, 3),
-    p_is_warranty BOOLEAN,
-    p_warranty_expiration_date DATE
+    p_is_warranty BOOLEAN
+    -- ,
+    -- p_warranty_expiration_date DATE
 )
 RETURNS record AS $$
 DECLARE
@@ -20,8 +21,9 @@ BEGIN
         receipt_id = p_receipt_id AND
         price = p_price AND
         discount = p_discount AND
-        is_warranty = p_is_warranty AND
-        warranty_expiration_date = p_warranty_expiration_date; 
+        is_warranty = p_is_warranty; 
+        -- AND
+        -- warranty_expiration_date = p_warranty_expiration_date; 
 
     RETURN v_purchase_row;
 END;

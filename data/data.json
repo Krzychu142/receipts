@@ -4353,7 +4353,7 @@
 	{
 		"sklep": "stokrotka",
 		"data-zakupów": "2024-07-31",
-		"suma": 6.29,
+		"suma": 12.58,
 		"waluta": "pln",
 		"produkty": [
 			{
@@ -4370,16 +4370,7 @@
 				"rabat": 6.29,
 				"ilość": 80,
 				"kategoria": "spożywcze"
-			}
-		],
-		"czy_internetowy": false
-	},
-	{
-		"sklep": "stokrotka",
-		"data-zakupów": "2024-07-31",
-		"suma": 6.29,
-		"waluta": "pln",
-		"produkty": [
+			},
 			{
 				"nazwa": "lody sammontana",
 				"jednostka": "gram",
@@ -4393,69 +4384,6 @@
 				"cena": 6.29,
 				"rabat": 6.29,
 				"ilość": 80,
-				"kategoria": "spożywcze"
-			}
-		],
-		"czy_internetowy": false
-	},
-	{
-		"sklep": "biedronka",
-		"data-zakupów": "2024-08-10",
-		"suma": 34.7,
-		"waluta": "pln",
-		"produkty": [
-			{
-				"nazwa": "ręcznik papierowy",
-				"jednostka": "sztuka",
-				"cena": 11.89,
-				"rabat": 2.9,
-				"ilość": 1,
-				"kategoria": "środki czystości"
-			},
-			{
-				"nazwa": "kukurydza kolba",
-				"jednostka": "sztuka",
-				"cena": 3.97,
-				"ilość": 1,
-				"kategoria": "spożywcze"
-			},
-			{
-				"nazwa": "kukurydza kolba",
-				"jednostka": "sztuka",
-				"cena": 3.97,
-				"rabat": 3.97,
-				"ilość": 1,
-				"kategoria": "spożywcze"
-			},
-			{
-				"nazwa": "ser podlaski",
-				"jednostka": "gram",
-				"cena": 8.99,
-				"rabat": 3.6,
-				"ilość": 300,
-				"kategoria": "spożywcze"
-			},
-			{
-				"nazwa": "ser podlaski",
-				"jednostka": "gram",
-				"cena": 8.99,
-				"rabat": 3.6,
-				"ilość": 300,
-				"kategoria": "spożywcze"
-			},
-			{
-				"nazwa": "jajka ściółkowe",
-				"jednostka": "sztuka (x10)",
-				"cena": 8.99,
-				"ilość": 1,
-				"kategoria": "spożywcze"
-			},
-			{
-				"nazwa": "banany",
-				"jednostka": "kilogram",
-				"cena": 2.76,
-				"rabat": 0.79,
-				"ilość": 0.395,
 				"kategoria": "spożywcze"
 			}
 		],

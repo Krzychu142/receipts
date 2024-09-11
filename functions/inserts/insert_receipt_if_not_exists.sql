@@ -12,16 +12,16 @@ DECLARE
     v_store_row record;
     v_currency_row record;
 BEGIN
-    v_receipt_row := select_receipt_by_unique_receipt(
-        p_store_id, 
-        p_currency_id, 
-        p_total, 
-        p_receipt_date,
-        p_is_online,
-        p_receipt_scan 
-    );
+    -- v_receipt_row := select_receipt_by_unique_receipt(
+    --     p_store_id, 
+    --     p_currency_id, 
+    --     p_total, 
+    --     p_receipt_date,
+    --     p_is_online,
+    --     p_receipt_scan 
+    -- );
 
-    IF v_receipt_row IS NULL THEN
+    -- IF v_receipt_row IS NULL THEN
         v_store_row := select_store_by_id(p_store_id);
         IF v_store_row IS NULL THEN 
             RAISE EXCEPTION 'Store with ID % not found', p_store_id;
@@ -50,7 +50,7 @@ BEGIN
             p_receipt_scan  
         )
         RETURNING * INTO v_receipt_row;
-    END IF;
+    -- END IF;
 
     RETURN v_receipt_row;
 END;
