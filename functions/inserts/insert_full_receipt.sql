@@ -42,6 +42,12 @@ DECLARE
     v_product_is_virtual BOOLEAN;
     v_product_is_fee BOOLEAN;
     v_product_row record;
+    v_purchase_price NUMERIC(10, 2);
+    v_purchase_discount NUMERIC(10, 2);
+    v_purchase_quantity NUMERIC(10, 3);
+    v_purchase_is_warranty BOOLEAN;
+    v_purchase_warranty_expiration_date DATE;
+    v_purchase_row record;
 BEGIN
     PERFORM validate_parameter_is_not_null(store_name, 'Store name');
     v_store_row := insert_store_if_not_exists(
@@ -116,7 +122,35 @@ BEGIN
             v_product_description
         );
 
+        v_purchase_price := product_purchase_record.price;
+        PERFORM validate_positive_number(v_purchase_price, 'Price', FALSE);
+        v_purchase_discount := COALESCE(product_purchase_record.discount, 0);
+        PERFORM validate_positive_number(v_purchase_discount, 'Discount');
+        v_purchase_quantity := product_purchase_record.quantity;
+        PERFORM validate_positive_number(v_purchase_quantity, 'Quantity', FALSE);
+        v_purchase_is_warranty := COALESCE(product_purchase_record.is_warranty, FALSE);
+        PERFORM validate_parameter_is_boolean_type(v_purchase_is_warranty, 'Is purchase on warranty');
+        v_purchase_warranty_expiration_date := product_purchase_record
 
+        IF
+            (v_purchase_is_warranty IS TRUE AND v_purchase_warranty_expiration_date IS NULL)
+        OR
+            (v_purchase_is_warranty IS FALSE AND v_purchase_warranty_expiration_date IS NOT NULL)
+        THEN
+            RAISE EXCEPTION 'Error: If warranty is set, expiration date must be provided, and if warranty is not set, expiration date must be null.';
+        END IF;
+
+        v_purchase_row := insert_purchase_if_not_exists(
+            v_product_row.product_id,
+            v_unit_row.unit_id,
+            v_receipt_row.receipt_id,
+            v_purchase_price,
+            v_purchase_discount,
+            v_purchase_quantity,
+            v_purchase_is_warranty,
+            v_purchase_warranty_expiration_date
+        );
+        
     END LOOP;
 END;
 $$ LANGUAGE plpgsql;
