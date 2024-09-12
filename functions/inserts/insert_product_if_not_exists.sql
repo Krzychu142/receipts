@@ -1,11 +1,11 @@
 CREATE OR REPLACE FUNCTION insert_product_if_not_exists(
-        p_name VARCHAR(200),
-        p_category_id INT,
-        p_product_link VARCHAR(255),
-        p_is_virtual BOOLEAN,
-        p_is_fee BOOLEAN,
-        p_description TEXT
-    ) 
+    p_name VARCHAR(200),
+    p_category_id INT,
+    p_product_link VARCHAR(255),
+    p_is_virtual BOOLEAN,
+    p_is_fee BOOLEAN,
+    p_description TEXT
+) 
 RETURNS record AS $$
 DECLARE
     v_product_row record;
