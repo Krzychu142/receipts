@@ -22,6 +22,7 @@ DECLARE
     v_conversion_multiplier NUMERIC(10, 4);
     v_unit_row record;
     v_base_unit_row record;
+    v_base_unit_id INTEGER;
     v_category_name VARCHAR(100);
     v_category_row record;
     v_product_name VARCHAR(200);
@@ -40,7 +41,7 @@ BEGIN
     PERFORM validate_parameter_is_not_null(store_name, 'Store name');
     v_store_row := insert_store_if_not_exists(
         lower(store_name),
-        COALESCE(lower(store_address), ''),
+        COALESCE(store_address, ''),
         COALESCE(lower(store_website), '')
     );
 
@@ -70,6 +71,7 @@ BEGIN
         PERFORM validate_parameter_is_not_null(v_unit_name, 'Unit name');
         v_base_unit_name := product_purchase_record.base_unit_name;
         v_conversion_multiplier := product_purchase_record.conversion_multiplier;
+        v_base_unit_id := NULL;
         IF 
             (v_base_unit_name IS NULL AND v_conversion_multiplier IS NOT NULL)
         OR
@@ -83,11 +85,12 @@ BEGIN
             IF v_base_unit_row IS NULL THEN
                 RAISE EXCEPTION 'Error in unit %. Not found provided base unit: %.', unit_name, v_base_unit_name;
             END IF;
+            v_base_unit_id := v_base_unit_row.unit_id;
         END IF;
 
         v_unit_row := insert_unit_if_not_exists(
             lower(v_unit_name),
-            v_base_unit_row.unit_id,
+            v_base_unit_id,
             v_conversion_multiplier
         );
 
@@ -98,15 +101,16 @@ BEGIN
         v_product_name := product_purchase_record.product_name;
         PERFORM validate_parameter_is_not_null(v_product_name, 'Product name');
         v_product_link := COALESCE(product_purchase_record.product_link, '');
-        v_product_is_virtual := COALESCE(product_purchase_record.is_virtual, FALSE);
-        v_product_is_fee := COALESCE(product_purchase_record.is_fee, FALSE);
-        v_product_description := COALESCE(product_purchase_record.description, '');
+        v_product_is_virtual := COALESCE(product_purchase_record.product_is_virtual, FALSE);
+        v_product_is_fee := COALESCE(product_purchase_record.product_is_fee, FALSE);
+        v_product_description := COALESCE(product_purchase_record.product_description, '');
 
         v_product_row := insert_product_if_not_exists(
             lower(v_product_name),
             v_category_row.category_id,
             v_product_link,
             v_product_is_virtual,
+            v_product_is_fee,
             lower(v_product_description)
         );
 
@@ -118,7 +122,7 @@ BEGIN
         PERFORM validate_positive_number(v_purchase_quantity, 'Quantity', FALSE);
         v_purchase_is_warranty := COALESCE(product_purchase_record.is_warranty, FALSE);
         PERFORM validate_parameter_is_boolean_type(v_purchase_is_warranty, 'Is purchase on warranty');
-        v_purchase_warranty_expiration_date := product_purchase_record;
+        v_purchase_warranty_expiration_date := product_purchase_record.warranty_expiration_date;
 
         IF
             (v_purchase_is_warranty IS TRUE AND v_purchase_warranty_expiration_date IS NULL)
