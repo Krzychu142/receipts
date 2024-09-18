@@ -8,7 +8,7 @@ CREATE OR REPLACE FUNCTION insert_full_data_from_single_receipt(
     receipt_date_string TEXT,
     receipt_is_online BOOLEAN,
     receipt_scan TEXT,
-    products purchased_product[]
+    purchased_products purchased_product[]
 )
 RETURNS VOID AS $$
 DECLARE
@@ -38,6 +38,8 @@ DECLARE
     v_purchase_warranty_expiration_date DATE;
     v_purchase_row record;
 BEGIN
+
+    PERFORM validate_total_compare_to_sum_of_prices(purchased_products, receipt_total);
     PERFORM validate_parameter_is_not_null(store_name, 'Store name');
     v_store_row := insert_store_if_not_exists(
         lower(store_name),
@@ -65,7 +67,7 @@ BEGIN
         COALESCE(lower(receipt_scan), '')
     );
 
-    FOREACH product_purchase_record IN ARRAY products
+    FOREACH product_purchase_record IN ARRAY purchased_products
     LOOP
         v_unit_name := product_purchase_record.unit_name;
         PERFORM validate_parameter_is_not_null(v_unit_name, 'Unit name');

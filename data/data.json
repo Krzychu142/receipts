@@ -6695,7 +6695,7 @@
 		"produkty": [
 			{
 				"nazwa": "cola oryginal zero",
-				"jednostka": "litra",
+				"jednostka": "litr",
 				"cena": 4.49,
 				"ilość": 1.5,
 				"kategoria": "spożywcze"
