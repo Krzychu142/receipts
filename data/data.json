@@ -5917,14 +5917,19 @@
 		"sklep": "mediaexpert",
 		"data-zakupów": "2024-08-16",
 		"suma": 119.0,
+		"skan_paragonu": "google/drive/link/do/paragonu",
 		"waluta": "pln",
+		"strona_internetowa": "https://www.mediaexpert.pl/komputery-i-tablety/akcesoria-komputerowe/plecaki-na-laptopy/plecak-na-laptopa-genesis-pallad-410-15-6-cali-czarny",
 		"produkty": [
 			{
-				"nazwa": "plecak na plecak",
+				"nazwa": "plecak na laptop genesis",
 				"jednostka": "sztuka",
 				"cena": 119.0,
 				"ilość": 1,
-				"kategoria": "elektronika"
+				"kategoria": "elektronika",
+				"czy_na_gwarancji": true,
+				"data_gwarancji": "2025-08-16",
+				"opis_produktu": "prezent od Pauliny na dzień chłopaka"
 			}
 		],
 		"czy_internetowy": false
@@ -6898,5 +6903,183 @@
 				"kategoria": "spożywcze"
 			}
 		]
+	},
+	{
+		"_comment": "NEW PORTION OF PRODUCTS FROM HERE",
+		"sklep": "lidl",
+		"adres": "Witosa 4 30-612 Kraków",
+		"data-zakupów": "2024-08-25",
+		"suma": 58.7,
+		"skan_paragonu": "",
+		"waluta": "pln",
+		"strona_internetowa": "",
+		"produkty": [
+			{
+				"nazwa": "nektarynki",
+				"jednostka": "kilogram",
+				"cena": 1.77,
+				"rabat": 0.97,
+				"ilość": 0.148,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "mydło w płynie",
+				"jednostka": "litr",
+				"cena": 5.99,
+				"rabat": 0.6,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": "uzupełniacz"
+			},
+			{
+				"nazwa": "płatki śniadaniowe crunchy musli",
+				"jednostka": "gram",
+				"cena": 5.99,
+				"rabat": 0.6,
+				"ilość": 350,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "banany",
+				"jednostka": "kilogram",
+				"cena": 1.29,
+				"rabat": 0.13,
+				"ilość": 0.184,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "cola freeway zero",
+				"jednostka": "litr",
+				"cena": 5.29,
+				"rabat": 0.0,
+				"ilość": 2,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "jajka L",
+				"jednostka": "sztuka (x10)",
+				"cena": 8.49,
+				"rabat": 0.0,
+				"ilość": 1,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "fasola czerwona",
+				"jednostka": "gram",
+				"cena": 2.89,
+				"rabat": 0.0,
+				"ilość": 255,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "roleski musztarda",
+				"jednostka": "gram",
+				"cena": 2.99,
+				"rabat": 0.0,
+				"ilość": 175,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": "stołowa"
+			},
+			{
+				"nazwa": "serek kanapkowy",
+				"jednostka": "gram",
+				"cena": 3.74,
+				"rabat": 0.0,
+				"ilość": 150,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": "ziołowy"
+			},
+			{
+				"nazwa": "boczek w plastrach",
+				"jednostka": "gram",
+				"cena": 5.85,
+				"rabat": 0.0,
+				"ilość": 100,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "kabanosy tarczyński premium",
+				"jednostka": "gram",
+				"cena": 4.99,
+				"rabat": 0.0,
+				"ilość": 90,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "chusteczki kosmetyczne",
+				"jednostka": "sztuka (x150)",
+				"cena": 3.99,
+				"rabat": 0.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			},
+			{
+				"nazwa": "deser pianka śmietankowa",
+				"jednostka": "gram",
+				"cena": 1.72,
+				"rabat": 0.0,
+				"ilość": 175,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": "niepewna gramatura"
+			},
+			{
+				"nazwa": "deser pianka śmietankowa",
+				"jednostka": "gram",
+				"cena": 1.72,
+				"rabat": 0.0,
+				"ilość": 175,
+				"kategoria": "spożywcze",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": "niepewna gramatura"
+			},
+			{
+				"nazwa": "chusteczki higieniczne",
+				"jednostka": "sztuka",
+				"cena": 4.29,
+				"rabat": 0.0,
+				"ilość": 1,
+				"kategoria": "higiena i kosmetyki",
+				"czy_na_gwarancji": false,
+				"data_gwarancji": "",
+				"opis_produktu": ""
+			}
+		],
+		"czy_internetowy": false
 	}
 ]
