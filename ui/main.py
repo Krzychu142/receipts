@@ -1,20 +1,21 @@
 
-from prompt_user import prompt_receipt_data
-from database_connect import insert_receipt
-import logging
-import json
+from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units
+from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
+from prompt_toolkit import PromptSession
+from prompt_toolkit.completion import WordCompleter
+from prompt_toolkit.validation import Validator, ValidationError
+from prompt_toolkit.key_binding import KeyBindings
+import sys
 
 def main():
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    receipt = prompt_receipt_data()
-    print("\n--- Entered Receipt Data ---")
-    # print(json.dumps(receipt, indent=4, ensure_ascii=False))
-    # success = insert_receipt(receipt)
-    
-    # if success:
-        # print("Receipt data has been successfully saved to the database.")
-    # else:
-        # print("An error occurred while saving receipt data.")
+    while True:
+        result = yes_no_dialog(
+            title='Welcome in receipt project.',
+            text='Do you want to add a new RECEIPT?'
+        ).run()
+        
+        if not result:
+            break
 
 if __name__ == '__main__':
     main()
