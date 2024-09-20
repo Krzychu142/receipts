@@ -59,15 +59,15 @@
 
 #     receipt = {}
 
-#     receipt_entry = session.prompt(
-#         'Enter store name and address (e.g., "Lidl - Witosa 4, Kraków"): ',
-#         completer=store_completer
-#     )
-#     if ' - ' in receipt_entry:
-#         receipt['sklep'], receipt['adres'] = receipt_entry.split(' - ', 1)
-#     else:
-#         receipt['sklep'] = receipt_entry
-#         receipt['adres'] = session.prompt('Enter store address: ')
+    # receipt_entry = session.prompt(
+    #     'Enter store name and address (e.g., "Lidl - Witosa 4, Kraków"): ',
+    #     completer=store_completer
+    # )
+    # if ' - ' in receipt_entry:
+    #     receipt['sklep'], receipt['adres'] = receipt_entry.split(' - ', 1)
+    # else:
+    #     receipt['sklep'] = receipt_entry
+    #     receipt['adres'] = session.prompt('Enter store address: ')
 
 #     receipt['strona_internetowa'] = session.prompt(
 #         'Enter store website (optional): ',

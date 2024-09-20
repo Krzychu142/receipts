@@ -35,6 +35,22 @@ def get_store_names_with_addresses():
             connection.close()
     return store_entries
 
+def get_store_names():
+    connection = get_db_connection()
+    store_names = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT DISTINCT name FROM stores;")
+            stores = cursor.fetchall()
+            store_names = [store[0] for store in stores]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch store names and addresses: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return store_names
+
 def get_categories():
     connection = get_db_connection()
     categories = []
