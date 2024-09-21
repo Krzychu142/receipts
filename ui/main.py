@@ -65,7 +65,7 @@ def main():
     store_names= get_store_names()
     store_completer = WordCompleter(store_names, ignore_case=True)
 
-    receipt['sklep'] = session.prompt(
+    receipt['store_name'] = session.prompt(
         'Store name: ',
         completer=store_completer,
         validator=NotEmptyValidator(),
@@ -76,13 +76,13 @@ def main():
     addresses_completer = WordCompleter(addresses, ignore_case=True)
 
     session = PromptSession()
-    receipt['adres'] = session.prompt(
+    receipt['store_address'] = session.prompt(
         'Store address (optional): ',
         completer=addresses_completer
     )
 
     session = PromptSession()
-    receipt['czy_internetowy'] = session.prompt(
+    receipt['receipt_is_online'] = session.prompt(
         'Was the purchase online? (t/n): ',
         completer=yes_no_completer,
         default='n',
@@ -91,7 +91,7 @@ def main():
     )
 
     session = PromptSession()
-    receipt['strona_internetowa'] = session.prompt(
+    receipt['store_website'] = session.prompt(
         'Website of store (optional): ',
         default=''
     )
@@ -104,7 +104,7 @@ def main():
         buffer.document = Document(text=new_value, cursor_position=len(new_value))
 
     session = PromptSession(key_bindings=bindings)
-    receipt['data-zakupów'] = session.prompt(
+    receipt['receipt_date_string'] = session.prompt(
         'Enter purchase date (YYYY-MM-DD)\n(Type space for today date): ',
         validator=DateValidator(),
         validate_while_typing=True
@@ -114,16 +114,29 @@ def main():
     currencies_codes_completer = WordCompleter(currencies_codes, ignore_case=True)
 
     session = PromptSession()
-    receipt['waluta'] = session.prompt(
+    receipt['currency_code'] = session.prompt(
         'Enter the currency code of receipt: ',
         validator=CurrencyValidator(),
         validate_while_typing=True,
         completer=currencies_codes_completer,
         default='pln'
     ).lower()
+
+    session = PromptSession()
+    # receipt[]
     # receipt['currency_description'] #OPTIONAL
     # receipt['skan_paragonu'] #OPTIONAL
     # receipt['suma'] 
+
+    # store_name VARCHAR(180),
+    # store_address VARCHAR(255),
+    # store_website VARCHAR(255),
+    # currency_code VARCHAR(10),
+    # currency_description VARCHAR(80),
+    # receipt_total NUMERIC(10, 2),
+    # receipt_date_string TEXT,
+    # receipt_is_online BOOLEAN,
+    # receipt_scan TEXT,
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)
