@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name
+from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -49,10 +49,10 @@ class YesNoValidator(Validator):
 
 class CurrencyValidator(Validator):
     def validate(self, document):
-        valid_currencies = ['PLN', 'USD', 'EUR', 'GBP', 'CHF']
-        if document.text.upper() not in valid_currencies:
+        valid_currencies = ['pln', 'usd', 'eur', 'gbp', 'chf']
+        if document.text.lower() not in valid_currencies:
             raise ValidationError(
-                message='Please enter a valid currency (e.g., PLN, USD, EUR).',
+                message='Please enter a valid currency (e.g., pln, usd, eur).',
                 cursor_position=len(document.text)
             )
 
@@ -109,6 +109,21 @@ def main():
         validator=DateValidator(),
         validate_while_typing=True
     )
+
+    currencies_codes = get_currencies_codes()
+    currencies_codes_completer = WordCompleter(currencies_codes, ignore_case=True)
+
+    session = PromptSession()
+    receipt['waluta'] = session.prompt(
+        'Enter the currency code of receipt: ',
+        validator=CurrencyValidator(),
+        validate_while_typing=True,
+        completer=currencies_codes_completer,
+        default='pln'
+    ).lower()
+    # receipt['currency_description'] #OPTIONAL
+    # receipt['skan_paragonu'] #OPTIONAL
+    # receipt['suma'] 
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)

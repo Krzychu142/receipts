@@ -45,7 +45,7 @@ def get_store_names():
             stores = cursor.fetchall()
             store_names = [store[0] for store in stores]
         except psycopg2.Error as e:
-            logging.error(f"Failed to fetch store names and addresses: {e}")
+            logging.error(f"Failed to fetch store names: {e}")
         finally:
             cursor.close()
             connection.close()
@@ -61,7 +61,7 @@ def get_address_by_name(store_name):
             addresses_result = cursor.fetchall()
             addresses = [address[0] for address in addresses_result]
         except psycopg2.Error as e:
-            logging.error(f"Failed to fetch store names and addresses: {e}")
+            logging.error(f"Failed to fetch store addresses: {e}")
         finally:
             cursor.close()
             connection.close()
@@ -98,6 +98,22 @@ def get_units():
             cursor.close()
             connection.close()
     return units
+
+def get_currencies_codes():
+    connection = get_db_connection()
+    currencies_codes = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT code FROM currencies;")
+            currencies_codes_result = cursor.fetchall()
+            currencies_codes = [code[0] for code in currencies_codes_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currencies codes: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return currencies_codes
 
 def insert_receipt(receipt):
     connection = get_db_connection()
