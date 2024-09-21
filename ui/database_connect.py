@@ -35,6 +35,38 @@ def get_store_names_with_addresses():
             connection.close()
     return store_entries
 
+def get_store_names():
+    connection = get_db_connection()
+    store_names = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT DISTINCT name FROM stores ORDER BY name ASC;")
+            stores = cursor.fetchall()
+            store_names = [store[0] for store in stores]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch store names: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return store_names
+
+def get_address_by_name(store_name):
+    connection = get_db_connection()
+    addresses = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT address FROM stores WHERE name=%s;", (store_name,))
+            addresses_result = cursor.fetchall()
+            addresses = [address[0] for address in addresses_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch store addresses: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return addresses
+
 def get_categories():
     connection = get_db_connection()
     categories = []
@@ -66,6 +98,53 @@ def get_units():
             cursor.close()
             connection.close()
     return units
+
+def get_currencies_codes():
+    connection = get_db_connection()
+    currencies_codes = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT code FROM currencies;")
+            currencies_codes_result = cursor.fetchall()
+            currencies_codes = [code[0] for code in currencies_codes_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currencies codes: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return currencies_codes
+
+def get_currency_description_by_code(code):
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT select_currency_description_by_code(%s);", (code,))
+                result = cursor.fetchone()
+                currency_description = result[0]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return currency_description
+
+def get_all_distinct_products_names():
+    connection = get_db_connection()
+    products_names = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT DISTINCT name FROM products ORDER BY name ASC;")
+            products_names_result = cursor.fetchall()
+            products_names = [product[0] for product in products_names_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch products codes: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return products_names
 
 def insert_receipt(receipt):
     connection = get_db_connection()
