@@ -18,7 +18,6 @@ class NotEmptyValidator(Validator):
                 cursor_position=len(document.text)
             )
 
-
 class NumericValidator(Validator):
     def validate(self, document):
         try:
@@ -55,6 +54,11 @@ class CurrencyValidator(Validator):
                 message='Please enter a valid currency (e.g., pln, usd, eur).',
                 cursor_position=len(document.text)
             )
+        
+def convert_t_n_into_bool(t_n):
+    if t_n == 't':
+        return True
+    return False
 
 def main():
     receipt= {}
@@ -82,13 +86,13 @@ def main():
     )
 
     session = PromptSession()
-    receipt['receipt_is_online'] = session.prompt(
+    receipt['receipt_is_online'] = convert_t_n_into_bool(session.prompt(
         'Was the purchase online? (t/n): ',
         completer=yes_no_completer,
         default='n',
         validator=YesNoValidator(),
         validate_while_typing=False
-    )
+    ))
 
     session = PromptSession()
     receipt['store_website'] = session.prompt(
@@ -130,8 +134,18 @@ def main():
         default=currency_description if currency_description else ''
     )
 
-    # receipt['skan_paragonu'] #OPTIONAL
-    # receipt['suma'] 
+    session = PromptSession()
+    receipt['receipt_scan'] = session.prompt(
+        'Link to the receipt scan photo (optional): ',
+        default=''
+    )
+
+    session = PromptSession()
+    receipt['total'] = float(session.prompt(
+        'Total value from receipt: ',
+        validator=NumericValidator(),
+        validate_while_typing=True
+    ))
 
     # store_name VARCHAR(180),
     # store_address VARCHAR(255),
