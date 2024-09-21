@@ -5,8 +5,10 @@ from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.validation import Validator, ValidationError
 from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit.document import Document
 import sys
 import datetime
+import json
 
 class NotEmptyValidator(Validator):
     def validate(self, document):
@@ -70,26 +72,46 @@ def main():
         validate_while_typing=True
     ).lower()
 
-    print(receipt['sklep'])
     addresses = get_address_by_name(receipt['sklep'])
     addresses_completer = WordCompleter(addresses, ignore_case=True)
 
     session = PromptSession()
     receipt['adres'] = session.prompt(
-        'Store address: ',
+        'Store address (optional): ',
         completer=addresses_completer
     )
 
-    print(receipt['adres'])
     session = PromptSession()
     receipt['czy_internetowy'] = session.prompt(
         'Was the purchase online? (t/n): ',
         completer=yes_no_completer,
+        default='n',
         validator=YesNoValidator(),
         validate_while_typing=False
     )
 
-    print(receipt['czy_internetowy'])
+    session = PromptSession()
+    receipt['strona_internetowa'] = session.prompt(
+        'Website of store (optional): ',
+        default=''
+    )
+    
+    bindings = KeyBindings()
+    @bindings.add(' ')
+    def _(event):
+        buffer = event.app.current_buffer
+        new_value = datetime.date.today().isoformat()
+        buffer.document = Document(text=new_value, cursor_position=len(new_value))
+
+    session = PromptSession(key_bindings=bindings)
+    receipt['data-zakupów'] = session.prompt(
+        'Enter purchase date (YYYY-MM-DD)\n(Type space for today date): ',
+        validator=DateValidator(),
+        validate_while_typing=True
+    )
+
+    formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
+    print(formatted_json)
 
 if __name__ == '__main__':
     main()
