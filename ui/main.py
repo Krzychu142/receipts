@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names
+from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -57,6 +57,8 @@ class CurrencyValidator(Validator):
 def main():
     receipt= {}
     session = PromptSession()
+
+    yes_no_completer = WordCompleter(['t', 'n'], ignore_case=True)
     
     store_names= get_store_names()
     store_completer = WordCompleter(store_names, ignore_case=True)
@@ -69,7 +71,25 @@ def main():
     ).lower()
 
     print(receipt['sklep'])
-    addresses = get_address_by_name()
+    addresses = get_address_by_name(receipt['sklep'])
+    addresses_completer = WordCompleter(addresses, ignore_case=True)
+
+    session = PromptSession()
+    receipt['adres'] = session.prompt(
+        'Store address: ',
+        completer=addresses_completer
+    )
+
+    print(receipt['adres'])
+    session = PromptSession()
+    receipt['czy_internetowy'] = session.prompt(
+        'Was the purchase online? (t/n): ',
+        completer=yes_no_completer,
+        validator=YesNoValidator(),
+        validate_while_typing=False
+    )
+
+    print(receipt['czy_internetowy'])
 
 if __name__ == '__main__':
     main()

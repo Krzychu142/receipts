@@ -41,7 +41,7 @@ def get_store_names():
     if connection:
         try:
             cursor = connection.cursor()
-            cursor.execute("SELECT DISTINCT name FROM stores;")
+            cursor.execute("SELECT DISTINCT name FROM stores ORDER BY name ASC;")
             stores = cursor.fetchall()
             store_names = [store[0] for store in stores]
         except psycopg2.Error as e:
@@ -50,6 +50,22 @@ def get_store_names():
             cursor.close()
             connection.close()
     return store_names
+
+def get_address_by_name(store_name):
+    connection = get_db_connection()
+    addresses = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT address FROM stores WHERE name=%s;", (store_name,))
+            addresses_result = cursor.fetchall()
+            addresses = [address[0] for address in addresses_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch store names and addresses: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return addresses
 
 def get_categories():
     connection = get_db_connection()
