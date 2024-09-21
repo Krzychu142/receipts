@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes
+from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -72,7 +72,7 @@ def main():
         validate_while_typing=True
     ).lower()
 
-    addresses = get_address_by_name(receipt['sklep'])
+    addresses = get_address_by_name(receipt['store_name'])
     addresses_completer = WordCompleter(addresses, ignore_case=True)
 
     session = PromptSession()
@@ -117,14 +117,19 @@ def main():
     receipt['currency_code'] = session.prompt(
         'Enter the currency code of receipt: ',
         validator=CurrencyValidator(),
-        validate_while_typing=True,
+        validate_while_typing=False,
         completer=currencies_codes_completer,
         default='pln'
     ).lower()
 
+    currency_description = get_currency_description_by_code(receipt['currency_code'])
+
     session = PromptSession()
-    # receipt[]
-    # receipt['currency_description'] #OPTIONAL
+    receipt['currency_description'] = session.prompt(
+        'Enter the currency description (optional): ',
+        default=currency_description if currency_description else ''
+    )
+
     # receipt['skan_paragonu'] #OPTIONAL
     # receipt['suma'] 
 

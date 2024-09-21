@@ -115,6 +115,21 @@ def get_currencies_codes():
             connection.close()
     return currencies_codes
 
+def get_currency_description_by_code(code):
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT select_currency_description_by_code(%s);", (code,))
+                result = cursor.fetchone()
+                currency_description = result[0]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return currency_description
+
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:

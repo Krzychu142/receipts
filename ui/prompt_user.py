@@ -75,11 +75,11 @@
 #         completer=None,
 #         validate_while_typing=True
 #     )
-#     receipt['data-zakupów'] = session.prompt(
-#         'Enter purchase date (YYYY-MM-DD): ',
-#         validator=DateValidator(),
-#         validate_while_typing=True
-#     )
+    # receipt['data-zakupów'] = session.prompt(
+    #     'Enter purchase date (YYYY-MM-DD): ',
+    #     validator=DateValidator(),
+    #     validate_while_typing=True
+    # )
 #     receipt['suma'] = float(session.prompt(
 #         'Enter total amount: ',
 #         validator=NumericValidator(),
