@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code
+from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -147,15 +147,19 @@ def main():
         validate_while_typing=True
     ))
 
-    # store_name VARCHAR(180),
-    # store_address VARCHAR(255),
-    # store_website VARCHAR(255),
-    # currency_code VARCHAR(10),
-    # currency_description VARCHAR(80),
-    # receipt_total NUMERIC(10, 2),
-    # receipt_date_string TEXT,
-    # receipt_is_online BOOLEAN,
-    # receipt_scan TEXT,
+    receipt['produkty'] = []
+    all_distinct_products_names = get_all_distinct_products_names()
+    product_name_completer = WordCompleter(all_distinct_products_names, ignore_case=True)
+    while True:
+        product = {}
+        print("\n--- Adding a New Purchase/Product ---")
+        session = PromptSession()
+        product['product_name'] = session.prompt(
+            'Enter product name: ',
+            validator=NotEmptyValidator(),
+            validate_while_typing=True,
+            completer=product_name_completer
+        ).lower()
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)

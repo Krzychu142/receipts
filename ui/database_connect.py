@@ -130,6 +130,22 @@ def get_currency_description_by_code(code):
     
     return currency_description
 
+def get_all_distinct_products_names():
+    connection = get_db_connection()
+    products_names = []
+    if connection:
+        try:
+            cursor = connection.cursor()
+            cursor.execute("SELECT DISTINCT name FROM products ORDER BY name ASC;")
+            products_names_result = cursor.fetchall()
+            products_names = [product[0] for product in products_names_result]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch products codes: {e}")
+        finally:
+            cursor.close()
+            connection.close()
+    return products_names
+
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:

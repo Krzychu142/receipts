@@ -45,8 +45,8 @@
 # def prompt_receipt_data():
 #     session = PromptSession()
 
-    # store_entries = get_store_names_with_addresses()
-    # store_completer = WordCompleter(store_entries, ignore_case=True)
+#     store_entries = get_store_names_with_addresses()
+#     store_completer = WordCompleter(store_entries, ignore_case=True)
 
 #     currencies = ['PLN', 'USD', 'EUR', 'GBP', 'CHF']
 #     currency_completer = WordCompleter(currencies, ignore_case=True)
@@ -59,15 +59,15 @@
 
 #     receipt = {}
 
-    # receipt_entry = session.prompt(
-    #     'Enter store name and address (e.g., "Lidl - Witosa 4, Kraków"): ',
-    #     completer=store_completer
-    # )
-    # if ' - ' in receipt_entry:
-    #     receipt['sklep'], receipt['adres'] = receipt_entry.split(' - ', 1)
-    # else:
-    #     receipt['sklep'] = receipt_entry
-    #     receipt['adres'] = session.prompt('Enter store address: ')
+#     receipt_entry = session.prompt(
+#         'Enter store name and address (e.g., "Lidl - Witosa 4, Kraków"): ',
+#         completer=store_completer
+#     )
+#     if ' - ' in receipt_entry:
+#         receipt['sklep'], receipt['adres'] = receipt_entry.split(' - ', 1)
+#     else:
+#         receipt['sklep'] = receipt_entry
+#         receipt['adres'] = session.prompt('Enter store address: ')
 
 #     receipt['strona_internetowa'] = session.prompt(
 #         'Enter store website (optional): ',
@@ -75,11 +75,11 @@
 #         completer=None,
 #         validate_while_typing=True
 #     )
-    # receipt['data-zakupów'] = session.prompt(
-    #     'Enter purchase date (YYYY-MM-DD): ',
-    #     validator=DateValidator(),
-    #     validate_while_typing=True
-    # )
+#     receipt['data-zakupów'] = session.prompt(
+#         'Enter purchase date (YYYY-MM-DD): ',
+#         validator=DateValidator(),
+#         validate_while_typing=True
+#     )
 #     receipt['suma'] = float(session.prompt(
 #         'Enter total amount: ',
 #         validator=NumericValidator(),
