@@ -164,6 +164,10 @@ def main():
         all_distinct_categories_names = get_all_distinct_categories_names()
         categories_name_completer = WordCompleter(all_distinct_categories_names, ignore_case=True)
 
+        # TODO: 
+        # get category name based on product name and set it to default 
+        # there is very big chance to product name will be always in the same category
+        # if not, user will change it manually
         session = PromptSession()
         product['category_name'] = session.prompt(
             'Entry category name: ',
@@ -190,6 +194,23 @@ def main():
             'Enter base unit (optional): ',
             default=base_unit_name if base_unit_name else ''
         )
+
+        session = PromptSession()
+        product['conversion_multiplier'] = session.prompt(
+            'Enter conversion multiplier: ',
+            validator=NumericValidator() if base_unit_name else None,
+            default=str(conversion_multiplier) if base_unit_name else '',
+            accept_default=False if base_unit_name else True
+        )
+
+        if product['base_unit_name'] != '':
+            if product['conversion_multiplier'] != '':
+                product['conversion_multiplier'] = float(product['conversion_multiplier'])
+            else:
+                product['conversion_multiplier'] = None
+        else:
+            product['base_unit_name'] = None
+            product['conversion_multiplier'] = None
 
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
