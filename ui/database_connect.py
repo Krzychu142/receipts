@@ -67,13 +67,13 @@ def get_address_by_name(store_name):
             connection.close()
     return addresses
 
-def get_categories():
+def get_all_distinct_categories_names():
     connection = get_db_connection()
     categories = []
     if connection:
         try:
             cursor = connection.cursor()
-            cursor.execute("SELECT name FROM categories;")
+            cursor.execute("SELECT DISTINCT name FROM categories;")
             cats = cursor.fetchall()
             categories = [cat[0] for cat in cats]
         except psycopg2.Error as e:
@@ -83,13 +83,13 @@ def get_categories():
             connection.close()
     return categories
 
-def get_units():
+def get_distinct_units_names():
     connection = get_db_connection()
     units = []
     if connection:
         try:
             cursor = connection.cursor()
-            cursor.execute("SELECT name FROM units;")
+            cursor.execute("SELECT DISTINCT name FROM units;")
             us = cursor.fetchall()
             units = [unit[0] for unit in us]
         except psycopg2.Error as e:

@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -160,6 +160,32 @@ def main():
             validate_while_typing=True,
             completer=product_name_completer
         ).lower()
+
+        all_distinct_categories_names = get_all_distinct_categories_names()
+        categories_name_completer = WordCompleter(all_distinct_categories_names, ignore_case=True)
+
+        session = PromptSession()
+        product['category_name'] = session.prompt(
+            'Entry category name: ',
+            validator=NotEmptyValidator(),
+            validate_while_typing=True,
+            completer=categories_name_completer 
+        )
+        
+        # maybe let we try to get here product from base
+        # if there was some product like that - let we get default values for it. 
+
+        all_distinct_units_names = get_distinct_units_names()
+        unit_name_completer = WordCompleter(all_distinct_units_names, ignore_case=True)
+
+        session = PromptSession()
+        product['unit_name'] = session.prompt(
+            'Enter unit name: ',
+            validator=NotEmptyValidator(),
+            validate_while_typing=True,
+            completer=unit_name_completer
+        )
+
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)
