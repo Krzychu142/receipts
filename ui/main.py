@@ -284,7 +284,18 @@ def main():
             accept_default=False if product['is_warranty'] else True
         )
 
-        receipt['produkty'].append(product)
+        formatted_json = json.dumps(product, indent=4, ensure_ascii=False)
+        print(formatted_json, '\n')
+
+        session = PromptSession()
+        accept_product = convert_t_n_into_bool(session.prompt(
+            'Do You accept the product? (t/n): ',
+            validate_while_typing=False,
+            validator=YesNoValidator()
+        ))
+
+        if accept_product:
+            receipt['produkty'].append(product)
 
         bindings = KeyBindings()
         @bindings.add('c-i')
