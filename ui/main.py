@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address, get_all_optional_product_property_by_name_and_category
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -240,11 +240,34 @@ def main():
             validate_while_typing=True
         )
 
-        
+        (product_link, is_virtual, is_fee, description) = get_all_optional_product_property_by_name_and_category(product['product_name'], product['category_name'])
 
         session = PromptSession()
         product['product_link'] = session.prompt(
+            'Enter product link (optional): ',
+            default=product_link if product_link else ''
+        )
 
+        session = PromptSession()
+        product['is_virtual'] = session.prompt(
+            'Is product virtual? (t/n): ',
+            default='t' if is_virtual else 'n',
+            validator=YesNoValidator(),
+            validate_while_typing=True
+        )
+
+        session = PromptSession()
+        product['is_fee'] = session.prompt(
+            'Is product a fee? (t/n): ',
+            default='t' if is_fee else 'n',
+            validator=YesNoValidator(),
+            validate_while_typing=True
+        )
+
+        session = PromptSession()
+        product['description'] = session.prompt(
+            'Product description (optional): ',
+            default=description if description else ''
         )
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)

@@ -229,7 +229,21 @@ def get_website_by_store_name_and_address(store_name, store_address):
 
 
 def get_all_optional_product_property_by_name_and_category(product_name, category_name):
-    pass
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT v_product_link, v_is_virtual, v_is_fee, v_description FROM select_all_optional_product_property_by_product_name_and_category_name(%s, %s);", (product_name, category_name))
+                result = cursor.fetchone()
+                if result:
+                    product_link, is_virtual, is_fee, description = result
+                    return product_link, is_virtual, is_fee, description
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return None, None, None, None
 
 def insert_receipt(receipt):
     connection = get_db_connection()
