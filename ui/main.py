@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -94,6 +94,7 @@ def main():
         validate_while_typing=False
     ))
 
+    # TODO: try to select store_website if exists based on name and address (uniq combination)
     session = PromptSession()
     receipt['store_website'] = session.prompt(
         'Website of store (optional): ',
@@ -176,13 +177,14 @@ def main():
 
         all_distinct_units_names = get_distinct_units_names()
         unit_name_completer = WordCompleter(all_distinct_units_names, ignore_case=True)
-
+        default_unit = get_unit_name_by_product_name_and_category_name(product['product_name'], product['category_name'])
         session = PromptSession()
         product['unit_name'] = session.prompt(
             'Enter unit name: ',
             validator=NotEmptyValidator(),
             validate_while_typing=True,
-            completer=unit_name_completer
+            completer=unit_name_completer,
+            default=default_unit if default_unit else ''
         ).lower()
 
         (base_unit_name, conversion_multiplier) = get_base_unit_name_and_conversion_multiplier_by_unit_name(product['unit_name'])
@@ -210,6 +212,18 @@ def main():
             product['base_unit_name'] = None
             product['conversion_multiplier'] = None
 
+        #TODO: price, discount, quantity product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
+        session = PromptSession()
+        product['price'] = session.prompt(
+            'Enter price: ',
+            validator=NumericValidator()
+        )
+
+        product['discount'] = session.prompt(
+            'Enter discount: ',
+            validator=NumericValidator(),
+            default='0.00'
+        )
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)
