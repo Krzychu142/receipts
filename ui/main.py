@@ -290,7 +290,7 @@ def main():
         @bindings.add('c-i')
         def _(event):
             formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
-            print(formatted_json)
+            print(formatted_json, '\n')
 
         session = PromptSession(key_bindings=bindings)
         next_product = convert_t_n_into_bool(session.prompt(
