@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -98,7 +98,7 @@ def main():
     receipt['store_website'] = session.prompt(
         'Website of store (optional): ',
         default=''
-    )
+    ).lower()
     
     bindings = KeyBindings()
     @bindings.add(' ')
@@ -132,13 +132,13 @@ def main():
     receipt['currency_description'] = session.prompt(
         'Enter the currency description (optional): ',
         default=currency_description if currency_description else ''
-    )
+    ).lower()
 
     session = PromptSession()
     receipt['receipt_scan'] = session.prompt(
         'Link to the receipt scan photo (optional): ',
         default=''
-    )
+    ).lower()
 
     session = PromptSession()
     receipt['total'] = float(session.prompt(
@@ -164,17 +164,15 @@ def main():
         all_distinct_categories_names = get_all_distinct_categories_names()
         categories_name_completer = WordCompleter(all_distinct_categories_names, ignore_case=True)
 
-        # TODO: 
-        # get category name based on product name and set it to default 
-        # there is very big chance to product name will be always in the same category
-        # if not, user will change it manually
+        category_name = get_category_name(product['product_name'])
         session = PromptSession()
         product['category_name'] = session.prompt(
             'Entry category name: ',
             validator=NotEmptyValidator(),
             validate_while_typing=True,
-            completer=categories_name_completer 
-        )
+            completer=categories_name_completer,
+            default=category_name if category_name else ''
+        ).lower()
 
         all_distinct_units_names = get_distinct_units_names()
         unit_name_completer = WordCompleter(all_distinct_units_names, ignore_case=True)
@@ -193,7 +191,7 @@ def main():
         product['base_unit_name'] = session.prompt(
             'Enter base unit (optional): ',
             default=base_unit_name if base_unit_name else ''
-        )
+        ).lower()
 
         session = PromptSession()
         product['conversion_multiplier'] = session.prompt(

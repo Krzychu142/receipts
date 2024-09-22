@@ -163,6 +163,21 @@ def get_base_unit_name_and_conversion_multiplier_by_unit_name(unit_name):
     
     return None, None
 
+def get_category_name(product_name):
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT select_category_name_by_product_name(%s);", (product_name,))
+                result = cursor.fetchone()
+                category_name = result[0]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return category_name
+
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:
