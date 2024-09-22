@@ -284,14 +284,20 @@ def main():
             accept_default=False if product['is_warranty'] else True
         )
 
-        session = PromptSession()
+        receipt['produkty'].append(product)
+
+        bindings = KeyBindings()
+        @bindings.add('c-i')
+        def _(event):
+            formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
+            print(formatted_json)
+
+        session = PromptSession(key_bindings=bindings)
         next_product = convert_t_n_into_bool(session.prompt(
-            'Do You want to add another product? (t/n): ',
+            '(Show object - Ctr i)\nDo You want to add another product? (t/n): ',
             validate_while_typing=False,
             validator=YesNoValidator()
         ))
-
-        receipt['produkty'].append(product)
 
         if next_product:
             continue
