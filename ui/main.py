@@ -212,7 +212,6 @@ def main():
             product['base_unit_name'] = None
             product['conversion_multiplier'] = None
 
-        #TODO: product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
         session = PromptSession()
         product['price'] = session.prompt(
             'Enter price: ',
@@ -246,29 +245,59 @@ def main():
         product['product_link'] = session.prompt(
             'Enter product link (optional): ',
             default=product_link if product_link else ''
-        )
+        ).lower()
 
         session = PromptSession()
-        product['is_virtual'] = session.prompt(
+        product['product_is_virtual'] = convert_t_n_into_bool(session.prompt(
             'Is product virtual? (t/n): ',
             default='t' if is_virtual else 'n',
             validator=YesNoValidator(),
-            validate_while_typing=True
-        )
+            validate_while_typing=False
+        ))
 
         session = PromptSession()
-        product['is_fee'] = session.prompt(
+        product['product_is_fee'] = convert_t_n_into_bool(session.prompt(
             'Is product a fee? (t/n): ',
             default='t' if is_fee else 'n',
             validator=YesNoValidator(),
-            validate_while_typing=True
+            validate_while_typing=False
+        ))
+
+        session = PromptSession()
+        product['product_description'] = session.prompt(
+            'Product description (optional): ',
+            default=description if description else ''
+        ).lower()
+
+        session = PromptSession()
+        product['is_warranty'] = convert_t_n_into_bool(session.prompt(
+            'Did You get warranty for this purchase? (t/n): ',
+            default='n'
+        ))
+
+        session = PromptSession()
+        product['warranty_expiration_date'] = session.prompt(
+            'Warranty date: ',
+            validator=DateValidator() if product['is_warranty'] else None,
+            validate_while_typing=False,
+            default='',
+            accept_default=False if product['is_warranty'] else True
         )
 
         session = PromptSession()
-        product['description'] = session.prompt(
-            'Product description (optional): ',
-            default=description if description else ''
-        )
+        next_product = convert_t_n_into_bool(session.prompt(
+            'Do You want to add another product? (t/n): ',
+            validate_while_typing=False,
+            validator=YesNoValidator()
+        ))
+
+        receipt['produkty'].append(product)
+
+        if next_product:
+            continue
+        else:
+            break
+
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)
