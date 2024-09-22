@@ -146,20 +146,22 @@ def get_all_distinct_products_names():
             connection.close()
     return products_names
 
-def get_base_unit_name_by_unit_name(unit_name):
+def get_base_unit_name_and_conversion_multiplier_by_unit_name(unit_name):
     connection = get_db_connection()
     if connection:
         try:
             with connection.cursor() as cursor:
-                cursor.execute("SELECT select_base_unit_name_by_unit_name(%s);", (unit_name,))
+                cursor.execute("SELECT base_unit_name, conversion_multiplier FROM select_base_unit_name_and_conversion_multiplier_by_unit_name(%s);", (unit_name,))
                 result = cursor.fetchone()
-                base_unit_name = result[0]
+                if result:
+                    base_unit_name, conversion_multiplier = result
+                    return base_unit_name, conversion_multiplier
         except psycopg2.Error as e:
             logging.error(f"Failed to fetch currency description: {e}")
         finally:
             connection.close()
     
-    return base_unit_name
+    return None, None
 
 def insert_receipt(receipt):
     connection = get_db_connection()

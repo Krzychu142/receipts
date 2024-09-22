@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_by_unit_name
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -171,9 +171,6 @@ def main():
             validate_while_typing=True,
             completer=categories_name_completer 
         )
-        
-        # maybe let we try to get here product from base
-        # if there was some product like that - let we get default values for it. 
 
         all_distinct_units_names = get_distinct_units_names()
         unit_name_completer = WordCompleter(all_distinct_units_names, ignore_case=True)
@@ -186,8 +183,8 @@ def main():
             completer=unit_name_completer
         ).lower()
 
-        base_unit_name = get_base_unit_name_by_unit_name(product['unit_name'])
-        
+        (base_unit_name, conversion_multiplier) = get_base_unit_name_and_conversion_multiplier_by_unit_name(product['unit_name'])
+
         session = PromptSession()
         product['base_unit_name'] = session.prompt(
             'Enter base unit (optional): ',
