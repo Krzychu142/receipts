@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_store_names_with_addresses, get_categories, get_units, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -94,11 +94,12 @@ def main():
         validate_while_typing=False
     ))
 
+    default_website = get_website_by_store_name_and_address(receipt['store_name'], receipt['store_address'])
     session = PromptSession()
     receipt['store_website'] = session.prompt(
         'Website of store (optional): ',
-        default=''
-    )
+        default=default_website if default_website else ''
+    ).lower()
     
     bindings = KeyBindings()
     @bindings.add(' ')
@@ -132,13 +133,13 @@ def main():
     receipt['currency_description'] = session.prompt(
         'Enter the currency description (optional): ',
         default=currency_description if currency_description else ''
-    )
+    ).lower()
 
     session = PromptSession()
     receipt['receipt_scan'] = session.prompt(
         'Link to the receipt scan photo (optional): ',
         default=''
-    )
+    ).lower()
 
     session = PromptSession()
     receipt['total'] = float(session.prompt(
@@ -160,6 +161,91 @@ def main():
             validate_while_typing=True,
             completer=product_name_completer
         ).lower()
+
+        all_distinct_categories_names = get_all_distinct_categories_names()
+        categories_name_completer = WordCompleter(all_distinct_categories_names, ignore_case=True)
+
+        category_name = get_category_name(product['product_name'])
+        session = PromptSession()
+        product['category_name'] = session.prompt(
+            'Entry category name: ',
+            validator=NotEmptyValidator(),
+            validate_while_typing=True,
+            completer=categories_name_completer,
+            default=category_name if category_name else ''
+        ).lower()
+
+        all_distinct_units_names = get_distinct_units_names()
+        unit_name_completer = WordCompleter(all_distinct_units_names, ignore_case=True)
+        default_unit = get_unit_name_by_product_name_and_category_name(product['product_name'], product['category_name'])
+        session = PromptSession()
+        product['unit_name'] = session.prompt(
+            'Enter unit name: ',
+            validator=NotEmptyValidator(),
+            validate_while_typing=True,
+            completer=unit_name_completer,
+            default=default_unit if default_unit else ''
+        ).lower()
+
+        (base_unit_name, conversion_multiplier) = get_base_unit_name_and_conversion_multiplier_by_unit_name(product['unit_name'])
+
+        session = PromptSession()
+        product['base_unit_name'] = session.prompt(
+            'Enter base unit (optional): ',
+            default=base_unit_name if base_unit_name else ''
+        ).lower()
+
+        session = PromptSession()
+        product['conversion_multiplier'] = session.prompt(
+            'Enter conversion multiplier: ',
+            validator=NumericValidator() if base_unit_name else None,
+            default=str(conversion_multiplier) if base_unit_name else '',
+            accept_default=False if base_unit_name else True
+        )
+
+        if product['base_unit_name'] != '':
+            if product['conversion_multiplier'] != '':
+                product['conversion_multiplier'] = float(product['conversion_multiplier'])
+            else:
+                product['conversion_multiplier'] = None
+        else:
+            product['base_unit_name'] = None
+            product['conversion_multiplier'] = None
+
+        #TODO: product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
+        session = PromptSession()
+        product['price'] = session.prompt(
+            'Enter price: ',
+            validator=NumericValidator()
+        )
+
+        session = PromptSession()
+        product['discount'] = session.prompt(
+            'Enter discount: ',
+            validator=NumericValidator(),
+            default='0.00'
+        )
+
+        default_quantity = get_quantity_by_product_name_category_name_unit_name(
+            product['product_name'],
+            product['category_name'],
+            product['unit_name']
+        )
+
+        session = PromptSession()
+        product['quantity'] = session.prompt(
+            'Enter quantity: ',
+            default=str(default_quantity) if default_quantity else '',
+            validator=NumericValidator(),
+            validate_while_typing=True
+        )
+
+        
+
+        session = PromptSession()
+        product['product_link'] = session.prompt(
+
+        )
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
     print(formatted_json)
