@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -212,17 +212,32 @@ def main():
             product['base_unit_name'] = None
             product['conversion_multiplier'] = None
 
-        #TODO: price, discount, quantity product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
+        #TODO: product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
         session = PromptSession()
         product['price'] = session.prompt(
             'Enter price: ',
             validator=NumericValidator()
         )
 
+        session = PromptSession()
         product['discount'] = session.prompt(
             'Enter discount: ',
             validator=NumericValidator(),
             default='0.00'
+        )
+
+        default_quantity = get_quantity_by_product_name_category_name_unit_name(
+            product['product_name'],
+            product['category_name'],
+            product['unit_name']
+        )
+
+        session = PromptSession()
+        product['quantity'] = session.prompt(
+            'Enter quantity: ',
+            default=str(default_quantity) if default_quantity else '',
+            validator=NumericValidator(),
+            validate_while_typing=True
         )
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)

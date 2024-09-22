@@ -195,6 +195,22 @@ def get_unit_name_by_product_name_and_category_name(product_name, category_name)
     
     return unit_name
 
+def get_quantity_by_product_name_category_name_unit_name(product_name, category_name, unit_name):
+    connection = get_db_connection()
+    quantity = None
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT select_quantity_by_product_name_category_name_unit_name(%s, %s, %s);", (product_name, category_name, unit_name))
+                result = cursor.fetchone()
+                quantity = result[0]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return quantity
+
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:
