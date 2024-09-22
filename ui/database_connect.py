@@ -211,6 +211,26 @@ def get_quantity_by_product_name_category_name_unit_name(product_name, category_
     
     return quantity
 
+def get_website_by_store_name_and_address(store_name, store_address):
+    connection = get_db_connection()
+    website = ''
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT website FROM stores WHERE name=%s AND address=%s", (store_name, store_address))
+                result = cursor.fetchone()
+                website = result[0]
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return website
+
+
+def get_all_optional_product_property_by_name_and_category(product_name, category_name):
+    pass
+
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:

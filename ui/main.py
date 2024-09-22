@@ -1,5 +1,5 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address
 from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
@@ -94,11 +94,11 @@ def main():
         validate_while_typing=False
     ))
 
-    # TODO: try to select store_website if exists based on name and address (uniq combination)
+    default_website = get_website_by_store_name_and_address(receipt['store_name'], receipt['store_address'])
     session = PromptSession()
     receipt['store_website'] = session.prompt(
         'Website of store (optional): ',
-        default=''
+        default=default_website if default_website else ''
     ).lower()
     
     bindings = KeyBindings()
@@ -238,6 +238,13 @@ def main():
             default=str(default_quantity) if default_quantity else '',
             validator=NumericValidator(),
             validate_while_typing=True
+        )
+
+        
+
+        session = PromptSession()
+        product['product_link'] = session.prompt(
+
         )
 
     formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
