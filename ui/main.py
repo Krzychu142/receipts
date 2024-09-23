@@ -1,12 +1,11 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address, get_all_optional_product_property_by_name_and_category
-from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address, get_all_optional_product_property_by_name_and_category, get_unit_id_by_name, insert_new_unit_and_return_id
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.validation import Validator, ValidationError
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.document import Document
-import sys
+import os
 import datetime
 import json
 
@@ -148,7 +147,7 @@ def main():
         validate_while_typing=True
     ))
 
-    receipt['produkty'] = []
+    receipt['products'] = []
     all_distinct_products_names = get_all_distinct_products_names()
     product_name_completer = WordCompleter(all_distinct_products_names, ignore_case=True)
     while True:
@@ -194,6 +193,11 @@ def main():
             'Enter base unit (optional): ',
             default=base_unit_name if base_unit_name else ''
         ).lower()
+
+        if product['base_unit_name']:
+            product['base_unit_id'] = get_unit_id_by_name(product['base_unit_name'])
+            if not product['base_unit_id']:
+                product['base_unit_id'] = insert_new_unit_and_return_id(product['base_unit_name'])
 
         session = PromptSession()
         product['conversion_multiplier'] = session.prompt(
@@ -284,6 +288,9 @@ def main():
             accept_default=False if product['is_warranty'] else True
         )
 
+        if not product['is_warranty'] and product['warranty_expiration_date'] == '':
+            product['warranty_expiration_date'] = None
+
         formatted_json = json.dumps(product, indent=4, ensure_ascii=False)
         print(formatted_json, '\n')
 
@@ -295,7 +302,7 @@ def main():
         ))
 
         if accept_product:
-            receipt['produkty'].append(product)
+            receipt['products'].append(product)
 
         bindings = KeyBindings()
         @bindings.add('c-i')
@@ -311,13 +318,17 @@ def main():
         ))
 
         if next_product:
+            os.system('cls' if os.name == 'nt' else 'clear')
             continue
         else:
             break
 
-
-    formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
-    print(formatted_json)
+    result = insert_receipt(receipt)
+    if result: 
+        formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
+        print(formatted_json)
+    else:
+        print('Something goes wrong.')
 
 if __name__ == '__main__':
     main()
