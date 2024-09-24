@@ -220,7 +220,8 @@ def get_website_by_store_name_and_address(store_name, store_address):
             with connection.cursor() as cursor:
                 cursor.execute("SELECT website FROM stores WHERE name=%s AND address=%s", (store_name, store_address))
                 result = cursor.fetchone()
-                website = result[0]
+                if result:
+                    website = result[0]
         except psycopg2.Error as e:
             logging.error(f"Failed to fetch currency description: {e}")
         finally:
