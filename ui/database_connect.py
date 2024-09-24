@@ -1,4 +1,5 @@
 import psycopg2
+from psycopg2.extras import register_composite
 import configparser
 import logging
 
@@ -219,7 +220,8 @@ def get_website_by_store_name_and_address(store_name, store_address):
             with connection.cursor() as cursor:
                 cursor.execute("SELECT website FROM stores WHERE name=%s AND address=%s", (store_name, store_address))
                 result = cursor.fetchone()
-                website = result[0]
+                if result:
+                    website = result[0]
         except psycopg2.Error as e:
             logging.error(f"Failed to fetch currency description: {e}")
         finally:
@@ -229,58 +231,131 @@ def get_website_by_store_name_and_address(store_name, store_address):
 
 
 def get_all_optional_product_property_by_name_and_category(product_name, category_name):
-    pass
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT v_product_link, v_is_virtual, v_is_fee, v_description FROM select_all_optional_product_property_by_product_name_and_category_name(%s, %s);", (product_name, category_name))
+                result = cursor.fetchone()
+                if result:
+                    product_link, is_virtual, is_fee, description = result
+                    return product_link, is_virtual, is_fee, description
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return None, None, None, None
+
+def get_unit_id_by_name(unit_name):
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT unit_id FROM units WHERE name=%s;", (unit_name, ))
+                result = cursor.fetchone()
+                if result:
+                    unit_id = result[0]
+                    return unit_id
+        except psycopg2.Error as e:
+            logging.error(f"Failed to fetch currency description: {e}")
+        finally:
+            connection.close()
+    
+    return None
+
+def insert_new_unit_and_return_id(unit_name):
+    connection = get_db_connection()
+    if connection:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("""
+                    SELECT insert_unit_if_not_exists(%s, %s, %s);
+                """, (unit_name, None, None))
+
+                result = cursor.fetchone()
+                if result:
+                    unit_row = result[0]
+                    unit_id = unit_row['unit_id'] 
+                    return unit_id
+        except psycopg2.Error as e:
+            logging.error(f"Failed to insert or fetch unit: {e}")
+        finally:
+            connection.close()
+
+    return None
+
 
 def insert_receipt(receipt):
     connection = get_db_connection()
     if not connection:
         logging.error("No connection to the database.")
         return False
-    
+
     try:
         cursor = connection.cursor()
-        
-        purchased_products = [
-            (
-                p['nazwa'],
-                p['jednostka'],
-                p.get('base_unit_name'),          # base_unit_name
-                p.get('conversion_multiplier'),    # conversion_multiplier
-                p['kategoria'],
-                p['cena'],
-                p['rabat'],
-                p['ilość'],
-                p.get('opis_produktu', ''),
-                p['czy_na_gwarancji'],
-                p.get('data_gwarancji', ''),
-                False,                             # Additional fields if required
-                None
+
+        register_composite('purchased_product', cursor)
+
+        calculated_total = 0
+        purchased_products = []
+        for p in receipt['products']:
+            price = float(p['price'])
+            discount = float(p['discount'])
+            quantity = float(p['quantity'])
+            product_total = (price - discount)
+            calculated_total += product_total
+
+            purchased_product = (
+                p['product_name'],
+                p['unit_name'],
+                p.get('base_unit_name', None),
+                p.get('conversion_multiplier', None),
+                p['category_name'],
+                price,
+                discount,
+                quantity,
+                p.get('product_link', ''),
+                p.get('product_is_virtual', False),
+                p.get('product_is_fee', False),
+                p.get('product_description', ''),
+                p.get('is_warranty', False),
+                p.get('warranty_expiration_date', None)
             )
-            for p in receipt['produkty']
-        ]
-        
+            purchased_products.append(purchased_product)
+
+        calculated_total = round(calculated_total, 2)
+
+        receipt_total = float(receipt['total'])
+
+        if calculated_total != receipt_total:
+            raise ValueError(f"Total value of products ({calculated_total}) does not match receipt total ({receipt_total}).")
+
         cursor.execute("""
             SELECT insert_full_data_from_single_receipt(
                 %s, %s, %s,
                 %s, %s,
-                %s, %s, %s, %s, %s
+                %s, %s, %s, %s, %s::purchased_product[]
             );
         """, (
-            receipt['sklep'],
-            receipt['adres'],
-            receipt.get('strona_internetowa', ''),
-            receipt['waluta'],
-            receipt.get('currency_description', ''),  # If needed
-            receipt['suma'],
-            receipt['data-zakupów'],
-            receipt['czy_internetowy'],
-            receipt.get('skan_paragonu', ''),
+            receipt['store_name'],
+            receipt.get('store_address', ''),
+            receipt.get('store_website', ''),
+            receipt['currency_code'],
+            receipt.get('currency_description', ''),
+            receipt['total'],
+            receipt['receipt_date_string'],
+            receipt['receipt_is_online'],
+            receipt.get('receipt_scan', ''),
             purchased_products
         ))
-        
-        connection.rollback() # test rollback
+
+        connection.commit()
         logging.info("Receipt data successfully saved to the database.")
         return True
+    except ValueError as ve:
+        logging.error(f"Validation error: {ve}")
+        return False
     except psycopg2.Error as e:
         connection.rollback()
         logging.error(f"Failed to save receipt data: {e}")

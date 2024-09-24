@@ -1,12 +1,11 @@
 
-from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address
-from prompt_toolkit.shortcuts import button_dialog, message_dialog, input_dialog, yes_no_dialog
+from database_connect import insert_receipt, get_all_distinct_categories_names, get_distinct_units_names, get_store_names, get_address_by_name, get_currencies_codes, get_currency_description_by_code, get_all_distinct_products_names, get_base_unit_name_and_conversion_multiplier_by_unit_name, get_category_name, get_unit_name_by_product_name_and_category_name, get_quantity_by_product_name_category_name_unit_name, get_website_by_store_name_and_address, get_all_optional_product_property_by_name_and_category, get_unit_id_by_name, insert_new_unit_and_return_id
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.validation import Validator, ValidationError
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.document import Document
-import sys
+import os
 import datetime
 import json
 
@@ -148,7 +147,7 @@ def main():
         validate_while_typing=True
     ))
 
-    receipt['produkty'] = []
+    receipt['products'] = []
     all_distinct_products_names = get_all_distinct_products_names()
     product_name_completer = WordCompleter(all_distinct_products_names, ignore_case=True)
     while True:
@@ -195,6 +194,11 @@ def main():
             default=base_unit_name if base_unit_name else ''
         ).lower()
 
+        if product['base_unit_name']:
+            product['base_unit_id'] = get_unit_id_by_name(product['base_unit_name'])
+            if not product['base_unit_id']:
+                product['base_unit_id'] = insert_new_unit_and_return_id(product['base_unit_name'])
+
         session = PromptSession()
         product['conversion_multiplier'] = session.prompt(
             'Enter conversion multiplier: ',
@@ -212,7 +216,6 @@ def main():
             product['base_unit_name'] = None
             product['conversion_multiplier'] = None
 
-        #TODO: product_link, product_is_virtual, product_is_fee, product_description, is_warranty, warranty_expiration_date
         session = PromptSession()
         product['price'] = session.prompt(
             'Enter price: ',
@@ -240,15 +243,92 @@ def main():
             validate_while_typing=True
         )
 
-        
+        (product_link, is_virtual, is_fee, description) = get_all_optional_product_property_by_name_and_category(product['product_name'], product['category_name'])
 
         session = PromptSession()
         product['product_link'] = session.prompt(
+            'Enter product link (optional): ',
+            default=product_link if product_link else ''
+        ).lower()
 
+        session = PromptSession()
+        product['product_is_virtual'] = convert_t_n_into_bool(session.prompt(
+            'Is product virtual? (t/n): ',
+            default='t' if is_virtual else 'n',
+            validator=YesNoValidator(),
+            validate_while_typing=False
+        ))
+
+        session = PromptSession()
+        product['product_is_fee'] = convert_t_n_into_bool(session.prompt(
+            'Is product a fee? (t/n): ',
+            default='t' if is_fee else 'n',
+            validator=YesNoValidator(),
+            validate_while_typing=False
+        ))
+
+        session = PromptSession()
+        product['product_description'] = session.prompt(
+            'Product description (optional): ',
+            default=description if description else ''
+        ).lower()
+
+        session = PromptSession()
+        product['is_warranty'] = convert_t_n_into_bool(session.prompt(
+            'Did You get warranty for this purchase? (t/n): ',
+            default='n'
+        ))
+
+        session = PromptSession()
+        product['warranty_expiration_date'] = session.prompt(
+            'Warranty date: ',
+            validator=DateValidator() if product['is_warranty'] else None,
+            validate_while_typing=False,
+            default='',
+            accept_default=False if product['is_warranty'] else True
         )
 
-    formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
-    print(formatted_json)
+        if not product['is_warranty'] and product['warranty_expiration_date'] == '':
+            product['warranty_expiration_date'] = None
+
+        formatted_json = json.dumps(product, indent=4, ensure_ascii=False)
+        print(formatted_json, '\n')
+
+        session = PromptSession()
+        accept_product = convert_t_n_into_bool(session.prompt(
+            'Do You accept the product? (t/n): ',
+            validate_while_typing=False,
+            validator=YesNoValidator()
+        ))
+
+        if accept_product:
+            receipt['products'].append(product)
+
+        bindings = KeyBindings()
+        @bindings.add('c-i')
+        def _(event):
+            formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
+            print(formatted_json, '\n')
+
+        session = PromptSession(key_bindings=bindings)
+        next_product = convert_t_n_into_bool(session.prompt(
+            '(Show object - Ctr i)\nDo You want to add another product? (t/n): ',
+            validate_while_typing=False,
+            validator=YesNoValidator()
+        ))
+
+        if next_product:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            continue
+        else:
+            break
+
+    result = insert_receipt(receipt)
+    if result: 
+        formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
+        print(formatted_json)
+    else:
+        print('Something goes wrong.')
 
 if __name__ == '__main__':
     main()
