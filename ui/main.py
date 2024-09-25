@@ -294,6 +294,7 @@ def main():
         formatted_json = json.dumps(product, indent=4, ensure_ascii=False)
         print(formatted_json, '\n')
 
+        # TODO: set default on t - annoying 
         session = PromptSession()
         accept_product = convert_t_n_into_bool(session.prompt(
             'Do You accept the product? (t/n): ',
@@ -310,6 +311,7 @@ def main():
             formatted_json = json.dumps(receipt, indent=4, ensure_ascii=False)
             print(formatted_json, '\n')
 
+        # TODO: set default to t 
         session = PromptSession(key_bindings=bindings)
         next_product = convert_t_n_into_bool(session.prompt(
             '(Show object - Ctr i)\nDo You want to add another product? (t/n): ',
