@@ -167,7 +167,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 5.49,
 				"ilość": 500,
@@ -403,7 +403,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 5.99,
 				"ilość": 500,
@@ -557,7 +557,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 6.99,
 				"ilość": 500,
@@ -660,7 +660,7 @@
 				"kategoria": "transport"
 			},
 			{
-				"nazwa": "napój energetyczy",
+				"nazwa": "napój energetyczny",
 				"jednostka": "mililitr",
 				"cena": 1.75,
 				"ilość": 250,
@@ -706,7 +706,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy",
+				"nazwa": "napój energetyczny",
 				"jednostka": "mililitr",
 				"cena": 1.69,
 				"ilość": 250,
@@ -1535,7 +1535,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
@@ -2639,7 +2639,7 @@
 				"kategoria": "środki czystości"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 5.99,
 				"ilość": 500,
@@ -2697,7 +2697,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy",
+				"nazwa": "napój energetyczny",
 				"jednostka": "mililitr",
 				"cena": 2.98,
 				"ilość": 250,
@@ -3268,7 +3268,7 @@
 				"kategoria": "wyposażenie kuchnii"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 6.0,
 				"ilość": 500,
@@ -4104,7 +4104,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
@@ -4500,7 +4500,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 5.99,
 				"ilość": 500,
@@ -5493,7 +5493,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy be power",
+				"nazwa": "napój energetyczny be power",
 				"jednostka": "litr",
 				"cena": 3.19,
 				"ilość": 0.5,
@@ -5823,14 +5823,14 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "litr",
 				"cena": 4.99,
 				"ilość": 0.5,
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "litr",
 				"cena": 4.99,
 				"ilość": 0.5,
@@ -6013,7 +6013,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"rabat": 0.45,
@@ -6288,7 +6288,7 @@
 		"waluta": "pln",
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy dzik",
+				"nazwa": "napój energetyczny dzik",
 				"jednostka": "litr",
 				"cena": 6.99,
 				"ilość": 0.5,
@@ -6568,7 +6568,7 @@
 		"czy_internetowy": false,
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "litr",
 				"cena": 6.99,
 				"rabat": 1.09,
@@ -6576,7 +6576,7 @@
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "litr",
 				"cena": 6.99,
 				"rabat": 1.09,
@@ -6864,14 +6864,14 @@
 		"czy_internetowy": false,
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
@@ -6889,14 +6889,14 @@
 		"czy_internetowy": false,
 		"produkty": [
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
 				"kategoria": "spożywcze"
 			},
 			{
-				"nazwa": "napój energetyczy monster",
+				"nazwa": "napój energetyczny monster",
 				"jednostka": "mililitr",
 				"cena": 4.99,
 				"ilość": 500,
