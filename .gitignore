@@ -1,2 +1,5 @@
 .vscode
 backups/data
+ui/venv/
+ui/config.ini
+ui/__pycache__
